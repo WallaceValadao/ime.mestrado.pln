@@ -1,0 +1,84 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>23691c0a-dd5a-4e8a-825a-4c09662ba00a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>startup.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>IME.Mestrado.PLN</Name>
+    <RootNamespace>IME.Mestrado.PLN</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda39-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="algoritmos.py" />
+    <Compile Include="configs.py" />
+    <Compile Include="corretor_db.py" />
+    <Compile Include="models\bert.py" />
+    <Compile Include="models\bert_train.py" />
+    <Compile Include="models\liwc_all.py" />
+    <Compile Include="models\liwc_stopwords.py" />
+    <Compile Include="pre_processamento_base.py" />
+    <Compile Include="pre_processamento_atributos.py" />
+    <Compile Include="redes_neurais\bilstm.py" />
+    <Compile Include="redes_neurais\lstm.py" />
+    <Compile Include="simulation_db.py" />
+    <Compile Include="startup.py" />
+    <Compile Include="training\percentage_training.py" />
+    <Compile Include="training\simple_training.py" />
+    <Compile Include="tratamento\corretor_ortografico.py" />
+    <Compile Include="tratamento\duplicados.py" />
+    <Compile Include="tratamento\remover_caracteres.py" />
+    <Compile Include="tratamento\remover_emojify.py" />
+    <Compile Include="tratamento\tratamento_ortografico_extra.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models\" />
+    <Folder Include="models\__pycache__\" />
+    <Folder Include="redes_neurais\" />
+    <Folder Include="redes_neurais\__pycache__\" />
+    <Folder Include="training\" />
+    <Folder Include="training\__pycache__\" />
+    <Folder Include="tratamento\" />
+    <Folder Include="tratamento\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="models\__pycache__\bert.cpython-39.pyc" />
+    <Content Include="models\__pycache__\bert_train.cpython-39.pyc" />
+    <Content Include="models\__pycache__\liwc_all.cpython-39.pyc" />
+    <Content Include="models\__pycache__\liwc_stopwords.cpython-39.pyc" />
+    <Content Include="redes_neurais\__pycache__\bert.cpython-39.pyc" />
+    <Content Include="redes_neurais\__pycache__\bilstm.cpython-39.pyc" />
+    <Content Include="redes_neurais\__pycache__\lstm.cpython-39.pyc" />
+    <Content Include="training\__pycache__\percentage_training.cpython-39.pyc" />
+    <Content Include="training\__pycache__\simple_training.cpython-39.pyc" />
+    <Content Include="tratamento\__pycache__\corretor_ortografico.cpython-39.pyc" />
+    <Content Include="tratamento\__pycache__\duplicados.cpython-39.pyc" />
+    <Content Include="tratamento\__pycache__\remover_caracteres.cpython-39.pyc" />
+    <Content Include="tratamento\__pycache__\remover_emojify.cpython-39.pyc" />
+    <Content Include="tratamento\__pycache__\tratamento_ortografico_extra.cpython-39.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda39-64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
