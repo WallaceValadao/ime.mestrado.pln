@@ -18,7 +18,7 @@ class PreProcessamentoBert():
     def __init__(self, max_len=512, parsePostiveValues=False):
 
         self.tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-large-portuguese-cased', do_lower_case=True)
-        #self.model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
+        self.model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
         self.max_len = max_len
         self.parsePostiveValues = parsePostiveValues
         
@@ -26,7 +26,7 @@ class PreProcessamentoBert():
 
 
         # Load pre-trained model (weights)
-        self.model = BertModel.from_pretrained('bert-base-uncased')
+        #self.model = BertModel.from_pretrained('bert-base-uncased')
         #self.model = BertModel.from_pretrained('neuralmind/bert-large-portuguese-cased')
 
         #model = BertModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
@@ -166,13 +166,12 @@ class PreProcessamentoBert():
         all_tokens = []
 
         tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-base-portuguese-cased', do_lower_case=False)
-
+        model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
         for text in texts:
             text = self._tokenBert(text)
 
             text = text[:512]
-
-            model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
+          
             input_ids = tokenizer.encode(text, return_tensors='pt')
             
             with torch.no_grad():
