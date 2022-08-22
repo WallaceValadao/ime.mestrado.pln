@@ -1,6 +1,7 @@
 import models.liwc_all as liwcHelper
 import models.liwc_stopwords as liwcHelperStopwords
 import models.bert as bertImport
+import models.word2vec as w2vimport ######################
 
 
 class Rv(object):
@@ -50,6 +51,9 @@ class ExtratorDeAtributos():
         return bert.getAttributesBase(self.previsores)
         #return bert.preprocessing_for_bert(self.previsores)
 
+    def _getWord2Vec(self, dim):####################################
+        w2v = w2vimport.getVector(self.previsores)
+
     def getLiwc(self):
         list = []
 
@@ -75,5 +79,11 @@ class ExtratorDeAtributos():
         #list.append(Rv('Bert 160', self._getBert(160), 160))
         #list.append(Rv('Bert 256', self._getBert(256), 256))
         #list.append(Rv('Bert 64', self._getBert(64), 64))
+
+        return list
+
+    def getWord2Vec(self):######################################
+        list = []
+        list.append(Rv('Word2Vec 768', self._getWord2Vec(768))) #---> 768 dimensão padrão
 
         return list
