@@ -16,7 +16,7 @@ class PrintFile():
         data = strftime("%Y-%m-%d-%H-%M-%S", gmtime())
 
         self.textSave = ''
-        self.pathFile = 'D:\\Projetos\\ime.mestrado\\dataset\\resultados-' + data + '.txt'
+        self.pathFile = 'results\\resultados-' + data + '.txt'
 
     
     def print(self, text):
@@ -38,7 +38,7 @@ class Configs():
 
     def __init__(self):
         #caminho para arquivo com o dataset
-        self.pathDb = 'D:\\Projetos\\ime.mestrado\\dataset\\dataset_yt_3_judges_BraSNAM_2019.csv'
+        self.pathDb = 'datasets\\Computer-BR-preproc.csv'
         self.pathDbTratado = self.pathDb.replace('.csv', '_tratado.csv')
         self.log = printFile
         self.numero_classes = 2

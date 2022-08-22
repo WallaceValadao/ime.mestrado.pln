@@ -6,36 +6,38 @@ import configs as config
 #leitura do dataset
 pathDb = config.dados.pathDb
 
-tratarDb = True
-separador = ';'
+tratarDb = False
+separador = ','
 if os.path.isfile(config.dados.pathDbTratado):
     tratarDb = False
     pathDb = config.dados.pathDbTratado
-
+print(f'Starting training for the dataset in {pathDb}')
 dataset = pd.read_csv(pathDb, separador)
-dataset.shape
+print(dataset.shape)
 
-previsores = dataset.iloc[:,0:1].values
-classeBase = dataset.iloc[:,1].values
+previsores = dataset.iloc[:,[3,16]].values
+print(previsores[0:5])
+classeBase = dataset.iloc[:,16].values
+print(classeBase[0:5])
 
 from sklearn.preprocessing import LabelEncoder
 labelencoder = LabelEncoder()
 classe = labelencoder.fit_transform(classeBase)
 
-#tratamento das informações
+#tratamento das informaï¿½ï¿½es
 import corretor_db as corretor_db
 corretorDb = corretor_db.CorretorDb()
 
 previsores = corretorDb.getOrCorrect(tratarDb, previsores, classe)
 
-#extração de atributos
+#extraï¿½ï¿½o de atributos
 import pre_processamento_atributos as pre_atributos
 extrator = pre_atributos.ExtratorDeAtributos(previsores)
 
-representacoes = extrator.getLiwc()
+#representacoes = extrator.getLiwc()
 
 #representacoes += extrator.getBert()
-#representacoes = extrator.getBert()
+representacoes = extrator.getBert()
 
 #criando lista de algortimos
 import algoritmos as algoritmos
@@ -53,7 +55,7 @@ algortimos = classics
 #algortimos += rna
 #algortimos = rna
 
-#simulações
+#simulaï¿½ï¿½es
 import simulation_db as simulation_db
 simulacoes = simulation_db.SimulationAlgorithm(algortimos, representacoes, classe)
 #simulacoes.execute(220, False, True)

@@ -23,7 +23,7 @@ class ExtratorDeAtributos():
     def __init__(self, previsores):
         self.previsores = previsores
 
-        pathLiwc = 'D:\\Projetos\\ime.mestrado\\dataset\\LIWC2007_Portugues_win.dic.json'
+        pathLiwc = 'LIWC2007_Portugues_win.dic.json'
 
         self.liwc = liwcHelper.initLiwc(pathLiwc)
         self.liwcStopWords = liwcHelperStopwords.initLiwc(pathLiwc)

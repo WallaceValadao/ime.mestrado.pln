@@ -1,0 +1,169 @@
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Bert 768: 1.0
+Multinomial Naive Bayes - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - Bert 768: 1.0
+Complement Naive Bayes (CNB) - Bert 768: 0.75
+Decision tree classifier - Bert 768: 0.9166666666666666
+Support Vector Classification (SVC) - Bert 768: 1.0
+random forest classifier - Bert 768: 1.0
+Extra-trees classifier - Bert 768: 1.0
+AdaBoost - Bert 768: 0.9583333333333334
+Gradient Boosting Machine - Bert 768: 1.0
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Bert 768: 0.875
+Bernoulli Naive Bayes - Bert 768: 0.875
+Complement Naive Bayes (CNB) - Bert 768: 0.7083333333333334
+Decision tree classifier - Bert 768: 0.9166666666666666
+Support Vector Classification (SVC) - Bert 768: 0.875
+random forest classifier - Bert 768: 0.875
+Extra-trees classifier - Bert 768: 0.875
+AdaBoost - Bert 768: 0.9166666666666666
+Gradient Boosting Machine - Bert 768: 0.9166666666666666
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Bert 768: 0.9583333333333334
+Bernoulli Naive Bayes - Bert 768: 0.9583333333333334
+Complement Naive Bayes (CNB) - Bert 768: 0.5
+Decision tree classifier - Bert 768: 0.7083333333333334
+Support Vector Classification (SVC) - Bert 768: 0.9583333333333334
+random forest classifier - Bert 768: 0.9583333333333334
+Extra-trees classifier - Bert 768: 0.9583333333333334
+AdaBoost - Bert 768: 0.8333333333333334
+Gradient Boosting Machine - Bert 768: 0.9583333333333334
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Bert 768: 1.0
+Bernoulli Naive Bayes - Bert 768: 1.0
+Complement Naive Bayes (CNB) - Bert 768: 0.7391304347826086
+Decision tree classifier - Bert 768: 0.9130434782608695
+Support Vector Classification (SVC) - Bert 768: 1.0
+random forest classifier - Bert 768: 1.0
+Extra-trees classifier - Bert 768: 1.0
+AdaBoost - Bert 768: 0.9565217391304348
+Gradient Boosting Machine - Bert 768: 1.0
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Bert 768: 0.9130434782608695
+Bernoulli Naive Bayes - Bert 768: 0.8695652173913043
+Complement Naive Bayes (CNB) - Bert 768: 0.8260869565217391
+Decision tree classifier - Bert 768: 0.7391304347826086
+Support Vector Classification (SVC) - Bert 768: 0.9130434782608695
+random forest classifier - Bert 768: 0.8695652173913043
+Extra-trees classifier - Bert 768: 0.9130434782608695
+AdaBoost - Bert 768: 0.782608695652174
+Gradient Boosting Machine - Bert 768: 0.8260869565217391
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Bert 768: 0.9565217391304348
+Bernoulli Naive Bayes - Bert 768: 0.9565217391304348
+Complement Naive Bayes (CNB) - Bert 768: 0.8260869565217391
+Decision tree classifier - Bert 768: 0.8695652173913043
+Support Vector Classification (SVC) - Bert 768: 0.9565217391304348
+random forest classifier - Bert 768: 0.9565217391304348
+Extra-trees classifier - Bert 768: 0.9565217391304348
+AdaBoost - Bert 768: 1.0
+Gradient Boosting Machine - Bert 768: 1.0
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Bert 768: 0.9565217391304348
+Bernoulli Naive Bayes - Bert 768: 0.9565217391304348
+Complement Naive Bayes (CNB) - Bert 768: 0.782608695652174
+Decision tree classifier - Bert 768: 0.9565217391304348
+Support Vector Classification (SVC) - Bert 768: 0.9565217391304348
+random forest classifier - Bert 768: 0.9565217391304348
+Extra-trees classifier - Bert 768: 0.9565217391304348
+AdaBoost - Bert 768: 1.0
+Gradient Boosting Machine - Bert 768: 0.9565217391304348
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Bert 768: 0.9130434782608695
+Bernoulli Naive Bayes - Bert 768: 0.9130434782608695
+Complement Naive Bayes (CNB) - Bert 768: 0.782608695652174
+Decision tree classifier - Bert 768: 0.9130434782608695
+Support Vector Classification (SVC) - Bert 768: 0.9130434782608695
+random forest classifier - Bert 768: 0.9130434782608695
+Extra-trees classifier - Bert 768: 0.8695652173913043
+AdaBoost - Bert 768: 0.9130434782608695
+Gradient Boosting Machine - Bert 768: 0.9565217391304348
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Bert 768: 0.6086956521739131
+Bernoulli Naive Bayes - Bert 768: 0.6086956521739131
+Complement Naive Bayes (CNB) - Bert 768: 0.9130434782608695
+Decision tree classifier - Bert 768: 0.6521739130434783
+Support Vector Classification (SVC) - Bert 768: 0.6086956521739131
+random forest classifier - Bert 768: 0.6086956521739131
+Extra-trees classifier - Bert 768: 0.6086956521739131
+AdaBoost - Bert 768: 0.6521739130434783
+Gradient Boosting Machine - Bert 768: 0.6521739130434783
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Bert 768: 0.043478260869565216
+Bernoulli Naive Bayes - Bert 768: 0.0
+Complement Naive Bayes (CNB) - Bert 768: 0.6521739130434783
+Decision tree classifier - Bert 768: 0.13043478260869565
+Support Vector Classification (SVC) - Bert 768: 0.0
+random forest classifier - Bert 768: 0.043478260869565216
+Extra-trees classifier - Bert 768: 0.043478260869565216
+AdaBoost - Bert 768: 0.21739130434782608
+Gradient Boosting Machine - Bert 768: 0.13043478260869565
+
+Quantidade rodadas: 10
+
+Piores resultados
+Multinomial Naive Bayes - Bert 768 obteu o melhor resultado: 0.043478260869565216
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Bert 768 obteu o melhor resultado: 0.0
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Bert 768 obteu o melhor resultado: 0.5
+Dataset treinamento nas posições:2
+Decision tree classifier - Bert 768 obteu o melhor resultado: 0.13043478260869565
+Dataset treinamento nas posições:9
+Support Vector Classification (SVC) - Bert 768 obteu o melhor resultado: 0.0
+Dataset treinamento nas posições:9
+random forest classifier - Bert 768 obteu o melhor resultado: 0.043478260869565216
+Dataset treinamento nas posições:9
+Extra-trees classifier - Bert 768 obteu o melhor resultado: 0.043478260869565216
+Dataset treinamento nas posições:9
+AdaBoost - Bert 768 obteu o melhor resultado: 0.21739130434782608
+Dataset treinamento nas posições:9
+Gradient Boosting Machine - Bert 768 obteu o melhor resultado: 0.13043478260869565
+Dataset treinamento nas posições:9
+
+Melhores resultados
+Multinomial Naive Bayes - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+Complement Naive Bayes (CNB) - Bert 768 obteu o melhor resultado: 0.9130434782608695
+Dataset treinamento nas posições:8
+Decision tree classifier - Bert 768 obteu o melhor resultado: 0.9565217391304348
+Dataset treinamento nas posições:6
+Support Vector Classification (SVC) - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+random forest classifier - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+Extra-trees classifier - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+AdaBoost - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:5
+Gradient Boosting Machine - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+
+Media resultados + desvio padrão
+Multinomial Naive Bayes - Bert 768 0.822463768115942 (0.280913954180696)
+Bernoulli Naive Bayes - Bert 768 0.813768115942029 (0.29189252214891087)
+Complement Naive Bayes (CNB) - Bert 768 0.7480072463768116 (0.10685165929992888)
+Decision tree classifier - Bert 768 0.7715579710144927 (0.23586156456966836)
+Support Vector Classification (SVC) - Bert 768 0.8181159420289855 (0.29301291609434155)
+random forest classifier - Bert 768 0.8181159420289855 (0.27981267363209583)
+Extra-trees classifier - Bert 768 0.8181159420289855 (0.27981267363209583)
+AdaBoost - Bert 768 0.8230072463768116 (0.2265753996592058)
+Gradient Boosting Machine - Bert 768 0.8396739130434783 (0.2574469135686582)
+
+
+Multinomial Naive Bayes - Bert 768 obteu o melhor resultado: 1.0
+Dataset treinamento nas posições:0
