@@ -5,7 +5,11 @@ df=pd.read_csv('d:\data.csv')
 
 import torch
 import torch.nn as nn
-device = torch.device("cuda")
+
+
+# device = torch.device("cuda")
+use_cuda = torch.cuda.is_available()
+device = torch.device('cuda' if use_cuda else 'cpu')
 
 #for BERT
 import transformers

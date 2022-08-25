@@ -1,0 +1,169 @@
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 1,0
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 1,0
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 1,0
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,75
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,8333333333333334
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 1,0
+random forest classifier - Word2Vec buscape_preprocessed 768: 1,0
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 1,0
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,875
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,9583333333333334
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 0,875
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 0,875
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,75
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,7916666666666666
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 0,875
+random forest classifier - Word2Vec buscape_preprocessed 768: 0,875
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 0,875
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,875
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,8333333333333334
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 0,9583333333333334
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 0,9583333333333334
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,6666666666666666
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,8333333333333334
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 0,9583333333333334
+random forest classifier - Word2Vec buscape_preprocessed 768: 0,9166666666666666
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 0,9583333333333334
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,9583333333333334
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,9166666666666666
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 1,0
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 1,0
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,7391304347826086
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 1,0
+random forest classifier - Word2Vec buscape_preprocessed 768: 1,0
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 1,0
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,5652173913043478
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+random forest classifier - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 0,8260869565217391
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,7391304347826086
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,8260869565217391
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+random forest classifier - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,782608695652174
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,782608695652174
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+random forest classifier - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 0,9565217391304348
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,782608695652174
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+random forest classifier - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 0,9130434782608695
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,8695652173913043
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 0,6086956521739131
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 0,6086956521739131
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,8260869565217391
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,7391304347826086
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 0,6086956521739131
+random forest classifier - Word2Vec buscape_preprocessed 768: 0,6086956521739131
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 0,6521739130434783
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,7391304347826086
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,782608695652174
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768: 0,0
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768: 0,0
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768: 0,8260869565217391
+Decision tree classifier - Word2Vec buscape_preprocessed 768: 0,21739130434782608
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768: 0,043478260869565216
+random forest classifier - Word2Vec buscape_preprocessed 768: 0,13043478260869565
+Extra-trees classifier - Word2Vec buscape_preprocessed 768: 0,08695652173913043
+AdaBoost - Word2Vec buscape_preprocessed 768: 0,17391304347826086
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768: 0,17391304347826086
+
+Quantidade rodadas: 10
+
+Piores resultados
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,0
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,0
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,5652173913043478
+Dataset treinamento nas posições:4
+Decision tree classifier - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,21739130434782608
+Dataset treinamento nas posições:9
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,043478260869565216
+Dataset treinamento nas posições:9
+random forest classifier - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,13043478260869565
+Dataset treinamento nas posições:9
+Extra-trees classifier - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,08695652173913043
+Dataset treinamento nas posições:9
+AdaBoost - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,17391304347826086
+Dataset treinamento nas posições:9
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,17391304347826086
+Dataset treinamento nas posições:9
+
+Melhores resultados
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 1,0
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 1,0
+Dataset treinamento nas posições:0
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,8260869565217391
+Dataset treinamento nas posições:5
+Decision tree classifier - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,9565217391304348
+Dataset treinamento nas posições:3
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 1,0
+Dataset treinamento nas posições:0
+random forest classifier - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 1,0
+Dataset treinamento nas posições:0
+Extra-trees classifier - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 1,0
+Dataset treinamento nas posições:0
+AdaBoost - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,9583333333333334
+Dataset treinamento nas posições:2
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 0,9583333333333334
+Dataset treinamento nas posições:0
+
+Media resultados + desvio padrão
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768 0,813768115942029 (0,29189252214891087)
+Bernoulli Naive Bayes - Word2Vec buscape_preprocessed 768 0,813768115942029 (0,29189252214891087)
+Complement Naive Bayes (CNB) - Word2Vec buscape_preprocessed 768 0,7514492753623189 (0,07789770811812574)
+Decision tree classifier - Word2Vec buscape_preprocessed 768 0,7806159420289855 (0,19721339332250257)
+Support Vector Classification (SVC) - Word2Vec buscape_preprocessed 768 0,822463768115942 (0,280913954180696)
+random forest classifier - Word2Vec buscape_preprocessed 768 0,8182971014492754 (0,2521307668611342)
+Extra-trees classifier - Word2Vec buscape_preprocessed 768 0,822463768115942 (0,2642705538758957)
+AdaBoost - Word2Vec buscape_preprocessed 768 0,7969202898550725 (0,2196761719222114)
+Gradient Boosting Machine - Word2Vec buscape_preprocessed 768 0,8230072463768116 (0,22321318150175465)
+
+
+Multinomial Naive Bayes - Word2Vec buscape_preprocessed 768 obteu o melhor resultado: 1,0
+Dataset treinamento nas posições:0

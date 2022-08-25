@@ -2,7 +2,7 @@ import models.liwc_all as liwcHelper
 import models.liwc_stopwords as liwcHelperStopwords
 import models.bert as bertImport
 import models.word2vec as w2vimport ######################
-
+import configs as config
 
 class Rv(object):
     def __init__(self, name, previsores, max_review_length):
@@ -51,8 +51,8 @@ class ExtratorDeAtributos():
         return bert.getAttributesBase(self.previsores)
         #return bert.preprocessing_for_bert(self.previsores)
 
-    def _getWord2Vec(self, dim):####################################
-        w2v = w2vimport.getVector(self.previsores)
+    def _getWord2Vec(self, modelCorpus):####################################
+        return w2vimport.w2vEmbeddings(self.previsores, modelCorpus)
 
     def getLiwc(self):
         list = []
@@ -81,9 +81,9 @@ class ExtratorDeAtributos():
         #list.append(Rv('Bert 64', self._getBert(64), 64))
 
         return list
-
-    def getWord2Vec(self):######################################
+    # o modelCorpus deverá ser o nome do arquivo do corpus da RV, não o da rede neural.
+    def getWord2Vec(self, modelCorpus='buscape_preprocessed.txt'):  # #####################################
         list = []
-        list.append(Rv('Word2Vec 768', self._getWord2Vec(768))) #---> 768 dimensão padrão
+        list.append(Rv(f'Word2Vec {modelCorpus[:-4]} {config.dados.W2VEmbeddings["size_vector"]}', self._getWord2Vec(modelCorpus), 768))  # max review length??
 
         return list

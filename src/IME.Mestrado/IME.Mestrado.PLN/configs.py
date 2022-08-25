@@ -38,11 +38,17 @@ class Configs():
 
     def __init__(self):
         #caminho para arquivo com o dataset
-        self.pathDb = 'datasets\\Computer-BR-preproc.csv'
+        self.pathDb = 'datasets\\Subjectivity-annotated_corpus_on_electronic_product_domain-anotacao-BELISARIO-preproc.CSV'
         self.pathDbTratado = self.pathDb.replace('.csv', '_tratado.csv')
         self.log = printFile
         self.numero_classes = 2
-
+        self.W2VEmbeddings = {
+            'size_vector' : 768,
+            'min_count' : 4,
+            'window' : 4,
+            'epochs' : 100,
+            'progress' : 10000
+        }
         #Aqui pode definir a quantidade de epochs para as rnas
         self.epochs = [ 2, 10, 20, 50 ]
         #self.epochs = [ 2 ]

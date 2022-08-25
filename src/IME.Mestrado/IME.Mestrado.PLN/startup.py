@@ -3,6 +3,7 @@ import os.path
 
 import configs as config
 
+
 #leitura do dataset
 pathDb = config.dados.pathDb
 
@@ -15,9 +16,9 @@ print(f'Starting training for the dataset in {pathDb}')
 dataset = pd.read_csv(pathDb, separador)
 print(dataset.shape)
 
-previsores = dataset.iloc[:,[3,16]].values
+previsores = dataset.iloc[:,[7, 4]].values
 print(previsores[0:5])
-classeBase = dataset.iloc[:,16].values
+classeBase = dataset.iloc[:,4].values
 print(classeBase[0:5])
 
 from sklearn.preprocessing import LabelEncoder
@@ -36,10 +37,10 @@ extrator = pre_atributos.ExtratorDeAtributos(previsores)
 
 #representacoes = extrator.getLiwc()
 
-#representacoes = extrator.getWord2Vec() EM CONSTRUÇÃO###############
+representacoes = extrator.getWord2Vec() ######################EM CONSTRUÇÃO###############
 
 #representacoes += extrator.getBert()
-representacoes = extrator.getBert()
+#representacoes = extrator.getBert()
 
 #criando lista de algortimos
 import algoritmos as algoritmos
