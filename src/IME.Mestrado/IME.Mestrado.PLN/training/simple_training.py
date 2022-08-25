@@ -41,5 +41,5 @@ class SimpleTraining():
         self.taxa_acerto = accuracy_score(self.y_teste, resultados)
 
     def printResult(self):
-        self.configs.log.print(self.nameAlgoritm + ' - ' + self.typeRv + ' - obteu o melhor resultado: ' +  str(self.taxa_acerto))
+        self.configs.log.print(self.nameAlgoritm + ' - ' + self.typeRv + ' - obteve o melhor resultado: ' +  str(self.taxa_acerto))
         self.configs.log.print('Dataset treinamento com ' + str(self.test_size * 100) + '% para teste')

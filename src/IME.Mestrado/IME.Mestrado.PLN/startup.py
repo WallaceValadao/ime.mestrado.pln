@@ -7,18 +7,19 @@ import configs as config
 #leitura do dataset
 pathDb = config.dados.pathDb
 
-tratarDb = False
-separador = ','
+tratarDb = config.dados.tratarDb
+separador = config.dados.separador
 if os.path.isfile(config.dados.pathDbTratado):
     tratarDb = False
     pathDb = config.dados.pathDbTratado
 print(f'Starting training for the dataset in {pathDb}')
 dataset = pd.read_csv(pathDb, separador)
 print(dataset.shape)
-
-previsores = dataset.iloc[:,[7, 4]].values
+textCol = config.dados.dfColumns['text']
+classCol = config.dados.dfColumns['classes']
+previsores = dataset.iloc[:,[textCol, classCol]].values
 print(previsores[0:5])
-classeBase = dataset.iloc[:,4].values
+classeBase = dataset.iloc[:,classCol].values
 print(classeBase[0:5])
 
 from sklearn.preprocessing import LabelEncoder
