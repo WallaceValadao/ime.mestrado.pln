@@ -165,18 +165,16 @@ class PreProcessamentoBert():
     def encoderBal(self, texts):
         all_tokens = []
 
-        tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-base-portuguese-cased', do_lower_case=False)
-        model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
         for text in texts:
             text = self._tokenBert(text)
 
             text = text[:512]
           
-            input_ids = tokenizer.encode(text, return_tensors='pt')
+            input_ids = self.tokenizer.encode(text, return_tensors='pt')
             
             with torch.no_grad():
                 #outs = model(input_ids)
-                encoded_layers = model(input_ids)
+                encoded_layers = self.model(input_ids)
                 encoded = encoded_layers[0][0, 1:-1]
 
                 # shape [22 x 768]

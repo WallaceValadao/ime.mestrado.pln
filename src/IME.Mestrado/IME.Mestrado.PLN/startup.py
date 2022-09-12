@@ -38,7 +38,7 @@ extrator = pre_atributos.ExtratorDeAtributos(previsores)
 
 #representacoes = extrator.getLiwc()
 
-representacoes = extrator.getWord2Vec() ######################EM CONSTRUÇÃO###############
+representacoes = extrator.getWord2Vec()
 
 #representacoes += extrator.getBert()
 #representacoes = extrator.getBert()
