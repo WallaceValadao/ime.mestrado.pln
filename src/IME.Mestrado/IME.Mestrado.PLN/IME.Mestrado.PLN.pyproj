@@ -29,6 +29,7 @@
     <Compile Include="models\bert_train.py" />
     <Compile Include="models\liwc_all.py" />
     <Compile Include="models\liwc_stopwords.py" />
+    <Compile Include="models\word2vec.py" />
     <Compile Include="pre_processamento_base.py" />
     <Compile Include="pre_processamento_atributos.py" />
     <Compile Include="redes_neurais\bilstm.py" />
@@ -37,6 +38,7 @@
     <Compile Include="startup.py" />
     <Compile Include="training\percentage_training.py" />
     <Compile Include="training\simple_training.py" />
+    <Compile Include="models\util\valorPositivo.py" />
     <Compile Include="tratamento\corretor_ortografico.py" />
     <Compile Include="tratamento\duplicados.py" />
     <Compile Include="tratamento\remover_caracteres.py" />
@@ -45,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="models\" />
+    <Folder Include="models\util\" />
     <Folder Include="models\__pycache__\" />
     <Folder Include="redes_neurais\" />
     <Folder Include="redes_neurais\__pycache__\" />

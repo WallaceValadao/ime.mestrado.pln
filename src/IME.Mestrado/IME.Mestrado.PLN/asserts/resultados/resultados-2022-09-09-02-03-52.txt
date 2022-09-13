@@ -1,0 +1,2517 @@
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Liwc: 0.875
+Multinomial Naive Bayes - Liwc obteve o melhor resultado: 0.875
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - Liwc: 0.7777777777777778
+Complement Naive Bayes (CNB) - Liwc: 0.875
+Decision tree classifier - Liwc: 0.7638888888888888
+Support Vector Classification (SVC) - Liwc: 0.8333333333333334
+random forest classifier - Liwc: 0.875
+Extra-trees classifier - Liwc: 0.8194444444444444
+AdaBoost - Liwc: 0.8194444444444444
+Gradient Boosting Machine - Liwc: 0.8888888888888888
+Gradient Boosting Machine - Liwc obteve o melhor resultado: 0.8888888888888888
+Dataset treinamento nas posições:0
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Liwc: 0.8333333333333334
+Bernoulli Naive Bayes - Liwc: 0.625
+Complement Naive Bayes (CNB) - Liwc: 0.8333333333333334
+Decision tree classifier - Liwc: 0.7777777777777778
+Support Vector Classification (SVC) - Liwc: 0.7777777777777778
+random forest classifier - Liwc: 0.8055555555555556
+Extra-trees classifier - Liwc: 0.7916666666666666
+AdaBoost - Liwc: 0.7777777777777778
+Gradient Boosting Machine - Liwc: 0.7916666666666666
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Liwc: 0.75
+Bernoulli Naive Bayes - Liwc: 0.6527777777777778
+Complement Naive Bayes (CNB) - Liwc: 0.75
+Decision tree classifier - Liwc: 0.6666666666666666
+Support Vector Classification (SVC) - Liwc: 0.75
+random forest classifier - Liwc: 0.7777777777777778
+Extra-trees classifier - Liwc: 0.7638888888888888
+AdaBoost - Liwc: 0.7638888888888888
+Gradient Boosting Machine - Liwc: 0.7777777777777778
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Liwc: 0.7638888888888888
+Bernoulli Naive Bayes - Liwc: 0.6944444444444444
+Complement Naive Bayes (CNB) - Liwc: 0.7638888888888888
+Decision tree classifier - Liwc: 0.7222222222222222
+Support Vector Classification (SVC) - Liwc: 0.7222222222222222
+random forest classifier - Liwc: 0.7777777777777778
+Extra-trees classifier - Liwc: 0.7638888888888888
+AdaBoost - Liwc: 0.7777777777777778
+Gradient Boosting Machine - Liwc: 0.7916666666666666
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Liwc: 0.8055555555555556
+Bernoulli Naive Bayes - Liwc: 0.7361111111111112
+Complement Naive Bayes (CNB) - Liwc: 0.7916666666666666
+Decision tree classifier - Liwc: 0.7638888888888888
+Support Vector Classification (SVC) - Liwc: 0.8055555555555556
+random forest classifier - Liwc: 0.8333333333333334
+Extra-trees classifier - Liwc: 0.7916666666666666
+AdaBoost - Liwc: 0.8055555555555556
+Gradient Boosting Machine - Liwc: 0.8055555555555556
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Liwc: 0.7222222222222222
+Bernoulli Naive Bayes - Liwc: 0.7361111111111112
+Complement Naive Bayes (CNB) - Liwc: 0.7222222222222222
+Decision tree classifier - Liwc: 0.6388888888888888
+Support Vector Classification (SVC) - Liwc: 0.7916666666666666
+random forest classifier - Liwc: 0.7361111111111112
+Extra-trees classifier - Liwc: 0.7777777777777778
+AdaBoost - Liwc: 0.7222222222222222
+Gradient Boosting Machine - Liwc: 0.8055555555555556
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Liwc: 0.8333333333333334
+Bernoulli Naive Bayes - Liwc: 0.7916666666666666
+Complement Naive Bayes (CNB) - Liwc: 0.8333333333333334
+Decision tree classifier - Liwc: 0.6805555555555556
+Support Vector Classification (SVC) - Liwc: 0.8055555555555556
+random forest classifier - Liwc: 0.8333333333333334
+Extra-trees classifier - Liwc: 0.8194444444444444
+AdaBoost - Liwc: 0.8333333333333334
+Gradient Boosting Machine - Liwc: 0.8611111111111112
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Liwc: 0.75
+Bernoulli Naive Bayes - Liwc: 0.7638888888888888
+Complement Naive Bayes (CNB) - Liwc: 0.75
+Decision tree classifier - Liwc: 0.7222222222222222
+Support Vector Classification (SVC) - Liwc: 0.7916666666666666
+random forest classifier - Liwc: 0.8611111111111112
+Extra-trees classifier - Liwc: 0.8194444444444444
+AdaBoost - Liwc: 0.8055555555555556
+Gradient Boosting Machine - Liwc: 0.8194444444444444
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Liwc: 0.8873239436619719
+Bernoulli Naive Bayes - Liwc: 0.676056338028169
+Complement Naive Bayes (CNB) - Liwc: 0.8873239436619719
+Decision tree classifier - Liwc: 0.7887323943661971
+Support Vector Classification (SVC) - Liwc: 0.8450704225352113
+random forest classifier - Liwc: 0.8169014084507042
+Extra-trees classifier - Liwc: 0.8309859154929577
+AdaBoost - Liwc: 0.7887323943661971
+Gradient Boosting Machine - Liwc: 0.8309859154929577
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Liwc: 0.704225352112676
+Bernoulli Naive Bayes - Liwc: 0.7183098591549296
+Complement Naive Bayes (CNB) - Liwc: 0.704225352112676
+Decision tree classifier - Liwc: 0.8169014084507042
+Support Vector Classification (SVC) - Liwc: 0.7887323943661971
+random forest classifier - Liwc: 0.7887323943661971
+Extra-trees classifier - Liwc: 0.8169014084507042
+AdaBoost - Liwc: 0.7605633802816901
+Gradient Boosting Machine - Liwc: 0.8169014084507042
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.7361111111111112
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.7361111111111112
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.7361111111111112
+Decision tree classifier - Liwc_(com_stopwords): 0.6527777777777778
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.7083333333333334
+random forest classifier - Liwc_(com_stopwords): 0.7083333333333334
+Extra-trees classifier - Liwc_(com_stopwords): 0.7638888888888888
+AdaBoost - Liwc_(com_stopwords): 0.7083333333333334
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.7083333333333334
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.6944444444444444
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.6388888888888888
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.6944444444444444
+Decision tree classifier - Liwc_(com_stopwords): 0.5694444444444444
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.6527777777777778
+random forest classifier - Liwc_(com_stopwords): 0.6944444444444444
+Extra-trees classifier - Liwc_(com_stopwords): 0.6527777777777778
+AdaBoost - Liwc_(com_stopwords): 0.75
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.7222222222222222
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.5972222222222222
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.6944444444444444
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.625
+Decision tree classifier - Liwc_(com_stopwords): 0.5972222222222222
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.625
+random forest classifier - Liwc_(com_stopwords): 0.6944444444444444
+Extra-trees classifier - Liwc_(com_stopwords): 0.6805555555555556
+AdaBoost - Liwc_(com_stopwords): 0.7777777777777778
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.75
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.7361111111111112
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.7361111111111112
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.7638888888888888
+Decision tree classifier - Liwc_(com_stopwords): 0.5277777777777778
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.8055555555555556
+random forest classifier - Liwc_(com_stopwords): 0.8333333333333334
+Extra-trees classifier - Liwc_(com_stopwords): 0.7916666666666666
+AdaBoost - Liwc_(com_stopwords): 0.7083333333333334
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.7222222222222222
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.6944444444444444
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.7638888888888888
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.6944444444444444
+Decision tree classifier - Liwc_(com_stopwords): 0.5694444444444444
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.7638888888888888
+random forest classifier - Liwc_(com_stopwords): 0.7638888888888888
+Extra-trees classifier - Liwc_(com_stopwords): 0.7777777777777778
+AdaBoost - Liwc_(com_stopwords): 0.7222222222222222
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.7222222222222222
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.5972222222222222
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.6111111111111112
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.5833333333333334
+Decision tree classifier - Liwc_(com_stopwords): 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.7361111111111112
+random forest classifier - Liwc_(com_stopwords): 0.6944444444444444
+Extra-trees classifier - Liwc_(com_stopwords): 0.6805555555555556
+AdaBoost - Liwc_(com_stopwords): 0.7083333333333334
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.7361111111111112
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.7361111111111112
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.7083333333333334
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.7361111111111112
+Decision tree classifier - Liwc_(com_stopwords): 0.7083333333333334
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.8194444444444444
+random forest classifier - Liwc_(com_stopwords): 0.8055555555555556
+Extra-trees classifier - Liwc_(com_stopwords): 0.7638888888888888
+AdaBoost - Liwc_(com_stopwords): 0.75
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.7638888888888888
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.5416666666666666
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.7638888888888888
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.5138888888888888
+Decision tree classifier - Liwc_(com_stopwords): 0.5277777777777778
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.7222222222222222
+random forest classifier - Liwc_(com_stopwords): 0.7361111111111112
+Extra-trees classifier - Liwc_(com_stopwords): 0.7361111111111112
+AdaBoost - Liwc_(com_stopwords): 0.6944444444444444
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.6527777777777778
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.7605633802816901
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.647887323943662
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.7605633802816901
+Decision tree classifier - Liwc_(com_stopwords): 0.6338028169014085
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.7605633802816901
+random forest classifier - Liwc_(com_stopwords): 0.7746478873239436
+Extra-trees classifier - Liwc_(com_stopwords): 0.7887323943661971
+AdaBoost - Liwc_(com_stopwords): 0.704225352112676
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.7323943661971831
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Liwc_(com_stopwords): 0.7746478873239436
+Bernoulli Naive Bayes - Liwc_(com_stopwords): 0.7464788732394366
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords): 0.7746478873239436
+Decision tree classifier - Liwc_(com_stopwords): 0.6901408450704225
+Support Vector Classification (SVC) - Liwc_(com_stopwords): 0.7183098591549296
+random forest classifier - Liwc_(com_stopwords): 0.7464788732394366
+Extra-trees classifier - Liwc_(com_stopwords): 0.7323943661971831
+AdaBoost - Liwc_(com_stopwords): 0.7464788732394366
+Gradient Boosting Machine - Liwc_(com_stopwords): 0.7887323943661971
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.6388888888888888
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.6111111111111112
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.6388888888888888
+Decision tree classifier - Liwc_posemo_negemo: 0.5277777777777778
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.6666666666666666
+random forest classifier - Liwc_posemo_negemo: 0.5833333333333334
+Extra-trees classifier - Liwc_posemo_negemo: 0.5138888888888888
+AdaBoost - Liwc_posemo_negemo: 0.625
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.6388888888888888
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.625
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.5416666666666666
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.625
+Decision tree classifier - Liwc_posemo_negemo: 0.5833333333333334
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.5416666666666666
+random forest classifier - Liwc_posemo_negemo: 0.5694444444444444
+Extra-trees classifier - Liwc_posemo_negemo: 0.5972222222222222
+AdaBoost - Liwc_posemo_negemo: 0.5833333333333334
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.6388888888888888
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.5
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.4166666666666667
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.5138888888888888
+Decision tree classifier - Liwc_posemo_negemo: 0.5833333333333334
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.5416666666666666
+random forest classifier - Liwc_posemo_negemo: 0.5277777777777778
+Extra-trees classifier - Liwc_posemo_negemo: 0.5972222222222222
+AdaBoost - Liwc_posemo_negemo: 0.5138888888888888
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.5138888888888888
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.5972222222222222
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.4861111111111111
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.625
+Decision tree classifier - Liwc_posemo_negemo: 0.6111111111111112
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.7083333333333334
+random forest classifier - Liwc_posemo_negemo: 0.625
+Extra-trees classifier - Liwc_posemo_negemo: 0.6111111111111112
+AdaBoost - Liwc_posemo_negemo: 0.6944444444444444
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.6388888888888888
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.6666666666666666
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.5694444444444444
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.6666666666666666
+Decision tree classifier - Liwc_posemo_negemo: 0.6527777777777778
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.6805555555555556
+random forest classifier - Liwc_posemo_negemo: 0.6666666666666666
+Extra-trees classifier - Liwc_posemo_negemo: 0.6666666666666666
+AdaBoost - Liwc_posemo_negemo: 0.6388888888888888
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.6111111111111112
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.5972222222222222
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.5833333333333334
+Decision tree classifier - Liwc_posemo_negemo: 0.4861111111111111
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.6111111111111112
+random forest classifier - Liwc_posemo_negemo: 0.5
+Extra-trees classifier - Liwc_posemo_negemo: 0.5277777777777778
+AdaBoost - Liwc_posemo_negemo: 0.5555555555555556
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.5833333333333334
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.5972222222222222
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.5555555555555556
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.5972222222222222
+Decision tree classifier - Liwc_posemo_negemo: 0.5555555555555556
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.6111111111111112
+random forest classifier - Liwc_posemo_negemo: 0.5972222222222222
+Extra-trees classifier - Liwc_posemo_negemo: 0.5833333333333334
+AdaBoost - Liwc_posemo_negemo: 0.5555555555555556
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.5972222222222222
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.6388888888888888
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.4444444444444444
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.6666666666666666
+Decision tree classifier - Liwc_posemo_negemo: 0.5972222222222222
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.6666666666666666
+random forest classifier - Liwc_posemo_negemo: 0.5972222222222222
+Extra-trees classifier - Liwc_posemo_negemo: 0.6111111111111112
+AdaBoost - Liwc_posemo_negemo: 0.625
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.625
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.5915492957746479
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.5915492957746479
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.5633802816901409
+Decision tree classifier - Liwc_posemo_negemo: 0.4788732394366197
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.647887323943662
+random forest classifier - Liwc_posemo_negemo: 0.5352112676056338
+Extra-trees classifier - Liwc_posemo_negemo: 0.4788732394366197
+AdaBoost - Liwc_posemo_negemo: 0.5774647887323944
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.5774647887323944
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Liwc_posemo_negemo: 0.7183098591549296
+Bernoulli Naive Bayes - Liwc_posemo_negemo: 0.7464788732394366
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo: 0.7183098591549296
+Decision tree classifier - Liwc_posemo_negemo: 0.5211267605633803
+Support Vector Classification (SVC) - Liwc_posemo_negemo: 0.6901408450704225
+random forest classifier - Liwc_posemo_negemo: 0.647887323943662
+Extra-trees classifier - Liwc_posemo_negemo: 0.5211267605633803
+AdaBoost - Liwc_posemo_negemo: 0.676056338028169
+Gradient Boosting Machine - Liwc_posemo_negemo: 0.704225352112676
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.6666666666666666
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.6111111111111112
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.6527777777777778
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.5972222222222222
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.6527777777777778
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.625
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.5972222222222222
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.6666666666666666
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.6388888888888888
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.6388888888888888
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5416666666666666
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.5972222222222222
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.4722222222222222
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.5416666666666666
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.5277777777777778
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.5138888888888888
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.5416666666666666
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.5694444444444444
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.4861111111111111
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.4166666666666667
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.5694444444444444
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.5555555555555556
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.5555555555555556
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.5416666666666666
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.5416666666666666
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.5555555555555556
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.5138888888888888
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5972222222222222
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.4722222222222222
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.7222222222222222
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.7083333333333334
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.6388888888888888
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.6388888888888888
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.7083333333333334
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.6527777777777778
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.6527777777777778
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5694444444444444
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.6388888888888888
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.5833333333333334
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.6527777777777778
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.6388888888888888
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.5694444444444444
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.6527777777777778
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.6527777777777778
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5833333333333334
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.5833333333333334
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.5416666666666666
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.5972222222222222
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.5416666666666666
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.5555555555555556
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.5972222222222222
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.5833333333333334
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5972222222222222
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5555555555555556
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.6111111111111112
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.5138888888888888
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.625
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.5277777777777778
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.4861111111111111
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.5694444444444444
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.5972222222222222
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.6527777777777778
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.4444444444444444
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.6805555555555556
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.625
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.6666666666666666
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.6666666666666666
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.6666666666666666
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.6666666666666666
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5492957746478874
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.5915492957746479
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.5633802816901409
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.4788732394366197
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.6338028169014085
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.5070422535211268
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.49295774647887325
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.6056338028169014
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.5774647887323944
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.7183098591549296
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords): 0.7464788732394366
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords): 0.7183098591549296
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords): 0.5352112676056338
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords): 0.7183098591549296
+random forest classifier - Liwc_posemo_negemo_(com_stopwords): 0.6338028169014085
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords): 0.5211267605633803
+AdaBoost - Liwc_posemo_negemo_(com_stopwords): 0.704225352112676
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords): 0.676056338028169
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Liwc_posemo: 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_posemo: 0.5833333333333334
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.4166666666666667
+Decision tree classifier - Liwc_posemo: 0.4027777777777778
+Support Vector Classification (SVC) - Liwc_posemo: 0.5
+random forest classifier - Liwc_posemo: 0.4027777777777778
+Extra-trees classifier - Liwc_posemo: 0.4027777777777778
+AdaBoost - Liwc_posemo: 0.4583333333333333
+Gradient Boosting Machine - Liwc_posemo: 0.4027777777777778
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Liwc_posemo: 0.5277777777777778
+Bernoulli Naive Bayes - Liwc_posemo: 0.5277777777777778
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.4722222222222222
+Decision tree classifier - Liwc_posemo: 0.5277777777777778
+Support Vector Classification (SVC) - Liwc_posemo: 0.5277777777777778
+random forest classifier - Liwc_posemo: 0.5277777777777778
+Extra-trees classifier - Liwc_posemo: 0.5277777777777778
+AdaBoost - Liwc_posemo: 0.5
+Gradient Boosting Machine - Liwc_posemo: 0.5277777777777778
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Liwc_posemo: 0.4027777777777778
+Bernoulli Naive Bayes - Liwc_posemo: 0.4027777777777778
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.5972222222222222
+Decision tree classifier - Liwc_posemo: 0.4722222222222222
+Support Vector Classification (SVC) - Liwc_posemo: 0.4027777777777778
+random forest classifier - Liwc_posemo: 0.4722222222222222
+Extra-trees classifier - Liwc_posemo: 0.4722222222222222
+AdaBoost - Liwc_posemo: 0.3472222222222222
+Gradient Boosting Machine - Liwc_posemo: 0.5
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Liwc_posemo: 0.4166666666666667
+Bernoulli Naive Bayes - Liwc_posemo: 0.4166666666666667
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.5833333333333334
+Decision tree classifier - Liwc_posemo: 0.4305555555555556
+Support Vector Classification (SVC) - Liwc_posemo: 0.4166666666666667
+random forest classifier - Liwc_posemo: 0.4166666666666667
+Extra-trees classifier - Liwc_posemo: 0.4166666666666667
+AdaBoost - Liwc_posemo: 0.4027777777777778
+Gradient Boosting Machine - Liwc_posemo: 0.4166666666666667
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Liwc_posemo: 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_posemo: 0.5833333333333334
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.4166666666666667
+Decision tree classifier - Liwc_posemo: 0.5138888888888888
+Support Vector Classification (SVC) - Liwc_posemo: 0.5972222222222222
+random forest classifier - Liwc_posemo: 0.5138888888888888
+Extra-trees classifier - Liwc_posemo: 0.5138888888888888
+AdaBoost - Liwc_posemo: 0.5416666666666666
+Gradient Boosting Machine - Liwc_posemo: 0.5138888888888888
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Liwc_posemo: 0.5555555555555556
+Bernoulli Naive Bayes - Liwc_posemo: 0.5416666666666666
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.4444444444444444
+Decision tree classifier - Liwc_posemo: 0.4861111111111111
+Support Vector Classification (SVC) - Liwc_posemo: 0.5416666666666666
+random forest classifier - Liwc_posemo: 0.4861111111111111
+Extra-trees classifier - Liwc_posemo: 0.4861111111111111
+AdaBoost - Liwc_posemo: 0.4583333333333333
+Gradient Boosting Machine - Liwc_posemo: 0.4861111111111111
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Liwc_posemo: 0.5
+Bernoulli Naive Bayes - Liwc_posemo: 0.5
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.5
+Decision tree classifier - Liwc_posemo: 0.4583333333333333
+Support Vector Classification (SVC) - Liwc_posemo: 0.4583333333333333
+random forest classifier - Liwc_posemo: 0.4861111111111111
+Extra-trees classifier - Liwc_posemo: 0.4583333333333333
+AdaBoost - Liwc_posemo: 0.4861111111111111
+Gradient Boosting Machine - Liwc_posemo: 0.4861111111111111
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Liwc_posemo: 0.4305555555555556
+Bernoulli Naive Bayes - Liwc_posemo: 0.4305555555555556
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.5694444444444444
+Decision tree classifier - Liwc_posemo: 0.4583333333333333
+Support Vector Classification (SVC) - Liwc_posemo: 0.4305555555555556
+random forest classifier - Liwc_posemo: 0.4583333333333333
+Extra-trees classifier - Liwc_posemo: 0.4444444444444444
+AdaBoost - Liwc_posemo: 0.5555555555555556
+Gradient Boosting Machine - Liwc_posemo: 0.4583333333333333
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Liwc_posemo: 0.5492957746478874
+Bernoulli Naive Bayes - Liwc_posemo: 0.5492957746478874
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.4507042253521127
+Decision tree classifier - Liwc_posemo: 0.4225352112676056
+Support Vector Classification (SVC) - Liwc_posemo: 0.4788732394366197
+random forest classifier - Liwc_posemo: 0.43661971830985913
+Extra-trees classifier - Liwc_posemo: 0.4225352112676056
+AdaBoost - Liwc_posemo: 0.4084507042253521
+Gradient Boosting Machine - Liwc_posemo: 0.4084507042253521
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Liwc_posemo: 0.6901408450704225
+Bernoulli Naive Bayes - Liwc_posemo: 0.6901408450704225
+Complement Naive Bayes (CNB) - Liwc_posemo: 0.30985915492957744
+Decision tree classifier - Liwc_posemo: 0.49295774647887325
+Support Vector Classification (SVC) - Liwc_posemo: 0.6056338028169014
+random forest classifier - Liwc_posemo: 0.5915492957746479
+Extra-trees classifier - Liwc_posemo: 0.49295774647887325
+AdaBoost - Liwc_posemo: 0.5633802816901409
+Gradient Boosting Machine - Liwc_posemo: 0.5633802816901409
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.5833333333333334
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.4166666666666667
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.5
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.5
+random forest classifier - Liwc_posemo_(com_stopwords): 0.5
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.5138888888888888
+AdaBoost - Liwc_posemo_(com_stopwords): 0.5416666666666666
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.5416666666666666
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.5277777777777778
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.5277777777777778
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.4722222222222222
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.5416666666666666
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.5277777777777778
+random forest classifier - Liwc_posemo_(com_stopwords): 0.5416666666666666
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.5416666666666666
+AdaBoost - Liwc_posemo_(com_stopwords): 0.5138888888888888
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.5416666666666666
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.4027777777777778
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.4027777777777778
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.5972222222222222
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.5138888888888888
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.4027777777777778
+random forest classifier - Liwc_posemo_(com_stopwords): 0.4722222222222222
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.5138888888888888
+AdaBoost - Liwc_posemo_(com_stopwords): 0.4722222222222222
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.4722222222222222
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.4166666666666667
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.4166666666666667
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.5833333333333334
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.5694444444444444
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.4166666666666667
+random forest classifier - Liwc_posemo_(com_stopwords): 0.5555555555555556
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.5694444444444444
+AdaBoost - Liwc_posemo_(com_stopwords): 0.4861111111111111
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.5694444444444444
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.5833333333333334
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.4166666666666667
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.6111111111111112
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.5694444444444444
+random forest classifier - Liwc_posemo_(com_stopwords): 0.6388888888888888
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.6111111111111112
+AdaBoost - Liwc_posemo_(com_stopwords): 0.6527777777777778
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.6527777777777778
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.5555555555555556
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.5277777777777778
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.4444444444444444
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.5138888888888888
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.5277777777777778
+random forest classifier - Liwc_posemo_(com_stopwords): 0.5
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.5138888888888888
+AdaBoost - Liwc_posemo_(com_stopwords): 0.5138888888888888
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.5694444444444444
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.5
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.5
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.5
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.5694444444444444
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.4722222222222222
+random forest classifier - Liwc_posemo_(com_stopwords): 0.5555555555555556
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.5694444444444444
+AdaBoost - Liwc_posemo_(com_stopwords): 0.5555555555555556
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.5555555555555556
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.4305555555555556
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.4305555555555556
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.5694444444444444
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.5972222222222222
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.4305555555555556
+random forest classifier - Liwc_posemo_(com_stopwords): 0.6111111111111112
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.5972222222222222
+AdaBoost - Liwc_posemo_(com_stopwords): 0.5972222222222222
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.6111111111111112
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.5492957746478874
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.5492957746478874
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.4507042253521127
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.5070422535211268
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.5492957746478874
+random forest classifier - Liwc_posemo_(com_stopwords): 0.5070422535211268
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.5070422535211268
+AdaBoost - Liwc_posemo_(com_stopwords): 0.49295774647887325
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.5070422535211268
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords): 0.6901408450704225
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords): 0.6901408450704225
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords): 0.30985915492957744
+Decision tree classifier - Liwc_posemo_(com_stopwords): 0.6197183098591549
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords): 0.647887323943662
+random forest classifier - Liwc_posemo_(com_stopwords): 0.6338028169014085
+Extra-trees classifier - Liwc_posemo_(com_stopwords): 0.6197183098591549
+AdaBoost - Liwc_posemo_(com_stopwords): 0.6338028169014085
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords): 0.6338028169014085
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Liwc_negemo: 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_negemo: 0.6111111111111112
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.4166666666666667
+Decision tree classifier - Liwc_negemo: 0.6805555555555556
+Support Vector Classification (SVC) - Liwc_negemo: 0.6527777777777778
+random forest classifier - Liwc_negemo: 0.6805555555555556
+Extra-trees classifier - Liwc_negemo: 0.6805555555555556
+AdaBoost - Liwc_negemo: 0.6805555555555556
+Gradient Boosting Machine - Liwc_negemo: 0.6805555555555556
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Liwc_negemo: 0.5277777777777778
+Bernoulli Naive Bayes - Liwc_negemo: 0.5416666666666666
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.4722222222222222
+Decision tree classifier - Liwc_negemo: 0.5555555555555556
+Support Vector Classification (SVC) - Liwc_negemo: 0.5694444444444444
+random forest classifier - Liwc_negemo: 0.5555555555555556
+Extra-trees classifier - Liwc_negemo: 0.5555555555555556
+AdaBoost - Liwc_negemo: 0.5555555555555556
+Gradient Boosting Machine - Liwc_negemo: 0.5555555555555556
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Liwc_negemo: 0.4027777777777778
+Bernoulli Naive Bayes - Liwc_negemo: 0.4166666666666667
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.5972222222222222
+Decision tree classifier - Liwc_negemo: 0.5138888888888888
+Support Vector Classification (SVC) - Liwc_negemo: 0.6111111111111112
+random forest classifier - Liwc_negemo: 0.5416666666666666
+Extra-trees classifier - Liwc_negemo: 0.5138888888888888
+AdaBoost - Liwc_negemo: 0.5416666666666666
+Gradient Boosting Machine - Liwc_negemo: 0.5416666666666666
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Liwc_negemo: 0.4166666666666667
+Bernoulli Naive Bayes - Liwc_negemo: 0.4861111111111111
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.5833333333333334
+Decision tree classifier - Liwc_negemo: 0.6944444444444444
+Support Vector Classification (SVC) - Liwc_negemo: 0.6944444444444444
+random forest classifier - Liwc_negemo: 0.6944444444444444
+Extra-trees classifier - Liwc_negemo: 0.6944444444444444
+AdaBoost - Liwc_negemo: 0.6527777777777778
+Gradient Boosting Machine - Liwc_negemo: 0.6944444444444444
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Liwc_negemo: 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_negemo: 0.5694444444444444
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.4166666666666667
+Decision tree classifier - Liwc_negemo: 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_negemo: 0.6666666666666666
+random forest classifier - Liwc_negemo: 0.6666666666666666
+Extra-trees classifier - Liwc_negemo: 0.6666666666666666
+AdaBoost - Liwc_negemo: 0.6666666666666666
+Gradient Boosting Machine - Liwc_negemo: 0.6666666666666666
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Liwc_negemo: 0.5555555555555556
+Bernoulli Naive Bayes - Liwc_negemo: 0.6111111111111112
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.4444444444444444
+Decision tree classifier - Liwc_negemo: 0.625
+Support Vector Classification (SVC) - Liwc_negemo: 0.5833333333333334
+random forest classifier - Liwc_negemo: 0.625
+Extra-trees classifier - Liwc_negemo: 0.625
+AdaBoost - Liwc_negemo: 0.625
+Gradient Boosting Machine - Liwc_negemo: 0.625
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Liwc_negemo: 0.5
+Bernoulli Naive Bayes - Liwc_negemo: 0.5555555555555556
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.5
+Decision tree classifier - Liwc_negemo: 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_negemo: 0.6666666666666666
+random forest classifier - Liwc_negemo: 0.6666666666666666
+Extra-trees classifier - Liwc_negemo: 0.6666666666666666
+AdaBoost - Liwc_negemo: 0.6666666666666666
+Gradient Boosting Machine - Liwc_negemo: 0.6111111111111112
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Liwc_negemo: 0.4305555555555556
+Bernoulli Naive Bayes - Liwc_negemo: 0.4444444444444444
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.5694444444444444
+Decision tree classifier - Liwc_negemo: 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_negemo: 0.6666666666666666
+random forest classifier - Liwc_negemo: 0.6666666666666666
+Extra-trees classifier - Liwc_negemo: 0.6666666666666666
+AdaBoost - Liwc_negemo: 0.6111111111111112
+Gradient Boosting Machine - Liwc_negemo: 0.6666666666666666
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Liwc_negemo: 0.5492957746478874
+Bernoulli Naive Bayes - Liwc_negemo: 0.5915492957746479
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.4507042253521127
+Decision tree classifier - Liwc_negemo: 0.5492957746478874
+Support Vector Classification (SVC) - Liwc_negemo: 0.5492957746478874
+random forest classifier - Liwc_negemo: 0.5492957746478874
+Extra-trees classifier - Liwc_negemo: 0.5492957746478874
+AdaBoost - Liwc_negemo: 0.5492957746478874
+Gradient Boosting Machine - Liwc_negemo: 0.5492957746478874
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Liwc_negemo: 0.6901408450704225
+Bernoulli Naive Bayes - Liwc_negemo: 0.7464788732394366
+Complement Naive Bayes (CNB) - Liwc_negemo: 0.30985915492957744
+Decision tree classifier - Liwc_negemo: 0.6338028169014085
+Support Vector Classification (SVC) - Liwc_negemo: 0.6338028169014085
+random forest classifier - Liwc_negemo: 0.7183098591549296
+Extra-trees classifier - Liwc_negemo: 0.6338028169014085
+AdaBoost - Liwc_negemo: 0.6338028169014085
+Gradient Boosting Machine - Liwc_negemo: 0.6338028169014085
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.6111111111111112
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.4166666666666667
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.6805555555555556
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.6527777777777778
+random forest classifier - Liwc_negemo_(com_stopwords): 0.6805555555555556
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.6805555555555556
+AdaBoost - Liwc_negemo_(com_stopwords): 0.6805555555555556
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.6805555555555556
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.5277777777777778
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.5416666666666666
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.4722222222222222
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.5555555555555556
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.5694444444444444
+random forest classifier - Liwc_negemo_(com_stopwords): 0.5555555555555556
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.5555555555555556
+AdaBoost - Liwc_negemo_(com_stopwords): 0.5555555555555556
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.5555555555555556
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.4027777777777778
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.4166666666666667
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.5972222222222222
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.5138888888888888
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.6111111111111112
+random forest classifier - Liwc_negemo_(com_stopwords): 0.5416666666666666
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.5138888888888888
+AdaBoost - Liwc_negemo_(com_stopwords): 0.5416666666666666
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.5416666666666666
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.4166666666666667
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.4861111111111111
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.5833333333333334
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.6944444444444444
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.6944444444444444
+random forest classifier - Liwc_negemo_(com_stopwords): 0.6944444444444444
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.6944444444444444
+AdaBoost - Liwc_negemo_(com_stopwords): 0.6527777777777778
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.6944444444444444
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.5833333333333334
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.5694444444444444
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.4166666666666667
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.6666666666666666
+random forest classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+AdaBoost - Liwc_negemo_(com_stopwords): 0.6666666666666666
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.6666666666666666
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.5555555555555556
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.6111111111111112
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.4444444444444444
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.625
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.5833333333333334
+random forest classifier - Liwc_negemo_(com_stopwords): 0.625
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.625
+AdaBoost - Liwc_negemo_(com_stopwords): 0.625
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.625
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.5
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.5555555555555556
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.5
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.6666666666666666
+random forest classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+AdaBoost - Liwc_negemo_(com_stopwords): 0.6666666666666666
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.6111111111111112
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.4305555555555556
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.4444444444444444
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.5694444444444444
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.6666666666666666
+random forest classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.6666666666666666
+AdaBoost - Liwc_negemo_(com_stopwords): 0.6111111111111112
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.6666666666666666
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.5492957746478874
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.5915492957746479
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.4507042253521127
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.5492957746478874
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.5492957746478874
+random forest classifier - Liwc_negemo_(com_stopwords): 0.5492957746478874
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.5492957746478874
+AdaBoost - Liwc_negemo_(com_stopwords): 0.5492957746478874
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.5492957746478874
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords): 0.6901408450704225
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords): 0.7464788732394366
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords): 0.30985915492957744
+Decision tree classifier - Liwc_negemo_(com_stopwords): 0.6338028169014085
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords): 0.6338028169014085
+random forest classifier - Liwc_negemo_(com_stopwords): 0.6338028169014085
+Extra-trees classifier - Liwc_negemo_(com_stopwords): 0.6338028169014085
+AdaBoost - Liwc_negemo_(com_stopwords): 0.6338028169014085
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords): 0.6338028169014085
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Word2Vec_768: 0.5833333333333334
+Bernoulli Naive Bayes - Word2Vec_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.7916666666666666
+Decision tree classifier - Word2Vec_768: 0.7083333333333334
+Support Vector Classification (SVC) - Word2Vec_768: 0.7916666666666666
+random forest classifier - Word2Vec_768: 0.8333333333333334
+Extra-trees classifier - Word2Vec_768: 0.8472222222222222
+AdaBoost - Word2Vec_768: 0.8194444444444444
+Gradient Boosting Machine - Word2Vec_768: 0.875
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Word2Vec_768: 0.5277777777777778
+Bernoulli Naive Bayes - Word2Vec_768: 0.5277777777777778
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.7916666666666666
+Decision tree classifier - Word2Vec_768: 0.6944444444444444
+Support Vector Classification (SVC) - Word2Vec_768: 0.8194444444444444
+random forest classifier - Word2Vec_768: 0.8472222222222222
+Extra-trees classifier - Word2Vec_768: 0.7916666666666666
+AdaBoost - Word2Vec_768: 0.8611111111111112
+Gradient Boosting Machine - Word2Vec_768: 0.8194444444444444
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Word2Vec_768: 0.4027777777777778
+Bernoulli Naive Bayes - Word2Vec_768: 0.4027777777777778
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.7361111111111112
+Decision tree classifier - Word2Vec_768: 0.5972222222222222
+Support Vector Classification (SVC) - Word2Vec_768: 0.7638888888888888
+random forest classifier - Word2Vec_768: 0.7638888888888888
+Extra-trees classifier - Word2Vec_768: 0.7638888888888888
+AdaBoost - Word2Vec_768: 0.75
+Gradient Boosting Machine - Word2Vec_768: 0.7777777777777778
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Word2Vec_768: 0.4166666666666667
+Bernoulli Naive Bayes - Word2Vec_768: 0.4166666666666667
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.75
+Decision tree classifier - Word2Vec_768: 0.6944444444444444
+Support Vector Classification (SVC) - Word2Vec_768: 0.8472222222222222
+random forest classifier - Word2Vec_768: 0.8333333333333334
+Extra-trees classifier - Word2Vec_768: 0.8611111111111112
+AdaBoost - Word2Vec_768: 0.7777777777777778
+Gradient Boosting Machine - Word2Vec_768: 0.7777777777777778
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Word2Vec_768: 0.5833333333333334
+Bernoulli Naive Bayes - Word2Vec_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.8333333333333334
+Decision tree classifier - Word2Vec_768: 0.6111111111111112
+Support Vector Classification (SVC) - Word2Vec_768: 0.9027777777777778
+Support Vector Classification (SVC) - Word2Vec_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+random forest classifier - Word2Vec_768: 0.875
+Extra-trees classifier - Word2Vec_768: 0.8472222222222222
+AdaBoost - Word2Vec_768: 0.8194444444444444
+Gradient Boosting Machine - Word2Vec_768: 0.8611111111111112
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Word2Vec_768: 0.5555555555555556
+Bernoulli Naive Bayes - Word2Vec_768: 0.5555555555555556
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.7777777777777778
+Decision tree classifier - Word2Vec_768: 0.75
+Support Vector Classification (SVC) - Word2Vec_768: 0.7777777777777778
+random forest classifier - Word2Vec_768: 0.7916666666666666
+Extra-trees classifier - Word2Vec_768: 0.8055555555555556
+AdaBoost - Word2Vec_768: 0.8055555555555556
+Gradient Boosting Machine - Word2Vec_768: 0.7638888888888888
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Word2Vec_768: 0.5
+Bernoulli Naive Bayes - Word2Vec_768: 0.5
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.7638888888888888
+Decision tree classifier - Word2Vec_768: 0.6805555555555556
+Support Vector Classification (SVC) - Word2Vec_768: 0.8333333333333334
+random forest classifier - Word2Vec_768: 0.7777777777777778
+Extra-trees classifier - Word2Vec_768: 0.8194444444444444
+AdaBoost - Word2Vec_768: 0.7777777777777778
+Gradient Boosting Machine - Word2Vec_768: 0.8055555555555556
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Word2Vec_768: 0.4305555555555556
+Bernoulli Naive Bayes - Word2Vec_768: 0.4305555555555556
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.6944444444444444
+Decision tree classifier - Word2Vec_768: 0.6666666666666666
+Support Vector Classification (SVC) - Word2Vec_768: 0.7777777777777778
+random forest classifier - Word2Vec_768: 0.8055555555555556
+Extra-trees classifier - Word2Vec_768: 0.6805555555555556
+AdaBoost - Word2Vec_768: 0.7777777777777778
+Gradient Boosting Machine - Word2Vec_768: 0.8472222222222222
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Word2Vec_768: 0.5492957746478874
+Bernoulli Naive Bayes - Word2Vec_768: 0.5492957746478874
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.7746478873239436
+Decision tree classifier - Word2Vec_768: 0.676056338028169
+Support Vector Classification (SVC) - Word2Vec_768: 0.8450704225352113
+random forest classifier - Word2Vec_768: 0.8169014084507042
+Extra-trees classifier - Word2Vec_768: 0.8309859154929577
+AdaBoost - Word2Vec_768: 0.704225352112676
+Gradient Boosting Machine - Word2Vec_768: 0.7887323943661971
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Word2Vec_768: 0.6901408450704225
+Bernoulli Naive Bayes - Word2Vec_768: 0.6901408450704225
+Complement Naive Bayes (CNB) - Word2Vec_768: 0.8591549295774648
+Decision tree classifier - Word2Vec_768: 0.6056338028169014
+Support Vector Classification (SVC) - Word2Vec_768: 0.8732394366197183
+random forest classifier - Word2Vec_768: 0.8028169014084507
+Extra-trees classifier - Word2Vec_768: 0.8591549295774648
+AdaBoost - Word2Vec_768: 0.8450704225352113
+Gradient Boosting Machine - Word2Vec_768: 0.8873239436619719
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Bertimbau_base_768: 0.8611111111111112
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.875
+Decision tree classifier - Bertimbau_base_768: 0.7222222222222222
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.875
+random forest classifier - Bertimbau_base_768: 0.8611111111111112
+Extra-trees classifier - Bertimbau_base_768: 0.8472222222222222
+AdaBoost - Bertimbau_base_768: 0.8194444444444444
+Gradient Boosting Machine - Bertimbau_base_768: 0.8888888888888888
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Bertimbau_base_768: 0.8055555555555556
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.5277777777777778
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.8055555555555556
+Decision tree classifier - Bertimbau_base_768: 0.7916666666666666
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.7916666666666666
+random forest classifier - Bertimbau_base_768: 0.8055555555555556
+Extra-trees classifier - Bertimbau_base_768: 0.8055555555555556
+AdaBoost - Bertimbau_base_768: 0.7638888888888888
+Gradient Boosting Machine - Bertimbau_base_768: 0.7916666666666666
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Bertimbau_base_768: 0.7916666666666666
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.4027777777777778
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.8472222222222222
+Decision tree classifier - Bertimbau_base_768: 0.7638888888888888
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.8055555555555556
+random forest classifier - Bertimbau_base_768: 0.8194444444444444
+Extra-trees classifier - Bertimbau_base_768: 0.8611111111111112
+AdaBoost - Bertimbau_base_768: 0.8055555555555556
+Gradient Boosting Machine - Bertimbau_base_768: 0.8333333333333334
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Bertimbau_base_768: 0.7777777777777778
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.4166666666666667
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.7777777777777778
+Decision tree classifier - Bertimbau_base_768: 0.7222222222222222
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.7916666666666666
+random forest classifier - Bertimbau_base_768: 0.7916666666666666
+Extra-trees classifier - Bertimbau_base_768: 0.75
+AdaBoost - Bertimbau_base_768: 0.7222222222222222
+Gradient Boosting Machine - Bertimbau_base_768: 0.7777777777777778
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Bertimbau_base_768: 0.9027777777777778
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.9166666666666666
+Complement Naive Bayes (CNB) - Bertimbau_base_768 obteve o melhor resultado: 0.9166666666666666
+Dataset treinamento nas posições:4
+Decision tree classifier - Bertimbau_base_768: 0.8333333333333334
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.8888888888888888
+random forest classifier - Bertimbau_base_768: 0.8888888888888888
+Extra-trees classifier - Bertimbau_base_768: 0.9027777777777778
+AdaBoost - Bertimbau_base_768: 0.8333333333333334
+Gradient Boosting Machine - Bertimbau_base_768: 0.8611111111111112
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Bertimbau_base_768: 0.8055555555555556
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.5555555555555556
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.8333333333333334
+Decision tree classifier - Bertimbau_base_768: 0.75
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.8611111111111112
+random forest classifier - Bertimbau_base_768: 0.8611111111111112
+Extra-trees classifier - Bertimbau_base_768: 0.875
+AdaBoost - Bertimbau_base_768: 0.8472222222222222
+Gradient Boosting Machine - Bertimbau_base_768: 0.8472222222222222
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Bertimbau_base_768: 0.9027777777777778
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.5
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.8472222222222222
+Decision tree classifier - Bertimbau_base_768: 0.6527777777777778
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.875
+random forest classifier - Bertimbau_base_768: 0.8472222222222222
+Extra-trees classifier - Bertimbau_base_768: 0.875
+AdaBoost - Bertimbau_base_768: 0.8611111111111112
+Gradient Boosting Machine - Bertimbau_base_768: 0.8333333333333334
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Bertimbau_base_768: 0.8611111111111112
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.4305555555555556
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.875
+Decision tree classifier - Bertimbau_base_768: 0.75
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.9305555555555556
+Support Vector Classification (SVC) - Bertimbau_base_768 obteve o melhor resultado: 0.9305555555555556
+Dataset treinamento nas posições:7
+random forest classifier - Bertimbau_base_768: 0.8888888888888888
+Extra-trees classifier - Bertimbau_base_768: 0.8888888888888888
+AdaBoost - Bertimbau_base_768: 0.8333333333333334
+Gradient Boosting Machine - Bertimbau_base_768: 0.8888888888888888
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Bertimbau_base_768: 0.8732394366197183
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.5492957746478874
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.8732394366197183
+Decision tree classifier - Bertimbau_base_768: 0.7605633802816901
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.8450704225352113
+random forest classifier - Bertimbau_base_768: 0.9014084507042254
+Extra-trees classifier - Bertimbau_base_768: 0.8873239436619719
+AdaBoost - Bertimbau_base_768: 0.8309859154929577
+Gradient Boosting Machine - Bertimbau_base_768: 0.8309859154929577
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Bertimbau_base_768: 0.7746478873239436
+Bernoulli Naive Bayes - Bertimbau_base_768: 0.6901408450704225
+Complement Naive Bayes (CNB) - Bertimbau_base_768: 0.7746478873239436
+Decision tree classifier - Bertimbau_base_768: 0.7605633802816901
+Support Vector Classification (SVC) - Bertimbau_base_768: 0.8028169014084507
+random forest classifier - Bertimbau_base_768: 0.7605633802816901
+Extra-trees classifier - Bertimbau_base_768: 0.7887323943661971
+AdaBoost - Bertimbau_base_768: 0.7887323943661971
+Gradient Boosting Machine - Bertimbau_base_768: 0.7887323943661971
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Bertimbau_large_768: 0.875
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.875
+Decision tree classifier - Bertimbau_large_768: 0.75
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.8888888888888888
+random forest classifier - Bertimbau_large_768: 0.875
+Extra-trees classifier - Bertimbau_large_768: 0.8472222222222222
+AdaBoost - Bertimbau_large_768: 0.8611111111111112
+Gradient Boosting Machine - Bertimbau_large_768: 0.8333333333333334
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Bertimbau_large_768: 0.8055555555555556
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.5277777777777778
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.8055555555555556
+Decision tree classifier - Bertimbau_large_768: 0.75
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.8194444444444444
+random forest classifier - Bertimbau_large_768: 0.8194444444444444
+Extra-trees classifier - Bertimbau_large_768: 0.8194444444444444
+AdaBoost - Bertimbau_large_768: 0.8333333333333334
+Gradient Boosting Machine - Bertimbau_large_768: 0.8333333333333334
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Bertimbau_large_768: 0.7916666666666666
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.4027777777777778
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.7916666666666666
+Decision tree classifier - Bertimbau_large_768: 0.7361111111111112
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.7916666666666666
+random forest classifier - Bertimbau_large_768: 0.8194444444444444
+Extra-trees classifier - Bertimbau_large_768: 0.7916666666666666
+AdaBoost - Bertimbau_large_768: 0.7777777777777778
+Gradient Boosting Machine - Bertimbau_large_768: 0.75
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Bertimbau_large_768: 0.8055555555555556
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.4166666666666667
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.7916666666666666
+Decision tree classifier - Bertimbau_large_768: 0.7222222222222222
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.7916666666666666
+random forest classifier - Bertimbau_large_768: 0.8194444444444444
+Extra-trees classifier - Bertimbau_large_768: 0.7638888888888888
+AdaBoost - Bertimbau_large_768: 0.7916666666666666
+Gradient Boosting Machine - Bertimbau_large_768: 0.8055555555555556
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Bertimbau_large_768: 0.875
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.875
+Decision tree classifier - Bertimbau_large_768: 0.7638888888888888
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.8888888888888888
+random forest classifier - Bertimbau_large_768: 0.875
+Extra-trees classifier - Bertimbau_large_768: 0.8611111111111112
+AdaBoost - Bertimbau_large_768: 0.8611111111111112
+Gradient Boosting Machine - Bertimbau_large_768: 0.875
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Bertimbau_large_768: 0.8611111111111112
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.5555555555555556
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.9027777777777778
+Decision tree classifier - Bertimbau_large_768: 0.75
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.8333333333333334
+random forest classifier - Bertimbau_large_768: 0.8611111111111112
+Extra-trees classifier - Bertimbau_large_768: 0.8611111111111112
+AdaBoost - Bertimbau_large_768: 0.8055555555555556
+Gradient Boosting Machine - Bertimbau_large_768: 0.8611111111111112
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Bertimbau_large_768: 0.8888888888888888
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.5
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.8333333333333334
+Decision tree classifier - Bertimbau_large_768: 0.7916666666666666
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.8194444444444444
+random forest classifier - Bertimbau_large_768: 0.8333333333333334
+Extra-trees classifier - Bertimbau_large_768: 0.8472222222222222
+AdaBoost - Bertimbau_large_768: 0.7222222222222222
+Gradient Boosting Machine - Bertimbau_large_768: 0.8333333333333334
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Bertimbau_large_768: 0.875
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.4305555555555556
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.9166666666666666
+Decision tree classifier - Bertimbau_large_768: 0.75
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.9305555555555556
+random forest classifier - Bertimbau_large_768: 0.9027777777777778
+Extra-trees classifier - Bertimbau_large_768: 0.9027777777777778
+AdaBoost - Bertimbau_large_768: 0.9166666666666666
+Gradient Boosting Machine - Bertimbau_large_768: 0.8194444444444444
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Bertimbau_large_768: 0.8732394366197183
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.5492957746478874
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.8873239436619719
+Decision tree classifier - Bertimbau_large_768: 0.7746478873239436
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.9154929577464789
+random forest classifier - Bertimbau_large_768: 0.9014084507042254
+Extra-trees classifier - Bertimbau_large_768: 0.8591549295774648
+AdaBoost - Bertimbau_large_768: 0.8450704225352113
+Gradient Boosting Machine - Bertimbau_large_768: 0.8873239436619719
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Bertimbau_large_768: 0.8450704225352113
+Bernoulli Naive Bayes - Bertimbau_large_768: 0.6901408450704225
+Complement Naive Bayes (CNB) - Bertimbau_large_768: 0.8169014084507042
+Decision tree classifier - Bertimbau_large_768: 0.6056338028169014
+Support Vector Classification (SVC) - Bertimbau_large_768: 0.8450704225352113
+random forest classifier - Bertimbau_large_768: 0.8169014084507042
+Extra-trees classifier - Bertimbau_large_768: 0.7887323943661971
+AdaBoost - Bertimbau_large_768: 0.7887323943661971
+Gradient Boosting Machine - Bertimbau_large_768: 0.8450704225352113
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - pierreguillou_768: 0.9027777777777778
+Bernoulli Naive Bayes - pierreguillou_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.8888888888888888
+Decision tree classifier - pierreguillou_768: 0.7222222222222222
+Support Vector Classification (SVC) - pierreguillou_768: 0.9027777777777778
+random forest classifier - pierreguillou_768: 0.9027777777777778
+Extra-trees classifier - pierreguillou_768: 0.8611111111111112
+AdaBoost - pierreguillou_768: 0.75
+Gradient Boosting Machine - pierreguillou_768: 0.8611111111111112
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - pierreguillou_768: 0.8055555555555556
+Bernoulli Naive Bayes - pierreguillou_768: 0.5277777777777778
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.8333333333333334
+Decision tree classifier - pierreguillou_768: 0.7916666666666666
+Support Vector Classification (SVC) - pierreguillou_768: 0.8055555555555556
+random forest classifier - pierreguillou_768: 0.8194444444444444
+Extra-trees classifier - pierreguillou_768: 0.8194444444444444
+AdaBoost - pierreguillou_768: 0.7916666666666666
+Gradient Boosting Machine - pierreguillou_768: 0.7916666666666666
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - pierreguillou_768: 0.7916666666666666
+Bernoulli Naive Bayes - pierreguillou_768: 0.4027777777777778
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.8333333333333334
+Decision tree classifier - pierreguillou_768: 0.7638888888888888
+Support Vector Classification (SVC) - pierreguillou_768: 0.8333333333333334
+random forest classifier - pierreguillou_768: 0.7916666666666666
+Extra-trees classifier - pierreguillou_768: 0.8333333333333334
+AdaBoost - pierreguillou_768: 0.8055555555555556
+Gradient Boosting Machine - pierreguillou_768: 0.8055555555555556
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - pierreguillou_768: 0.7916666666666666
+Bernoulli Naive Bayes - pierreguillou_768: 0.4166666666666667
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.8194444444444444
+Decision tree classifier - pierreguillou_768: 0.7083333333333334
+Support Vector Classification (SVC) - pierreguillou_768: 0.7916666666666666
+random forest classifier - pierreguillou_768: 0.7916666666666666
+Extra-trees classifier - pierreguillou_768: 0.7916666666666666
+AdaBoost - pierreguillou_768: 0.7638888888888888
+Gradient Boosting Machine - pierreguillou_768: 0.8055555555555556
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - pierreguillou_768: 0.9027777777777778
+Bernoulli Naive Bayes - pierreguillou_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.9027777777777778
+Decision tree classifier - pierreguillou_768: 0.7083333333333334
+Support Vector Classification (SVC) - pierreguillou_768: 0.8888888888888888
+random forest classifier - pierreguillou_768: 0.875
+Extra-trees classifier - pierreguillou_768: 0.9027777777777778
+AdaBoost - pierreguillou_768: 0.8611111111111112
+Gradient Boosting Machine - pierreguillou_768: 0.8333333333333334
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - pierreguillou_768: 0.8611111111111112
+Bernoulli Naive Bayes - pierreguillou_768: 0.5555555555555556
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.8333333333333334
+Decision tree classifier - pierreguillou_768: 0.7083333333333334
+Support Vector Classification (SVC) - pierreguillou_768: 0.8472222222222222
+random forest classifier - pierreguillou_768: 0.9166666666666666
+Extra-trees classifier - pierreguillou_768: 0.8888888888888888
+AdaBoost - pierreguillou_768: 0.8055555555555556
+Gradient Boosting Machine - pierreguillou_768: 0.8611111111111112
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - pierreguillou_768: 0.8611111111111112
+Bernoulli Naive Bayes - pierreguillou_768: 0.5
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.875
+Decision tree classifier - pierreguillou_768: 0.7361111111111112
+Support Vector Classification (SVC) - pierreguillou_768: 0.8611111111111112
+random forest classifier - pierreguillou_768: 0.8333333333333334
+Extra-trees classifier - pierreguillou_768: 0.8611111111111112
+AdaBoost - pierreguillou_768: 0.7916666666666666
+Gradient Boosting Machine - pierreguillou_768: 0.8333333333333334
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - pierreguillou_768: 0.8472222222222222
+Bernoulli Naive Bayes - pierreguillou_768: 0.4305555555555556
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.875
+Decision tree classifier - pierreguillou_768: 0.7777777777777778
+Support Vector Classification (SVC) - pierreguillou_768: 0.875
+random forest classifier - pierreguillou_768: 0.8611111111111112
+Extra-trees classifier - pierreguillou_768: 0.8888888888888888
+AdaBoost - pierreguillou_768: 0.8055555555555556
+Gradient Boosting Machine - pierreguillou_768: 0.8055555555555556
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - pierreguillou_768: 0.8873239436619719
+Bernoulli Naive Bayes - pierreguillou_768: 0.5492957746478874
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.8873239436619719
+Decision tree classifier - pierreguillou_768: 0.8450704225352113
+Support Vector Classification (SVC) - pierreguillou_768: 0.8873239436619719
+random forest classifier - pierreguillou_768: 0.9014084507042254
+Extra-trees classifier - pierreguillou_768: 0.8732394366197183
+AdaBoost - pierreguillou_768: 0.8591549295774648
+Gradient Boosting Machine - pierreguillou_768: 0.8732394366197183
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - pierreguillou_768: 0.8309859154929577
+Bernoulli Naive Bayes - pierreguillou_768: 0.6901408450704225
+Complement Naive Bayes (CNB) - pierreguillou_768: 0.8309859154929577
+Decision tree classifier - pierreguillou_768: 0.8028169014084507
+Support Vector Classification (SVC) - pierreguillou_768: 0.8309859154929577
+random forest classifier - pierreguillou_768: 0.7887323943661971
+Extra-trees classifier - pierreguillou_768: 0.8169014084507042
+AdaBoost - pierreguillou_768: 0.8169014084507042
+Gradient Boosting Machine - pierreguillou_768: 0.7887323943661971
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Bert_base_768: 0.7222222222222222
+Bernoulli Naive Bayes - Bert_base_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Bert_base_768: 0.7638888888888888
+Decision tree classifier - Bert_base_768: 0.7083333333333334
+Support Vector Classification (SVC) - Bert_base_768: 0.8333333333333334
+random forest classifier - Bert_base_768: 0.8333333333333334
+Extra-trees classifier - Bert_base_768: 0.8194444444444444
+AdaBoost - Bert_base_768: 0.8055555555555556
+Gradient Boosting Machine - Bert_base_768: 0.8333333333333334
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Bert_base_768: 0.6527777777777778
+Bernoulli Naive Bayes - Bert_base_768: 0.5277777777777778
+Complement Naive Bayes (CNB) - Bert_base_768: 0.6527777777777778
+Decision tree classifier - Bert_base_768: 0.6805555555555556
+Support Vector Classification (SVC) - Bert_base_768: 0.6388888888888888
+random forest classifier - Bert_base_768: 0.6944444444444444
+Extra-trees classifier - Bert_base_768: 0.7083333333333334
+AdaBoost - Bert_base_768: 0.7083333333333334
+Gradient Boosting Machine - Bert_base_768: 0.6805555555555556
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Bert_base_768: 0.4583333333333333
+Bernoulli Naive Bayes - Bert_base_768: 0.4027777777777778
+Complement Naive Bayes (CNB) - Bert_base_768: 0.7638888888888888
+Decision tree classifier - Bert_base_768: 0.6527777777777778
+Support Vector Classification (SVC) - Bert_base_768: 0.7083333333333334
+random forest classifier - Bert_base_768: 0.7222222222222222
+Extra-trees classifier - Bert_base_768: 0.7361111111111112
+AdaBoost - Bert_base_768: 0.7222222222222222
+Gradient Boosting Machine - Bert_base_768: 0.7361111111111112
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Bert_base_768: 0.5
+Bernoulli Naive Bayes - Bert_base_768: 0.4166666666666667
+Complement Naive Bayes (CNB) - Bert_base_768: 0.6666666666666666
+Decision tree classifier - Bert_base_768: 0.6527777777777778
+Support Vector Classification (SVC) - Bert_base_768: 0.7083333333333334
+random forest classifier - Bert_base_768: 0.7222222222222222
+Extra-trees classifier - Bert_base_768: 0.7361111111111112
+AdaBoost - Bert_base_768: 0.7361111111111112
+Gradient Boosting Machine - Bert_base_768: 0.7361111111111112
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Bert_base_768: 0.6944444444444444
+Bernoulli Naive Bayes - Bert_base_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Bert_base_768: 0.6527777777777778
+Decision tree classifier - Bert_base_768: 0.5694444444444444
+Support Vector Classification (SVC) - Bert_base_768: 0.75
+random forest classifier - Bert_base_768: 0.7222222222222222
+Extra-trees classifier - Bert_base_768: 0.7638888888888888
+AdaBoost - Bert_base_768: 0.7083333333333334
+Gradient Boosting Machine - Bert_base_768: 0.7222222222222222
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Bert_base_768: 0.5833333333333334
+Bernoulli Naive Bayes - Bert_base_768: 0.5555555555555556
+Complement Naive Bayes (CNB) - Bert_base_768: 0.6666666666666666
+Decision tree classifier - Bert_base_768: 0.625
+Support Vector Classification (SVC) - Bert_base_768: 0.6805555555555556
+random forest classifier - Bert_base_768: 0.7361111111111112
+Extra-trees classifier - Bert_base_768: 0.7777777777777778
+AdaBoost - Bert_base_768: 0.6944444444444444
+Gradient Boosting Machine - Bert_base_768: 0.6944444444444444
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Bert_base_768: 0.6388888888888888
+Bernoulli Naive Bayes - Bert_base_768: 0.5
+Complement Naive Bayes (CNB) - Bert_base_768: 0.7222222222222222
+Decision tree classifier - Bert_base_768: 0.5138888888888888
+Support Vector Classification (SVC) - Bert_base_768: 0.7916666666666666
+random forest classifier - Bert_base_768: 0.75
+Extra-trees classifier - Bert_base_768: 0.8055555555555556
+AdaBoost - Bert_base_768: 0.75
+Gradient Boosting Machine - Bert_base_768: 0.75
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Bert_base_768: 0.4722222222222222
+Bernoulli Naive Bayes - Bert_base_768: 0.4305555555555556
+Complement Naive Bayes (CNB) - Bert_base_768: 0.6666666666666666
+Decision tree classifier - Bert_base_768: 0.625
+Support Vector Classification (SVC) - Bert_base_768: 0.7222222222222222
+random forest classifier - Bert_base_768: 0.7777777777777778
+Extra-trees classifier - Bert_base_768: 0.7638888888888888
+AdaBoost - Bert_base_768: 0.75
+Gradient Boosting Machine - Bert_base_768: 0.75
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Bert_base_768: 0.676056338028169
+Bernoulli Naive Bayes - Bert_base_768: 0.5492957746478874
+Complement Naive Bayes (CNB) - Bert_base_768: 0.6619718309859155
+Decision tree classifier - Bert_base_768: 0.5492957746478874
+Support Vector Classification (SVC) - Bert_base_768: 0.7464788732394366
+random forest classifier - Bert_base_768: 0.7746478873239436
+Extra-trees classifier - Bert_base_768: 0.7464788732394366
+AdaBoost - Bert_base_768: 0.676056338028169
+Gradient Boosting Machine - Bert_base_768: 0.7746478873239436
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Bert_base_768: 0.8169014084507042
+Bernoulli Naive Bayes - Bert_base_768: 0.6901408450704225
+Complement Naive Bayes (CNB) - Bert_base_768: 0.7746478873239436
+Decision tree classifier - Bert_base_768: 0.704225352112676
+Support Vector Classification (SVC) - Bert_base_768: 0.7605633802816901
+random forest classifier - Bert_base_768: 0.7605633802816901
+Extra-trees classifier - Bert_base_768: 0.7746478873239436
+AdaBoost - Bert_base_768: 0.7887323943661971
+Gradient Boosting Machine - Bert_base_768: 0.7746478873239436
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.5833333333333334
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7361111111111112
+Decision tree classifier - Roberta_xlm_base_768: 0.6944444444444444
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.5833333333333334
+random forest classifier - Roberta_xlm_base_768: 0.8888888888888888
+Extra-trees classifier - Roberta_xlm_base_768: 0.875
+AdaBoost - Roberta_xlm_base_768: 0.8055555555555556
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.8472222222222222
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.5277777777777778
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.5277777777777778
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.6944444444444444
+Decision tree classifier - Roberta_xlm_base_768: 0.7361111111111112
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.5277777777777778
+random forest classifier - Roberta_xlm_base_768: 0.8472222222222222
+Extra-trees classifier - Roberta_xlm_base_768: 0.8333333333333334
+AdaBoost - Roberta_xlm_base_768: 0.875
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.8055555555555556
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.4027777777777778
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.4027777777777778
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7083333333333334
+Decision tree classifier - Roberta_xlm_base_768: 0.8055555555555556
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.4027777777777778
+random forest classifier - Roberta_xlm_base_768: 0.8055555555555556
+Extra-trees classifier - Roberta_xlm_base_768: 0.7916666666666666
+AdaBoost - Roberta_xlm_base_768: 0.7638888888888888
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.8333333333333334
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.4305555555555556
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.4166666666666667
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7638888888888888
+Decision tree classifier - Roberta_xlm_base_768: 0.7222222222222222
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.4166666666666667
+random forest classifier - Roberta_xlm_base_768: 0.7777777777777778
+Extra-trees classifier - Roberta_xlm_base_768: 0.7777777777777778
+AdaBoost - Roberta_xlm_base_768: 0.7916666666666666
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.7638888888888888
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.5833333333333334
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7083333333333334
+Decision tree classifier - Roberta_xlm_base_768: 0.7916666666666666
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.5833333333333334
+random forest classifier - Roberta_xlm_base_768: 0.9027777777777778
+Extra-trees classifier - Roberta_xlm_base_768: 0.9027777777777778
+AdaBoost - Roberta_xlm_base_768: 0.875
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.875
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.5555555555555556
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.5555555555555556
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7777777777777778
+Decision tree classifier - Roberta_xlm_base_768: 0.7083333333333334
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.5555555555555556
+random forest classifier - Roberta_xlm_base_768: 0.9027777777777778
+Extra-trees classifier - Roberta_xlm_base_768: 0.8472222222222222
+AdaBoost - Roberta_xlm_base_768: 0.7916666666666666
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.8472222222222222
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.5
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.5
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7361111111111112
+Decision tree classifier - Roberta_xlm_base_768: 0.8194444444444444
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.5
+random forest classifier - Roberta_xlm_base_768: 0.875
+Extra-trees classifier - Roberta_xlm_base_768: 0.8611111111111112
+AdaBoost - Roberta_xlm_base_768: 0.8472222222222222
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.9027777777777778
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.4305555555555556
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.4305555555555556
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7361111111111112
+Decision tree classifier - Roberta_xlm_base_768: 0.7361111111111112
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.4305555555555556
+random forest classifier - Roberta_xlm_base_768: 0.9027777777777778
+Extra-trees classifier - Roberta_xlm_base_768: 0.8888888888888888
+AdaBoost - Roberta_xlm_base_768: 0.8472222222222222
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.9027777777777778
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.5492957746478874
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.5492957746478874
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7323943661971831
+Decision tree classifier - Roberta_xlm_base_768: 0.8309859154929577
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.5492957746478874
+random forest classifier - Roberta_xlm_base_768: 0.9014084507042254
+Extra-trees classifier - Roberta_xlm_base_768: 0.8732394366197183
+AdaBoost - Roberta_xlm_base_768: 0.8591549295774648
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.8450704225352113
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Roberta_xlm_base_768: 0.7183098591549296
+Bernoulli Naive Bayes - Roberta_xlm_base_768: 0.6901408450704225
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768: 0.7323943661971831
+Decision tree classifier - Roberta_xlm_base_768: 0.8028169014084507
+Support Vector Classification (SVC) - Roberta_xlm_base_768: 0.6901408450704225
+random forest classifier - Roberta_xlm_base_768: 0.8169014084507042
+Extra-trees classifier - Roberta_xlm_base_768: 0.8169014084507042
+AdaBoost - Roberta_xlm_base_768: 0.8450704225352113
+Gradient Boosting Machine - Roberta_xlm_base_768: 0.8169014084507042
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.5833333333333334
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.625
+Decision tree classifier - Roberta_xlm_large_768: 0.6944444444444444
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.5833333333333334
+random forest classifier - Roberta_xlm_large_768: 0.875
+Extra-trees classifier - Roberta_xlm_large_768: 0.8888888888888888
+AdaBoost - Roberta_xlm_large_768: 0.8333333333333334
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.8472222222222222
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.5277777777777778
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.5277777777777778
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.5972222222222222
+Decision tree classifier - Roberta_xlm_large_768: 0.6666666666666666
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.5277777777777778
+random forest classifier - Roberta_xlm_large_768: 0.7916666666666666
+Extra-trees classifier - Roberta_xlm_large_768: 0.8055555555555556
+AdaBoost - Roberta_xlm_large_768: 0.7916666666666666
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.8194444444444444
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.4027777777777778
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.4027777777777778
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.6111111111111112
+Decision tree classifier - Roberta_xlm_large_768: 0.7222222222222222
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.4027777777777778
+random forest classifier - Roberta_xlm_large_768: 0.8472222222222222
+Extra-trees classifier - Roberta_xlm_large_768: 0.8611111111111112
+AdaBoost - Roberta_xlm_large_768: 0.8333333333333334
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.8333333333333334
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.4166666666666667
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.4166666666666667
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.5833333333333334
+Decision tree classifier - Roberta_xlm_large_768: 0.7222222222222222
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.4166666666666667
+random forest classifier - Roberta_xlm_large_768: 0.7638888888888888
+Extra-trees classifier - Roberta_xlm_large_768: 0.7638888888888888
+AdaBoost - Roberta_xlm_large_768: 0.7361111111111112
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.7777777777777778
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.5972222222222222
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.5277777777777778
+Decision tree classifier - Roberta_xlm_large_768: 0.75
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.5833333333333334
+random forest classifier - Roberta_xlm_large_768: 0.9305555555555556
+Extra-trees classifier - Roberta_xlm_large_768: 0.9027777777777778
+AdaBoost - Roberta_xlm_large_768: 0.8333333333333334
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.9166666666666666
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.5555555555555556
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.5555555555555556
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.6388888888888888
+Decision tree classifier - Roberta_xlm_large_768: 0.6944444444444444
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.5555555555555556
+random forest classifier - Roberta_xlm_large_768: 0.8888888888888888
+Extra-trees classifier - Roberta_xlm_large_768: 0.8472222222222222
+AdaBoost - Roberta_xlm_large_768: 0.7916666666666666
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.8472222222222222
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.5
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.5
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.625
+Decision tree classifier - Roberta_xlm_large_768: 0.7361111111111112
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.5
+random forest classifier - Roberta_xlm_large_768: 0.8333333333333334
+Extra-trees classifier - Roberta_xlm_large_768: 0.8472222222222222
+AdaBoost - Roberta_xlm_large_768: 0.8055555555555556
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.8333333333333334
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.4305555555555556
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.4305555555555556
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.6388888888888888
+Decision tree classifier - Roberta_xlm_large_768: 0.7777777777777778
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.4305555555555556
+random forest classifier - Roberta_xlm_large_768: 0.875
+Extra-trees classifier - Roberta_xlm_large_768: 0.8611111111111112
+AdaBoost - Roberta_xlm_large_768: 0.8472222222222222
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.875
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.5633802816901409
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.5492957746478874
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.6056338028169014
+Decision tree classifier - Roberta_xlm_large_768: 0.7887323943661971
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.5492957746478874
+random forest classifier - Roberta_xlm_large_768: 0.8732394366197183
+Extra-trees classifier - Roberta_xlm_large_768: 0.8309859154929577
+AdaBoost - Roberta_xlm_large_768: 0.8591549295774648
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.8591549295774648
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Roberta_xlm_large_768: 0.6901408450704225
+Bernoulli Naive Bayes - Roberta_xlm_large_768: 0.6901408450704225
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768: 0.6619718309859155
+Decision tree classifier - Roberta_xlm_large_768: 0.7323943661971831
+Support Vector Classification (SVC) - Roberta_xlm_large_768: 0.6901408450704225
+random forest classifier - Roberta_xlm_large_768: 0.7887323943661971
+Extra-trees classifier - Roberta_xlm_large_768: 0.7887323943661971
+AdaBoost - Roberta_xlm_large_768: 0.7746478873239436
+Gradient Boosting Machine - Roberta_xlm_large_768: 0.8309859154929577
+
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Roberta_josu_768: 0.9166666666666666
+Bernoulli Naive Bayes - Roberta_josu_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.9166666666666666
+Decision tree classifier - Roberta_josu_768: 0.7361111111111112
+Support Vector Classification (SVC) - Roberta_josu_768: 0.8888888888888888
+random forest classifier - Roberta_josu_768: 0.875
+Extra-trees classifier - Roberta_josu_768: 0.8888888888888888
+AdaBoost - Roberta_josu_768: 0.8194444444444444
+Gradient Boosting Machine - Roberta_josu_768: 0.8055555555555556
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Roberta_josu_768: 0.7638888888888888
+Bernoulli Naive Bayes - Roberta_josu_768: 0.5277777777777778
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.7638888888888888
+Decision tree classifier - Roberta_josu_768: 0.7083333333333334
+Support Vector Classification (SVC) - Roberta_josu_768: 0.8194444444444444
+random forest classifier - Roberta_josu_768: 0.7916666666666666
+Extra-trees classifier - Roberta_josu_768: 0.8194444444444444
+AdaBoost - Roberta_josu_768: 0.75
+Gradient Boosting Machine - Roberta_josu_768: 0.8194444444444444
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Roberta_josu_768: 0.8055555555555556
+Bernoulli Naive Bayes - Roberta_josu_768: 0.4027777777777778
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.8055555555555556
+Decision tree classifier - Roberta_josu_768: 0.75
+Support Vector Classification (SVC) - Roberta_josu_768: 0.7638888888888888
+random forest classifier - Roberta_josu_768: 0.8333333333333334
+Extra-trees classifier - Roberta_josu_768: 0.8194444444444444
+AdaBoost - Roberta_josu_768: 0.7361111111111112
+Gradient Boosting Machine - Roberta_josu_768: 0.75
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Roberta_josu_768: 0.7777777777777778
+Bernoulli Naive Bayes - Roberta_josu_768: 0.4166666666666667
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.7777777777777778
+Decision tree classifier - Roberta_josu_768: 0.6527777777777778
+Support Vector Classification (SVC) - Roberta_josu_768: 0.7638888888888888
+random forest classifier - Roberta_josu_768: 0.7777777777777778
+Extra-trees classifier - Roberta_josu_768: 0.8055555555555556
+AdaBoost - Roberta_josu_768: 0.7777777777777778
+Gradient Boosting Machine - Roberta_josu_768: 0.75
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Roberta_josu_768: 0.7361111111111112
+Bernoulli Naive Bayes - Roberta_josu_768: 0.5833333333333334
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.7361111111111112
+Decision tree classifier - Roberta_josu_768: 0.6527777777777778
+Support Vector Classification (SVC) - Roberta_josu_768: 0.8888888888888888
+random forest classifier - Roberta_josu_768: 0.7916666666666666
+Extra-trees classifier - Roberta_josu_768: 0.8055555555555556
+AdaBoost - Roberta_josu_768: 0.7777777777777778
+Gradient Boosting Machine - Roberta_josu_768: 0.7916666666666666
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Roberta_josu_768: 0.7916666666666666
+Bernoulli Naive Bayes - Roberta_josu_768: 0.5555555555555556
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.7777777777777778
+Decision tree classifier - Roberta_josu_768: 0.75
+Support Vector Classification (SVC) - Roberta_josu_768: 0.8055555555555556
+random forest classifier - Roberta_josu_768: 0.7222222222222222
+Extra-trees classifier - Roberta_josu_768: 0.7361111111111112
+AdaBoost - Roberta_josu_768: 0.7083333333333334
+Gradient Boosting Machine - Roberta_josu_768: 0.7638888888888888
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Roberta_josu_768: 0.8055555555555556
+Bernoulli Naive Bayes - Roberta_josu_768: 0.5
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.8055555555555556
+Decision tree classifier - Roberta_josu_768: 0.7361111111111112
+Support Vector Classification (SVC) - Roberta_josu_768: 0.875
+random forest classifier - Roberta_josu_768: 0.8472222222222222
+Extra-trees classifier - Roberta_josu_768: 0.8333333333333334
+AdaBoost - Roberta_josu_768: 0.8055555555555556
+Gradient Boosting Machine - Roberta_josu_768: 0.8055555555555556
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Roberta_josu_768: 0.8055555555555556
+Bernoulli Naive Bayes - Roberta_josu_768: 0.4305555555555556
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.8194444444444444
+Decision tree classifier - Roberta_josu_768: 0.6527777777777778
+Support Vector Classification (SVC) - Roberta_josu_768: 0.8472222222222222
+random forest classifier - Roberta_josu_768: 0.875
+Extra-trees classifier - Roberta_josu_768: 0.8472222222222222
+AdaBoost - Roberta_josu_768: 0.7361111111111112
+Gradient Boosting Machine - Roberta_josu_768: 0.8888888888888888
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Roberta_josu_768: 0.8450704225352113
+Bernoulli Naive Bayes - Roberta_josu_768: 0.5492957746478874
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.8450704225352113
+Decision tree classifier - Roberta_josu_768: 0.7464788732394366
+Support Vector Classification (SVC) - Roberta_josu_768: 0.8591549295774648
+random forest classifier - Roberta_josu_768: 0.8028169014084507
+Extra-trees classifier - Roberta_josu_768: 0.8309859154929577
+AdaBoost - Roberta_josu_768: 0.7887323943661971
+Gradient Boosting Machine - Roberta_josu_768: 0.8450704225352113
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Roberta_josu_768: 0.8028169014084507
+Bernoulli Naive Bayes - Roberta_josu_768: 0.6901408450704225
+Complement Naive Bayes (CNB) - Roberta_josu_768: 0.8028169014084507
+Decision tree classifier - Roberta_josu_768: 0.7464788732394366
+Support Vector Classification (SVC) - Roberta_josu_768: 0.8309859154929577
+random forest classifier - Roberta_josu_768: 0.8309859154929577
+Extra-trees classifier - Roberta_josu_768: 0.8309859154929577
+AdaBoost - Roberta_josu_768: 0.8028169014084507
+Gradient Boosting Machine - Roberta_josu_768: 0.8309859154929577
+
+Quantidade rodadas: 10
+
+Piores resultados
+Multinomial Naive Bayes - Liwc obteve o melhor resultado: 0.704225352112676
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Liwc obteve o melhor resultado: 0.625
+Dataset treinamento nas posições:1
+Complement Naive Bayes (CNB) - Liwc obteve o melhor resultado: 0.704225352112676
+Dataset treinamento nas posições:9
+Decision tree classifier - Liwc obteve o melhor resultado: 0.6388888888888888
+Dataset treinamento nas posições:5
+Support Vector Classification (SVC) - Liwc obteve o melhor resultado: 0.7222222222222222
+Dataset treinamento nas posições:3
+random forest classifier - Liwc obteve o melhor resultado: 0.7361111111111112
+Dataset treinamento nas posições:5
+Extra-trees classifier - Liwc obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:2
+AdaBoost - Liwc obteve o melhor resultado: 0.7222222222222222
+Dataset treinamento nas posições:5
+Gradient Boosting Machine - Liwc obteve o melhor resultado: 0.7777777777777778
+Dataset treinamento nas posições:2
+Multinomial Naive Bayes - Liwc_(com_stopwords) obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:7
+Bernoulli Naive Bayes - Liwc_(com_stopwords) obteve o melhor resultado: 0.6111111111111112
+Dataset treinamento nas posições:5
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords) obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:7
+Decision tree classifier - Liwc_(com_stopwords) obteve o melhor resultado: 0.5277777777777778
+Dataset treinamento nas posições:3
+Support Vector Classification (SVC) - Liwc_(com_stopwords) obteve o melhor resultado: 0.625
+Dataset treinamento nas posições:2
+random forest classifier - Liwc_(com_stopwords) obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:1
+Extra-trees classifier - Liwc_(com_stopwords) obteve o melhor resultado: 0.6527777777777778
+Dataset treinamento nas posições:1
+AdaBoost - Liwc_(com_stopwords) obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:7
+Gradient Boosting Machine - Liwc_(com_stopwords) obteve o melhor resultado: 0.6527777777777778
+Dataset treinamento nas posições:7
+Multinomial Naive Bayes - Liwc_posemo_negemo obteve o melhor resultado: 0.5
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Liwc_posemo_negemo obteve o melhor resultado: 0.4166666666666667
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:2
+Decision tree classifier - Liwc_posemo_negemo obteve o melhor resultado: 0.4788732394366197
+Dataset treinamento nas posições:8
+Support Vector Classification (SVC) - Liwc_posemo_negemo obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:1
+random forest classifier - Liwc_posemo_negemo obteve o melhor resultado: 0.5
+Dataset treinamento nas posições:5
+Extra-trees classifier - Liwc_posemo_negemo obteve o melhor resultado: 0.4788732394366197
+Dataset treinamento nas posições:8
+AdaBoost - Liwc_posemo_negemo obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:2
+Gradient Boosting Machine - Liwc_posemo_negemo obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:2
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.4861111111111111
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.4166666666666667
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.5633802816901409
+Dataset treinamento nas posições:8
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.4722222222222222
+Dataset treinamento nas posições:1
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:1
+random forest classifier - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.5070422535211268
+Dataset treinamento nas posições:8
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.4861111111111111
+Dataset treinamento nas posições:6
+AdaBoost - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:1
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:2
+Multinomial Naive Bayes - Liwc_posemo obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Liwc_posemo obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Liwc_posemo obteve o melhor resultado: 0.30985915492957744
+Dataset treinamento nas posições:9
+Decision tree classifier - Liwc_posemo obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:0
+Support Vector Classification (SVC) - Liwc_posemo obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+random forest classifier - Liwc_posemo obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:0
+Extra-trees classifier - Liwc_posemo obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:0
+AdaBoost - Liwc_posemo obteve o melhor resultado: 0.3472222222222222
+Dataset treinamento nas posições:2
+Gradient Boosting Machine - Liwc_posemo obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:0
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.30985915492957744
+Dataset treinamento nas posições:9
+Decision tree classifier - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.5
+Dataset treinamento nas posições:0
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+random forest classifier - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.4722222222222222
+Dataset treinamento nas posições:2
+Extra-trees classifier - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.5070422535211268
+Dataset treinamento nas posições:8
+AdaBoost - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.4722222222222222
+Dataset treinamento nas posições:2
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.4722222222222222
+Dataset treinamento nas posições:2
+Multinomial Naive Bayes - Liwc_negemo obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Liwc_negemo obteve o melhor resultado: 0.4166666666666667
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Liwc_negemo obteve o melhor resultado: 0.30985915492957744
+Dataset treinamento nas posições:9
+Decision tree classifier - Liwc_negemo obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:2
+Support Vector Classification (SVC) - Liwc_negemo obteve o melhor resultado: 0.5492957746478874
+Dataset treinamento nas posições:8
+random forest classifier - Liwc_negemo obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:2
+Extra-trees classifier - Liwc_negemo obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:2
+AdaBoost - Liwc_negemo obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:2
+Gradient Boosting Machine - Liwc_negemo obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:2
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.4166666666666667
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.30985915492957744
+Dataset treinamento nas posições:9
+Decision tree classifier - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:2
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.5492957746478874
+Dataset treinamento nas posições:8
+random forest classifier - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:2
+Extra-trees classifier - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:2
+AdaBoost - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:2
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.5416666666666666
+Dataset treinamento nas posições:2
+Multinomial Naive Bayes - Word2Vec_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Word2Vec_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Word2Vec_768 obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:7
+Decision tree classifier - Word2Vec_768 obteve o melhor resultado: 0.5972222222222222
+Dataset treinamento nas posições:2
+Support Vector Classification (SVC) - Word2Vec_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:2
+random forest classifier - Word2Vec_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:2
+Extra-trees classifier - Word2Vec_768 obteve o melhor resultado: 0.6805555555555556
+Dataset treinamento nas posições:7
+AdaBoost - Word2Vec_768 obteve o melhor resultado: 0.704225352112676
+Dataset treinamento nas posições:8
+Gradient Boosting Machine - Word2Vec_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:5
+Multinomial Naive Bayes - Bertimbau_base_768 obteve o melhor resultado: 0.7746478873239436
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Bertimbau_base_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Bertimbau_base_768 obteve o melhor resultado: 0.7746478873239436
+Dataset treinamento nas posições:9
+Decision tree classifier - Bertimbau_base_768 obteve o melhor resultado: 0.6527777777777778
+Dataset treinamento nas posições:6
+Support Vector Classification (SVC) - Bertimbau_base_768 obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:1
+random forest classifier - Bertimbau_base_768 obteve o melhor resultado: 0.7605633802816901
+Dataset treinamento nas posições:9
+Extra-trees classifier - Bertimbau_base_768 obteve o melhor resultado: 0.75
+Dataset treinamento nas posições:3
+AdaBoost - Bertimbau_base_768 obteve o melhor resultado: 0.7222222222222222
+Dataset treinamento nas posições:3
+Gradient Boosting Machine - Bertimbau_base_768 obteve o melhor resultado: 0.7777777777777778
+Dataset treinamento nas posições:3
+Multinomial Naive Bayes - Bertimbau_large_768 obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Bertimbau_large_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Bertimbau_large_768 obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:2
+Decision tree classifier - Bertimbau_large_768 obteve o melhor resultado: 0.6056338028169014
+Dataset treinamento nas posições:9
+Support Vector Classification (SVC) - Bertimbau_large_768 obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:2
+random forest classifier - Bertimbau_large_768 obteve o melhor resultado: 0.8169014084507042
+Dataset treinamento nas posições:9
+Extra-trees classifier - Bertimbau_large_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:3
+AdaBoost - Bertimbau_large_768 obteve o melhor resultado: 0.7222222222222222
+Dataset treinamento nas posições:6
+Gradient Boosting Machine - Bertimbau_large_768 obteve o melhor resultado: 0.75
+Dataset treinamento nas posições:2
+Multinomial Naive Bayes - pierreguillou_768 obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - pierreguillou_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - pierreguillou_768 obteve o melhor resultado: 0.8194444444444444
+Dataset treinamento nas posições:3
+Decision tree classifier - pierreguillou_768 obteve o melhor resultado: 0.7083333333333334
+Dataset treinamento nas posições:3
+Support Vector Classification (SVC) - pierreguillou_768 obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:3
+random forest classifier - pierreguillou_768 obteve o melhor resultado: 0.7887323943661971
+Dataset treinamento nas posições:9
+Extra-trees classifier - pierreguillou_768 obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:3
+AdaBoost - pierreguillou_768 obteve o melhor resultado: 0.75
+Dataset treinamento nas posições:0
+Gradient Boosting Machine - pierreguillou_768 obteve o melhor resultado: 0.7887323943661971
+Dataset treinamento nas posições:9
+Multinomial Naive Bayes - Bert_base_768 obteve o melhor resultado: 0.4583333333333333
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Bert_base_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Bert_base_768 obteve o melhor resultado: 0.6527777777777778
+Dataset treinamento nas posições:1
+Decision tree classifier - Bert_base_768 obteve o melhor resultado: 0.5138888888888888
+Dataset treinamento nas posições:6
+Support Vector Classification (SVC) - Bert_base_768 obteve o melhor resultado: 0.6388888888888888
+Dataset treinamento nas posições:1
+random forest classifier - Bert_base_768 obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:1
+Extra-trees classifier - Bert_base_768 obteve o melhor resultado: 0.7083333333333334
+Dataset treinamento nas posições:1
+AdaBoost - Bert_base_768 obteve o melhor resultado: 0.676056338028169
+Dataset treinamento nas posições:8
+Gradient Boosting Machine - Bert_base_768 obteve o melhor resultado: 0.6805555555555556
+Dataset treinamento nas posições:1
+Multinomial Naive Bayes - Roberta_xlm_base_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Roberta_xlm_base_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768 obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:1
+Decision tree classifier - Roberta_xlm_base_768 obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:0
+Support Vector Classification (SVC) - Roberta_xlm_base_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+random forest classifier - Roberta_xlm_base_768 obteve o melhor resultado: 0.7777777777777778
+Dataset treinamento nas posições:3
+Extra-trees classifier - Roberta_xlm_base_768 obteve o melhor resultado: 0.7777777777777778
+Dataset treinamento nas posições:3
+AdaBoost - Roberta_xlm_base_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:2
+Gradient Boosting Machine - Roberta_xlm_base_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:3
+Multinomial Naive Bayes - Roberta_xlm_large_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Bernoulli Naive Bayes - Roberta_xlm_large_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768 obteve o melhor resultado: 0.5277777777777778
+Dataset treinamento nas posições:4
+Decision tree classifier - Roberta_xlm_large_768 obteve o melhor resultado: 0.6666666666666666
+Dataset treinamento nas posições:1
+Support Vector Classification (SVC) - Roberta_xlm_large_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+random forest classifier - Roberta_xlm_large_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:3
+Extra-trees classifier - Roberta_xlm_large_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:3
+AdaBoost - Roberta_xlm_large_768 obteve o melhor resultado: 0.7361111111111112
+Dataset treinamento nas posições:3
+Gradient Boosting Machine - Roberta_xlm_large_768 obteve o melhor resultado: 0.7777777777777778
+Dataset treinamento nas posições:3
+Multinomial Naive Bayes - Roberta_josu_768 obteve o melhor resultado: 0.7361111111111112
+Dataset treinamento nas posições:4
+Bernoulli Naive Bayes - Roberta_josu_768 obteve o melhor resultado: 0.4027777777777778
+Dataset treinamento nas posições:2
+Complement Naive Bayes (CNB) - Roberta_josu_768 obteve o melhor resultado: 0.7361111111111112
+Dataset treinamento nas posições:4
+Decision tree classifier - Roberta_josu_768 obteve o melhor resultado: 0.6527777777777778
+Dataset treinamento nas posições:3
+Support Vector Classification (SVC) - Roberta_josu_768 obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:2
+random forest classifier - Roberta_josu_768 obteve o melhor resultado: 0.7222222222222222
+Dataset treinamento nas posições:5
+Extra-trees classifier - Roberta_josu_768 obteve o melhor resultado: 0.7361111111111112
+Dataset treinamento nas posições:5
+AdaBoost - Roberta_josu_768 obteve o melhor resultado: 0.7083333333333334
+Dataset treinamento nas posições:5
+Gradient Boosting Machine - Roberta_josu_768 obteve o melhor resultado: 0.75
+Dataset treinamento nas posições:2
+
+Melhores resultados
+Multinomial Naive Bayes - Liwc obteve o melhor resultado: 0.8873239436619719
+Dataset treinamento nas posições:8
+Bernoulli Naive Bayes - Liwc obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:6
+Complement Naive Bayes (CNB) - Liwc obteve o melhor resultado: 0.8873239436619719
+Dataset treinamento nas posições:8
+Decision tree classifier - Liwc obteve o melhor resultado: 0.8169014084507042
+Dataset treinamento nas posições:9
+Support Vector Classification (SVC) - Liwc obteve o melhor resultado: 0.8450704225352113
+Dataset treinamento nas posições:8
+random forest classifier - Liwc obteve o melhor resultado: 0.875
+Dataset treinamento nas posições:0
+Extra-trees classifier - Liwc obteve o melhor resultado: 0.8309859154929577
+Dataset treinamento nas posições:8
+AdaBoost - Liwc obteve o melhor resultado: 0.8333333333333334
+Dataset treinamento nas posições:6
+Gradient Boosting Machine - Liwc obteve o melhor resultado: 0.8888888888888888
+Dataset treinamento nas posições:0
+Multinomial Naive Bayes - Liwc_(com_stopwords) obteve o melhor resultado: 0.7746478873239436
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Liwc_(com_stopwords) obteve o melhor resultado: 0.7638888888888888
+Dataset treinamento nas posições:4
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords) obteve o melhor resultado: 0.7746478873239436
+Dataset treinamento nas posições:9
+Decision tree classifier - Liwc_(com_stopwords) obteve o melhor resultado: 0.7083333333333334
+Dataset treinamento nas posições:6
+Support Vector Classification (SVC) - Liwc_(com_stopwords) obteve o melhor resultado: 0.8194444444444444
+Dataset treinamento nas posições:6
+random forest classifier - Liwc_(com_stopwords) obteve o melhor resultado: 0.8333333333333334
+Dataset treinamento nas posições:3
+Extra-trees classifier - Liwc_(com_stopwords) obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:3
+AdaBoost - Liwc_(com_stopwords) obteve o melhor resultado: 0.7777777777777778
+Dataset treinamento nas posições:2
+Gradient Boosting Machine - Liwc_(com_stopwords) obteve o melhor resultado: 0.7887323943661971
+Dataset treinamento nas posições:9
+Multinomial Naive Bayes - Liwc_posemo_negemo obteve o melhor resultado: 0.7183098591549296
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Liwc_posemo_negemo obteve o melhor resultado: 0.7464788732394366
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo obteve o melhor resultado: 0.7183098591549296
+Dataset treinamento nas posições:9
+Decision tree classifier - Liwc_posemo_negemo obteve o melhor resultado: 0.6527777777777778
+Dataset treinamento nas posições:4
+Support Vector Classification (SVC) - Liwc_posemo_negemo obteve o melhor resultado: 0.7083333333333334
+Dataset treinamento nas posições:3
+random forest classifier - Liwc_posemo_negemo obteve o melhor resultado: 0.6666666666666666
+Dataset treinamento nas posições:4
+Extra-trees classifier - Liwc_posemo_negemo obteve o melhor resultado: 0.6666666666666666
+Dataset treinamento nas posições:4
+AdaBoost - Liwc_posemo_negemo obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+Gradient Boosting Machine - Liwc_posemo_negemo obteve o melhor resultado: 0.704225352112676
+Dataset treinamento nas posições:9
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.7183098591549296
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.7464788732394366
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.7222222222222222
+Dataset treinamento nas posições:3
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.6666666666666666
+Dataset treinamento nas posições:3
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.7183098591549296
+Dataset treinamento nas posições:9
+random forest classifier - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.6666666666666666
+Dataset treinamento nas posições:7
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.6666666666666666
+Dataset treinamento nas posições:7
+AdaBoost - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.7083333333333334
+Dataset treinamento nas posições:3
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords) obteve o melhor resultado: 0.676056338028169
+Dataset treinamento nas posições:9
+Multinomial Naive Bayes - Liwc_posemo obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Liwc_posemo obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Liwc_posemo obteve o melhor resultado: 0.5972222222222222
+Dataset treinamento nas posições:2
+Decision tree classifier - Liwc_posemo obteve o melhor resultado: 0.5277777777777778
+Dataset treinamento nas posições:1
+Support Vector Classification (SVC) - Liwc_posemo obteve o melhor resultado: 0.6056338028169014
+Dataset treinamento nas posições:9
+random forest classifier - Liwc_posemo obteve o melhor resultado: 0.5915492957746479
+Dataset treinamento nas posições:9
+Extra-trees classifier - Liwc_posemo obteve o melhor resultado: 0.5277777777777778
+Dataset treinamento nas posições:1
+AdaBoost - Liwc_posemo obteve o melhor resultado: 0.5633802816901409
+Dataset treinamento nas posições:9
+Gradient Boosting Machine - Liwc_posemo obteve o melhor resultado: 0.5633802816901409
+Dataset treinamento nas posições:9
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.5972222222222222
+Dataset treinamento nas posições:2
+Decision tree classifier - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.6197183098591549
+Dataset treinamento nas posições:9
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.647887323943662
+Dataset treinamento nas posições:9
+random forest classifier - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.6388888888888888
+Dataset treinamento nas posições:4
+Extra-trees classifier - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.6197183098591549
+Dataset treinamento nas posições:9
+AdaBoost - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.6527777777777778
+Dataset treinamento nas posições:4
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords) obteve o melhor resultado: 0.6527777777777778
+Dataset treinamento nas posições:4
+Multinomial Naive Bayes - Liwc_negemo obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Liwc_negemo obteve o melhor resultado: 0.7464788732394366
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Liwc_negemo obteve o melhor resultado: 0.5972222222222222
+Dataset treinamento nas posições:2
+Decision tree classifier - Liwc_negemo obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+Support Vector Classification (SVC) - Liwc_negemo obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+random forest classifier - Liwc_negemo obteve o melhor resultado: 0.7183098591549296
+Dataset treinamento nas posições:9
+Extra-trees classifier - Liwc_negemo obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+AdaBoost - Liwc_negemo obteve o melhor resultado: 0.6805555555555556
+Dataset treinamento nas posições:0
+Gradient Boosting Machine - Liwc_negemo obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.7464788732394366
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.5972222222222222
+Dataset treinamento nas posições:2
+Decision tree classifier - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+random forest classifier - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+Extra-trees classifier - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+AdaBoost - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.6805555555555556
+Dataset treinamento nas posições:0
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords) obteve o melhor resultado: 0.6944444444444444
+Dataset treinamento nas posições:3
+Multinomial Naive Bayes - Word2Vec_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Word2Vec_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Word2Vec_768 obteve o melhor resultado: 0.8591549295774648
+Dataset treinamento nas posições:9
+Decision tree classifier - Word2Vec_768 obteve o melhor resultado: 0.75
+Dataset treinamento nas posições:5
+Support Vector Classification (SVC) - Word2Vec_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+random forest classifier - Word2Vec_768 obteve o melhor resultado: 0.875
+Dataset treinamento nas posições:4
+Extra-trees classifier - Word2Vec_768 obteve o melhor resultado: 0.8611111111111112
+Dataset treinamento nas posições:3
+AdaBoost - Word2Vec_768 obteve o melhor resultado: 0.8611111111111112
+Dataset treinamento nas posições:1
+Gradient Boosting Machine - Word2Vec_768 obteve o melhor resultado: 0.8873239436619719
+Dataset treinamento nas posições:9
+Multinomial Naive Bayes - Bertimbau_base_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+Bernoulli Naive Bayes - Bertimbau_base_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Bertimbau_base_768 obteve o melhor resultado: 0.9166666666666666
+Dataset treinamento nas posições:4
+Decision tree classifier - Bertimbau_base_768 obteve o melhor resultado: 0.8333333333333334
+Dataset treinamento nas posições:4
+Support Vector Classification (SVC) - Bertimbau_base_768 obteve o melhor resultado: 0.9305555555555556
+Dataset treinamento nas posições:7
+random forest classifier - Bertimbau_base_768 obteve o melhor resultado: 0.9014084507042254
+Dataset treinamento nas posições:8
+Extra-trees classifier - Bertimbau_base_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+AdaBoost - Bertimbau_base_768 obteve o melhor resultado: 0.8611111111111112
+Dataset treinamento nas posições:6
+Gradient Boosting Machine - Bertimbau_base_768 obteve o melhor resultado: 0.8888888888888888
+Dataset treinamento nas posições:0
+Multinomial Naive Bayes - Bertimbau_large_768 obteve o melhor resultado: 0.8888888888888888
+Dataset treinamento nas posições:6
+Bernoulli Naive Bayes - Bertimbau_large_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Bertimbau_large_768 obteve o melhor resultado: 0.9166666666666666
+Dataset treinamento nas posições:7
+Decision tree classifier - Bertimbau_large_768 obteve o melhor resultado: 0.7916666666666666
+Dataset treinamento nas posições:6
+Support Vector Classification (SVC) - Bertimbau_large_768 obteve o melhor resultado: 0.9305555555555556
+Dataset treinamento nas posições:7
+random forest classifier - Bertimbau_large_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:7
+Extra-trees classifier - Bertimbau_large_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:7
+AdaBoost - Bertimbau_large_768 obteve o melhor resultado: 0.9166666666666666
+Dataset treinamento nas posições:7
+Gradient Boosting Machine - Bertimbau_large_768 obteve o melhor resultado: 0.8873239436619719
+Dataset treinamento nas posições:8
+Multinomial Naive Bayes - pierreguillou_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - pierreguillou_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - pierreguillou_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+Decision tree classifier - pierreguillou_768 obteve o melhor resultado: 0.8450704225352113
+Dataset treinamento nas posições:8
+Support Vector Classification (SVC) - pierreguillou_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:0
+random forest classifier - pierreguillou_768 obteve o melhor resultado: 0.9166666666666666
+Dataset treinamento nas posições:5
+Extra-trees classifier - pierreguillou_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+AdaBoost - pierreguillou_768 obteve o melhor resultado: 0.8611111111111112
+Dataset treinamento nas posições:4
+Gradient Boosting Machine - pierreguillou_768 obteve o melhor resultado: 0.8732394366197183
+Dataset treinamento nas posições:8
+Multinomial Naive Bayes - Bert_base_768 obteve o melhor resultado: 0.8169014084507042
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Bert_base_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Bert_base_768 obteve o melhor resultado: 0.7746478873239436
+Dataset treinamento nas posições:9
+Decision tree classifier - Bert_base_768 obteve o melhor resultado: 0.7083333333333334
+Dataset treinamento nas posições:0
+Support Vector Classification (SVC) - Bert_base_768 obteve o melhor resultado: 0.8333333333333334
+Dataset treinamento nas posições:0
+random forest classifier - Bert_base_768 obteve o melhor resultado: 0.8333333333333334
+Dataset treinamento nas posições:0
+Extra-trees classifier - Bert_base_768 obteve o melhor resultado: 0.8194444444444444
+Dataset treinamento nas posições:0
+AdaBoost - Bert_base_768 obteve o melhor resultado: 0.8055555555555556
+Dataset treinamento nas posições:0
+Gradient Boosting Machine - Bert_base_768 obteve o melhor resultado: 0.8333333333333334
+Dataset treinamento nas posições:0
+Multinomial Naive Bayes - Roberta_xlm_base_768 obteve o melhor resultado: 0.7183098591549296
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Roberta_xlm_base_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768 obteve o melhor resultado: 0.7777777777777778
+Dataset treinamento nas posições:5
+Decision tree classifier - Roberta_xlm_base_768 obteve o melhor resultado: 0.8309859154929577
+Dataset treinamento nas posições:8
+Support Vector Classification (SVC) - Roberta_xlm_base_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+random forest classifier - Roberta_xlm_base_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+Extra-trees classifier - Roberta_xlm_base_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+AdaBoost - Roberta_xlm_base_768 obteve o melhor resultado: 0.875
+Dataset treinamento nas posições:1
+Gradient Boosting Machine - Roberta_xlm_base_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:6
+Multinomial Naive Bayes - Roberta_xlm_large_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Roberta_xlm_large_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768 obteve o melhor resultado: 0.6619718309859155
+Dataset treinamento nas posições:9
+Decision tree classifier - Roberta_xlm_large_768 obteve o melhor resultado: 0.7887323943661971
+Dataset treinamento nas posições:8
+Support Vector Classification (SVC) - Roberta_xlm_large_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+random forest classifier - Roberta_xlm_large_768 obteve o melhor resultado: 0.9305555555555556
+Dataset treinamento nas posições:4
+Extra-trees classifier - Roberta_xlm_large_768 obteve o melhor resultado: 0.9027777777777778
+Dataset treinamento nas posições:4
+AdaBoost - Roberta_xlm_large_768 obteve o melhor resultado: 0.8591549295774648
+Dataset treinamento nas posições:8
+Gradient Boosting Machine - Roberta_xlm_large_768 obteve o melhor resultado: 0.9166666666666666
+Dataset treinamento nas posições:4
+Multinomial Naive Bayes - Roberta_josu_768 obteve o melhor resultado: 0.9166666666666666
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - Roberta_josu_768 obteve o melhor resultado: 0.6901408450704225
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Roberta_josu_768 obteve o melhor resultado: 0.9166666666666666
+Dataset treinamento nas posições:0
+Decision tree classifier - Roberta_josu_768 obteve o melhor resultado: 0.75
+Dataset treinamento nas posições:2
+Support Vector Classification (SVC) - Roberta_josu_768 obteve o melhor resultado: 0.8888888888888888
+Dataset treinamento nas posições:0
+random forest classifier - Roberta_josu_768 obteve o melhor resultado: 0.875
+Dataset treinamento nas posições:0
+Extra-trees classifier - Roberta_josu_768 obteve o melhor resultado: 0.8888888888888888
+Dataset treinamento nas posições:0
+AdaBoost - Roberta_josu_768 obteve o melhor resultado: 0.8194444444444444
+Dataset treinamento nas posições:0
+Gradient Boosting Machine - Roberta_josu_768 obteve o melhor resultado: 0.8888888888888888
+Dataset treinamento nas posições:7
+
+Media resultados + desvio padrão
+Multinomial Naive Bayes - Liwc 0.7924882629107981 (0.060386649066766995)
+Bernoulli Naive Bayes - Liwc 0.7172143974960876 (0.0519355108352073)
+Complement Naive Bayes (CNB) - Liwc 0.7910993740219092 (0.060229647695297504)
+Decision tree classifier - Liwc 0.7341744913928012 (0.05503162836424127)
+Support Vector Classification (SVC) - Liwc 0.7911580594679186 (0.03425119132540895)
+random forest classifier - Liwc 0.8105633802816902 (0.03997357287010075)
+Extra-trees classifier - Liwc 0.7995109546165884 (0.023703149395563238)
+AdaBoost - Liwc 0.7854851330203443 (0.03076908771120209)
+Gradient Boosting Machine - Liwc 0.8189553990610329 (0.032188579285606145)
+Multinomial Naive Bayes - Liwc_(com_stopwords) 0.6868544600938967 (0.07594862145244181)
+Bernoulli Naive Bayes - Liwc_(com_stopwords) 0.7047143974960877 (0.052116674179414)
+Complement Naive Bayes (CNB) - Liwc_(com_stopwords) 0.6882433489827856 (0.08275448125731145)
+Decision tree classifier - Liwc_(com_stopwords) 0.6143388106416275 (0.06203638901682117)
+Support Vector Classification (SVC) - Liwc_(com_stopwords) 0.7312206572769953 (0.05785226229656445)
+random forest classifier - Liwc_(com_stopwords) 0.7451682316118936 (0.04668885719598605)
+Extra-trees classifier - Liwc_(com_stopwords) 0.7368348982785602 (0.04718113993630037)
+AdaBoost - Liwc_(com_stopwords) 0.7270148669796557 (0.0258118505462243)
+Gradient Boosting Machine - Liwc_(com_stopwords) 0.7298904538341158 (0.034139576936230646)
+Multinomial Naive Bayes - Liwc_posemo_negemo 0.61570813771518 (0.05476178133459996)
+Bernoulli Naive Bayes - Liwc_posemo_negemo 0.5560250391236307 (0.08911325663942454)
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo 0.6198356807511737 (0.055457674027658006)
+Decision tree classifier - Liwc_posemo_negemo 0.5597222222222222 (0.05320145247632209)
+Support Vector Classification (SVC) - Liwc_posemo_negemo 0.6365805946791863 (0.055860393249898214)
+random forest classifier - Liwc_posemo_negemo 0.5849765258215962 (0.050740588836625376)
+Extra-trees classifier - Liwc_posemo_negemo 0.5708333333333333 (0.0547736034236393)
+AdaBoost - Liwc_posemo_negemo 0.604518779342723 (0.05423451476467651)
+Gradient Boosting Machine - Liwc_posemo_negemo 0.6128912363067293 (0.04763930220504776)
+Multinomial Naive Bayes - Liwc_posemo_negemo_(com_stopwords) 0.6142605633802817 (0.06271058222441685)
+Bernoulli Naive Bayes - Liwc_posemo_negemo_(com_stopwords) 0.5532472613458529 (0.0897318529970647)
+Complement Naive Bayes (CNB) - Liwc_posemo_negemo_(com_stopwords) 0.6337245696400626 (0.0557069670713155)
+Decision tree classifier - Liwc_posemo_negemo_(com_stopwords) 0.5611306729264476 (0.06485042728059627)
+Support Vector Classification (SVC) - Liwc_posemo_negemo_(com_stopwords) 0.6310446009389672 (0.05426332275460115)
+random forest classifier - Liwc_posemo_negemo_(com_stopwords) 0.5849178403755868 (0.05730693482903672)
+Extra-trees classifier - Liwc_posemo_negemo_(com_stopwords) 0.5583528951486698 (0.05744236724767497)
+AdaBoost - Liwc_posemo_negemo_(com_stopwords) 0.626819248826291 (0.05782030867500693)
+Gradient Boosting Machine - Liwc_posemo_negemo_(com_stopwords) 0.6128521126760563 (0.04980228040540643)
+Multinomial Naive Bayes - Liwc_posemo 0.523943661971831 (0.08474471916215942)
+Bernoulli Naive Bayes - Liwc_posemo 0.5225547730829421 (0.0843280363904795)
+Complement Naive Bayes (CNB) - Liwc_posemo 0.476056338028169 (0.08474471916215943)
+Decision tree classifier - Liwc_posemo 0.4665492957746479 (0.03812717747515063)
+Support Vector Classification (SVC) - Liwc_posemo 0.4959507042253521 (0.06808523760959251)
+random forest classifier - Liwc_posemo 0.47920579029733956 (0.053224967564107564)
+Extra-trees classifier - Liwc_posemo 0.4637715179968701 (0.04009177707915602)
+AdaBoost - Liwc_posemo 0.4721830985915493 (0.06778008396410538)
+Gradient Boosting Machine - Liwc_posemo 0.476349765258216 (0.051271846389513515)
+Multinomial Naive Bayes - Liwc_posemo_(com_stopwords) 0.523943661971831 (0.08474471916215942)
+Bernoulli Naive Bayes - Liwc_posemo_(com_stopwords) 0.5211658841940532 (0.08411593332595807)
+Complement Naive Bayes (CNB) - Liwc_posemo_(com_stopwords) 0.476056338028169 (0.08474471916215943)
+Decision tree classifier - Liwc_posemo_(com_stopwords) 0.5543427230046948 (0.04291336205583685)
+Support Vector Classification (SVC) - Liwc_posemo_(com_stopwords) 0.5044405320813772 (0.0724292980852203)
+random forest classifier - Liwc_posemo_(com_stopwords) 0.5515845070422535 (0.05626680326993528)
+Extra-trees classifier - Liwc_posemo_(com_stopwords) 0.5557316118935837 (0.04132754221702611)
+AdaBoost - Liwc_posemo_(com_stopwords) 0.5460093896713615 (0.0597914685793984)
+Gradient Boosting Machine - Liwc_posemo_(com_stopwords) 0.5654733959311424 (0.05267558109302958)
+Multinomial Naive Bayes - Liwc_negemo 0.523943661971831 (0.08474471916215942)
+Bernoulli Naive Bayes - Liwc_negemo 0.5574139280125195 (0.08984970917990422)
+Complement Naive Bayes (CNB) - Liwc_negemo 0.476056338028169 (0.08474471916215943)
+Decision tree classifier - Liwc_negemo 0.6252543035993741 (0.06007783821470037)
+Support Vector Classification (SVC) - Liwc_negemo 0.6294209702660407 (0.04629370451281568)
+random forest classifier - Liwc_negemo 0.6364827856025039 (0.06164703979835917)
+Extra-trees classifier - Liwc_negemo 0.6252543035993741 (0.06007783821470037)
+AdaBoost - Liwc_negemo 0.6183098591549296 (0.04964993749551403)
+Gradient Boosting Machine - Liwc_negemo 0.6224765258215963 (0.05393142820748262)
+Multinomial Naive Bayes - Liwc_negemo_(com_stopwords) 0.523943661971831 (0.08474471916215942)
+Bernoulli Naive Bayes - Liwc_negemo_(com_stopwords) 0.5574139280125195 (0.08984970917990422)
+Complement Naive Bayes (CNB) - Liwc_negemo_(com_stopwords) 0.476056338028169 (0.08474471916215943)
+Decision tree classifier - Liwc_negemo_(com_stopwords) 0.6252543035993741 (0.06007783821470037)
+Support Vector Classification (SVC) - Liwc_negemo_(com_stopwords) 0.6294209702660407 (0.04629370451281568)
+random forest classifier - Liwc_negemo_(com_stopwords) 0.6280320813771518 (0.0553181194601242)
+Extra-trees classifier - Liwc_negemo_(com_stopwords) 0.6252543035993741 (0.06007783821470037)
+AdaBoost - Liwc_negemo_(com_stopwords) 0.6183098591549296 (0.04964993749551403)
+Gradient Boosting Machine - Liwc_negemo_(com_stopwords) 0.6224765258215963 (0.05393142820748262)
+Multinomial Naive Bayes - Word2Vec_768 0.523943661971831 (0.08474471916215942)
+Bernoulli Naive Bayes - Word2Vec_768 0.523943661971831 (0.08474471916215942)
+Complement Naive Bayes (CNB) - Word2Vec_768 0.7772691705790298 (0.044437297608060505)
+Decision tree classifier - Word2Vec_768 0.6684467918622848 (0.04701819352634773)
+Support Vector Classification (SVC) - Word2Vec_768 0.8232198748043819 (0.043182462554934346)
+random forest classifier - Word2Vec_768 0.8147496087636933 (0.031770098514668804)
+Extra-trees classifier - Word2Vec_768 0.8106807511737089 (0.0524999765298981)
+AdaBoost - Word2Vec_768 0.7938184663536776 (0.04396032188575319)
+Gradient Boosting Machine - Word2Vec_768 0.8203834115805947 (0.042293875270006956)
+Multinomial Naive Bayes - Bertimbau_base_768 0.8356220657276996 (0.04747431730817561)
+Bernoulli Naive Bayes - Bertimbau_base_768 0.523943661971831 (0.08474471916215942)
+Complement Naive Bayes (CNB) - Bertimbau_base_768 0.842566510172144 (0.04341020264248672)
+Decision tree classifier - Bertimbau_base_768 0.7507237871674491 (0.04481825352220609)
+Support Vector Classification (SVC) - Bertimbau_base_768 0.8467331768388107 (0.045055175494661266)
+random forest classifier - Bertimbau_base_768 0.8425860719874805 (0.044365666733876735)
+Extra-trees classifier - Bertimbau_base_768 0.8481611893583725 (0.04771509720463528)
+AdaBoost - Bertimbau_base_768 0.8105829420970266 (0.039895079064264975)
+Gradient Boosting Machine - Bertimbau_base_768 0.8341940532081377 (0.03734598008279949)
+Multinomial Naive Bayes - Bertimbau_large_768 0.8496087636932708 (0.0338039036514578)
+Bernoulli Naive Bayes - Bertimbau_large_768 0.523943661971831 (0.08474471916215942)
+Complement Naive Bayes (CNB) - Bertimbau_large_768 0.8495892018779343 (0.044749844948303245)
+Decision tree classifier - Bertimbau_large_768 0.7394170579029734 (0.04818988392066478)
+Support Vector Classification (SVC) - Bertimbau_large_768 0.8524452269170579 (0.04766376304326368)
+random forest classifier - Bertimbau_large_768 0.8523865414710485 (0.03304397688749524)
+Extra-trees classifier - Bertimbau_large_768 0.8342331768388106 (0.04018829161056085)
+AdaBoost - Bertimbau_large_768 0.8203247261345853 (0.05182878885616789)
+Gradient Boosting Machine - Bertimbau_large_768 0.8343505477308294 (0.036686597937058245)
+Multinomial Naive Bayes - pierreguillou_768 0.8482198748043819 (0.04040965875194165)
+Bernoulli Naive Bayes - pierreguillou_768 0.523943661971831 (0.08474471916215942)
+Complement Naive Bayes (CNB) - pierreguillou_768 0.8579420970266041 (0.029049368225725444)
+Decision tree classifier - pierreguillou_768 0.7564553990610329 (0.0450385893819569)
+Support Vector Classification (SVC) - pierreguillou_768 0.8523865414710485 (0.03522432812901124)
+random forest classifier - pierreguillou_768 0.848180751173709 (0.04728511606347047)
+Extra-trees classifier - pierreguillou_768 0.8537363067292645 (0.03488163498675749)
+AdaBoost - pierreguillou_768 0.8051056338028169 (0.0336070678043217)
+Gradient Boosting Machine - pierreguillou_768 0.8259194053208138 (0.029370415987817994)
+Multinomial Naive Bayes - Bert_base_768 0.6215179968701096 (0.11091924655474096)
+Bernoulli Naive Bayes - Bert_base_768 0.523943661971831 (0.08474471916215942)
+Complement Naive Bayes (CNB) - Bert_base_768 0.6992175273865414 (0.0484385624998662)
+Decision tree classifier - Bert_base_768 0.6281298904538342 (0.06238268738241174)
+Support Vector Classification (SVC) - Bert_base_768 0.734037558685446 (0.05260093212294469)
+random forest classifier - Bert_base_768 0.7493544600938967 (0.0374501285978979)
+Extra-trees classifier - Bert_base_768 0.7632237871674491 (0.03171671927806549)
+AdaBoost - Bert_base_768 0.7339788732394367 (0.03874360126988351)
+Gradient Boosting Machine - Bert_base_768 0.7452073552425665 (0.04122638079008865)
+Multinomial Naive Bayes - Roberta_xlm_base_768 0.5281494522691706 (0.08888728096544889)
+Bernoulli Naive Bayes - Roberta_xlm_base_768 0.523943661971831 (0.08474471916215942)
+Complement Naive Bayes (CNB) - Roberta_xlm_base_768 0.7325899843505478 (0.023855150567346873)
+Decision tree classifier - Roberta_xlm_base_768 0.7647691705790297 (0.04774103013833878)
+Support Vector Classification (SVC) - Roberta_xlm_base_768 0.523943661971831 (0.08474471916215942)
+random forest classifier - Roberta_xlm_base_768 0.8621087636932707 (0.04468223944603612)
+Extra-trees classifier - Roberta_xlm_base_768 0.8467918622848201 (0.03934880428285468)
+AdaBoost - Roberta_xlm_base_768 0.8301447574334898 (0.03691507368120311)
+Gradient Boosting Machine - Roberta_xlm_base_768 0.8439749608763694 (0.04078778758617008)
+Multinomial Naive Bayes - Roberta_xlm_large_768 0.5267410015649452 (0.08630964885593659)
+Bernoulli Naive Bayes - Roberta_xlm_large_768 0.523943661971831 (0.08474471916215942)
+Complement Naive Bayes (CNB) - Roberta_xlm_large_768 0.6114827856025039 (0.035289368478368346)
+Decision tree classifier - Roberta_xlm_large_768 0.7285015649452269 (0.03579571149857837)
+Support Vector Classification (SVC) - Roberta_xlm_large_768 0.523943661971831 (0.08474471916215942)
+random forest classifier - Roberta_xlm_large_768 0.8467527386541471 (0.049541176937597416)
+Extra-trees classifier - Roberta_xlm_large_768 0.8397496087636933 (0.041249444831072846)
+AdaBoost - Roberta_xlm_large_768 0.8106025039123631 (0.035822784974304196)
+Gradient Boosting Machine - Roberta_xlm_large_768 0.8440140845070423 (0.034463255445635256)
+Multinomial Naive Bayes - Roberta_josu_768 0.8050665101721439 (0.04629833738438217)
+Bernoulli Naive Bayes - Roberta_josu_768 0.523943661971831 (0.08474471916215942)
+Complement Naive Bayes (CNB) - Roberta_josu_768 0.8050665101721439 (0.04712426697981879)
+Decision tree classifier - Roberta_josu_768 0.7131846635367762 (0.04116977257655494)
+Support Vector Classification (SVC) - Roberta_josu_768 0.83429186228482 (0.04401647098381502)
+random forest classifier - Roberta_josu_768 0.8147691705790298 (0.044788308792256294)
+Extra-trees classifier - Roberta_josu_768 0.8217527386541471 (0.0365108378936435)
+AdaBoost - Roberta_josu_768 0.770266040688576 (0.03428815169981104)
+Gradient Boosting Machine - Roberta_josu_768 0.8051056338028169 (0.041767572534196946)
+
+
+Support Vector Classification (SVC) - Bertimbau_base_768 obteve o melhor resultado: 0.9305555555555556
+Dataset treinamento nas posições:7

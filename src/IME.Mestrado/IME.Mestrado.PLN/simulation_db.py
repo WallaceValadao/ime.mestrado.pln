@@ -66,22 +66,35 @@ class SimulationAlgorithm():
             self.besteResults[i].printResult();
         self.configs.log.print('')
 
+        melhorMedia = 0
+        printMelhorMedia = ''
+
         self.configs.log.print('Media resultados + desvio padrão')
         for i in range(0, len(self.mediaResults)):
             if len(self.mediaResults[i].valores) == 0:
                 continue
 
-            media = str(statistics.mean(self.mediaResults[i].valores))
+            mediaNumber = statistics.mean(self.mediaResults[i].valores)
+            media = str(mediaNumber)
             desvio = str(statistics.pstdev(self.mediaResults[i].valores))
-            self.configs.log.print(self.mediaResults[i].nome + ' ' + media + ' (' + desvio + ')')
+
+            printMedia = self.mediaResults[i].nome + ' ' + media + ' (' + desvio + ')'
+            self.configs.log.print(printMedia)
+
+            if mediaNumber > melhorMedia:
+                melhorMedia = mediaNumber
+                printMelhorMedia = printMedia
+
         self.configs.log.print('')
-        
+        print('Melhor média')
+        self.configs.log.print(printMelhorMedia)
+
         self.configs.log.print('')
         print('Melhor resultado')
         self.bestAlgorithm.printResult();
 
         self.configs.log.save()
-
+        
 
     def executePrevisores(self, previsor, quantidadeRodadas, usarParticaoSimples, usarParticaoFracionado):
         if usarParticaoSimples:

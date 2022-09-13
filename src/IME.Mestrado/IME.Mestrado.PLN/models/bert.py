@@ -3,22 +3,20 @@ codecs.register_error('strict', codecs.lookup_error('surrogateescape'))
 
 from transformers import AutoModel, AutoTokenizer
 from keras.preprocessing import sequence
+from keras.preprocessing import sequence
+from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 
 import torch
-
 import numpy as np
 
-from keras.preprocessing import sequence
-
-
-from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
+import models.util.valorPositivo as valorPositivo
 
 class PreProcessamentoBert():
 
-    def __init__(self, max_len=512, parsePostiveValues=False):
-
-        self.tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-large-portuguese-cased', do_lower_case=True)
-        self.model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
+    def __init__(self, path_model, max_len=512, parsePostiveValues=False):
+        self.path_model = path_model
+        self.tokenizer = AutoTokenizer.from_pretrained(self.path_model, do_lower_case=True)
+        self.model = AutoModel.from_pretrained(self.path_model)
         self.max_len = max_len
         self.parsePostiveValues = parsePostiveValues
         
@@ -103,7 +101,6 @@ class PreProcessamentoBert():
 
         return sequence.pad_sequences(all_tokens, maxlen=self.max_len)
 
-    
 
     def encoder(self, texts):
         all_tokens = []
@@ -165,8 +162,8 @@ class PreProcessamentoBert():
     def encoderBal(self, texts):
         all_tokens = []
 
-        tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-base-portuguese-cased', do_lower_case=False)
-        model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
+        tokenizer = AutoTokenizer.from_pretrained(self.path_model, do_lower_case=False)
+        model = AutoModel.from_pretrained(self.path_model)
         for text in texts:
             text = self._tokenBert(text)
 
@@ -189,30 +186,11 @@ class PreProcessamentoBert():
 
                 array_embeddings = array_embeddings[:self.max_len]
 
-                all_tokens.append(array_embeddings)
+                all_tokens.append(list(array_embeddings))
 
+        bertArray = valorPositivo.converterArray(all_tokens)
 
-        if self.parsePostiveValues:
-            return self.parsePositive(all_tokens)
-
-        return all_tokens
-
-
-    def parsePositive(self, all_tokens):
-        minUser = 0
-
-        for item in all_tokens:
-            for atual in item:
-                if atual < minUser:
-                    minUser = atual
-
-        minUser = minUser * -1
-
-        for item in all_tokens:
-            for i in range(0, len(item)):
-                item[i] += minUser
-
-        return all_tokens
+        return list(bertArray)
     
 
     def getAttributesBase(self, previsores):

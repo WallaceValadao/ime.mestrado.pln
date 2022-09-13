@@ -17,16 +17,26 @@ dataset = pd.read_csv(pathDb, separador)
 print(dataset.shape)
 textCol = config.dados.dfColumns['text']
 classCol = config.dados.dfColumns['classes']
-previsores = dataset.iloc[:,[textCol, classCol]].values
+
+posicaoText = 0
+posicaoClasses = 0
+
+for posicao in range(len(dataset.columns.values)):
+    if textCol == dataset.columns.values[posicao]:
+        posicaoText = posicao
+    elif classCol == dataset.columns.values[posicao]:
+        posicaoClasses = posicao
+
+previsores = dataset.iloc[:,[posicaoText, posicaoClasses]].values
 print(previsores[0:5])
-classeBase = dataset.iloc[:,classCol].values
+classeBase = dataset.iloc[:,posicaoClasses].values
 print(classeBase[0:5])
 
 from sklearn.preprocessing import LabelEncoder
 labelencoder = LabelEncoder()
 classe = labelencoder.fit_transform(classeBase)
 
-#tratamento das informa��es
+#tratamento das informações
 import corretor_db as corretor_db
 corretorDb = corretor_db.CorretorDb()
 
@@ -36,12 +46,9 @@ previsores = corretorDb.getOrCorrect(tratarDb, previsores, classe)
 import pre_processamento_atributos as pre_atributos
 extrator = pre_atributos.ExtratorDeAtributos(previsores)
 
-#representacoes = extrator.getLiwc()
-
-representacoes = extrator.getWord2Vec() ######################EM CONSTRUÇÃO###############
-
-#representacoes += extrator.getBert()
-#representacoes = extrator.getBert()
+representacoes = extrator.getLiwc()
+representacoes += extrator.getWord2Vec()
+representacoes += extrator.getBert()
 
 #criando lista de algortimos
 import algoritmos as algoritmos
