@@ -56,7 +56,7 @@ class MachineLearningClassification():
 class AlgoritmosList():
 
     def __init__(self):
-        self.configs = ref_config.Configs()
+        self.configs = ref_config.dados
 
 
     def getClassic(self):
