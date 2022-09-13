@@ -11,12 +11,12 @@ class PrintBase():
 
 class PrintFile():
 
-    def __init__(self):
+    def __init__(self, dataset):
         from time import gmtime, strftime
-        data = strftime("%Y-%m-%d-%H-%M-%S", gmtime())
+        data = strftime("%Y-%m-%d-%H-%M", gmtime())
 
         self.textSave = ''
-        self.pathFile = 'results\\resultados-' + data + '.txt'
+        self.pathFile = f'results\\{dataset}({data}).txt'
 
     
     def print(self, text):
@@ -32,7 +32,6 @@ class PrintFile():
             f.write(self.textSave)
 
 printBase = PrintBase()
-printFile = PrintFile()
 
 class Configs():
 
@@ -47,7 +46,7 @@ class Configs():
         }
         self.tratarDb = False
         self.pathDbTratado = self.pathDb.replace('.csv', '_tratado.csv')
-        self.log = printFile
+        self.log = PrintFile(self.dataset)
         self.numero_classes = 2
         self.w2vCorpus = f'datasets\\{w2vCorpus}'
         self.W2VEmbeddings = {
