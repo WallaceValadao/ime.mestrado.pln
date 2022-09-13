@@ -70,7 +70,9 @@ class SimulationAlgorithm():
         self.configs.log.print('')
 
         self.configs.log.print('Media resultados + desvio padrão')
-        jsonMedias = dict()
+        # inserir a média no dicionário de json do modelo/ algoritmo
+        with open('medias.json', 'r') as arq:
+            jsonMedias = json.load(arq)
         for i in range(0, len(self.mediaResults)):
             if len(self.mediaResults[i].valores) == 0:
                 continue
@@ -79,9 +81,7 @@ class SimulationAlgorithm():
             desvio = statistics.pstdev(self.mediaResults[i].valores)
             sDesvio = str(desvio)
             self.configs.log.print(self.mediaResults[i].algoritmo + '- ' + self.mediaResults[i].modelo + ' ' + sMedia + ' (' + sDesvio + ')')
-            # inserir a média no dicionário de json do modelo/ algoritmo
-            with open('medias.json', 'r') as arq:
-                jsonMedias = json.load(arq)
+
             ### Se ainda não existe o json do dataset, cria o json para aquele dataset
             if ref_config.dados.dataset not in jsonMedias.keys():
                 jsonMedias[ref_config.dados.dataset] = dict()

@@ -1,0 +1,169 @@
+Particionamento fracionado
+10% teste - posicões: i=0
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 1.0
+Multinomial Naive Bayes - Word2Vec electronic reviews 768 obteve o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 1.0
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.75
+Decision tree classifier - Word2Vec electronic reviews 768: 0.875
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 1.0
+random forest classifier - Word2Vec electronic reviews 768: 1.0
+Extra-trees classifier - Word2Vec electronic reviews 768: 0.9583333333333334
+AdaBoost - Word2Vec electronic reviews 768: 0.9583333333333334
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.9166666666666666
+
+10% teste - posicões: i=1
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 0.875
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 0.875
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.75
+Decision tree classifier - Word2Vec electronic reviews 768: 0.7083333333333334
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 0.875
+random forest classifier - Word2Vec electronic reviews 768: 0.875
+Extra-trees classifier - Word2Vec electronic reviews 768: 0.875
+AdaBoost - Word2Vec electronic reviews 768: 0.875
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.9166666666666666
+
+10% teste - posicões: i=2
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 0.9583333333333334
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 0.9583333333333334
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.6666666666666666
+Decision tree classifier - Word2Vec electronic reviews 768: 0.75
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 0.9583333333333334
+random forest classifier - Word2Vec electronic reviews 768: 0.9166666666666666
+Extra-trees classifier - Word2Vec electronic reviews 768: 0.9583333333333334
+AdaBoost - Word2Vec electronic reviews 768: 0.9583333333333334
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.875
+
+10% teste - posicões: i=3
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 1.0
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 1.0
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.7391304347826086
+Decision tree classifier - Word2Vec electronic reviews 768: 0.8695652173913043
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 1.0
+random forest classifier - Word2Vec electronic reviews 768: 0.9565217391304348
+Extra-trees classifier - Word2Vec electronic reviews 768: 1.0
+AdaBoost - Word2Vec electronic reviews 768: 0.9565217391304348
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 1.0
+
+10% teste - posicões: i=4
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 0.8695652173913043
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 0.8695652173913043
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.5217391304347826
+Decision tree classifier - Word2Vec electronic reviews 768: 0.6521739130434783
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 0.9130434782608695
+random forest classifier - Word2Vec electronic reviews 768: 0.8260869565217391
+Extra-trees classifier - Word2Vec electronic reviews 768: 0.8695652173913043
+AdaBoost - Word2Vec electronic reviews 768: 0.7391304347826086
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.782608695652174
+
+10% teste - posicões: i=5
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 0.9565217391304348
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 0.9565217391304348
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.8260869565217391
+Decision tree classifier - Word2Vec electronic reviews 768: 0.9130434782608695
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 0.9565217391304348
+random forest classifier - Word2Vec electronic reviews 768: 0.9565217391304348
+Extra-trees classifier - Word2Vec electronic reviews 768: 0.9565217391304348
+AdaBoost - Word2Vec electronic reviews 768: 0.9130434782608695
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.9565217391304348
+
+10% teste - posicões: i=6
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 0.9565217391304348
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 0.9565217391304348
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.782608695652174
+Decision tree classifier - Word2Vec electronic reviews 768: 0.8260869565217391
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 0.9565217391304348
+random forest classifier - Word2Vec electronic reviews 768: 0.9130434782608695
+Extra-trees classifier - Word2Vec electronic reviews 768: 1.0
+AdaBoost - Word2Vec electronic reviews 768: 0.9565217391304348
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.9130434782608695
+
+10% teste - posicões: i=7
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 0.9130434782608695
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 0.9130434782608695
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.782608695652174
+Decision tree classifier - Word2Vec electronic reviews 768: 0.782608695652174
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 0.9130434782608695
+random forest classifier - Word2Vec electronic reviews 768: 0.9130434782608695
+Extra-trees classifier - Word2Vec electronic reviews 768: 0.9565217391304348
+AdaBoost - Word2Vec electronic reviews 768: 0.8260869565217391
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.8695652173913043
+
+10% teste - posicões: i=8
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 0.6086956521739131
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 0.6086956521739131
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.782608695652174
+Decision tree classifier - Word2Vec electronic reviews 768: 0.6086956521739131
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 0.6086956521739131
+random forest classifier - Word2Vec electronic reviews 768: 0.6521739130434783
+Extra-trees classifier - Word2Vec electronic reviews 768: 0.6521739130434783
+AdaBoost - Word2Vec electronic reviews 768: 0.6956521739130435
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.7391304347826086
+
+10% teste - posicões: i=9
+Multinomial Naive Bayes - Word2Vec electronic reviews 768: 0.0
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768: 0.0
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768: 0.8260869565217391
+Decision tree classifier - Word2Vec electronic reviews 768: 0.4782608695652174
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768: 0.043478260869565216
+random forest classifier - Word2Vec electronic reviews 768: 0.08695652173913043
+Extra-trees classifier - Word2Vec electronic reviews 768: 0.043478260869565216
+AdaBoost - Word2Vec electronic reviews 768: 0.13043478260869565
+Gradient Boosting Machine - Word2Vec electronic reviews 768: 0.2608695652173913
+
+Quantidade rodadas: 10
+
+Piores resultados
+Multinomial Naive Bayes - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.0
+Dataset treinamento nas posições:9
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.0
+Dataset treinamento nas posições:9
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.5217391304347826
+Dataset treinamento nas posições:4
+Decision tree classifier - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.4782608695652174
+Dataset treinamento nas posições:9
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.043478260869565216
+Dataset treinamento nas posições:9
+random forest classifier - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.08695652173913043
+Dataset treinamento nas posições:9
+Extra-trees classifier - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.043478260869565216
+Dataset treinamento nas posições:9
+AdaBoost - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.13043478260869565
+Dataset treinamento nas posições:9
+Gradient Boosting Machine - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.2608695652173913
+Dataset treinamento nas posições:9
+
+Melhores resultados
+Multinomial Naive Bayes - Word2Vec electronic reviews 768 obteve o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+Bernoulli Naive Bayes - Word2Vec electronic reviews 768 obteve o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+Complement Naive Bayes (CNB) - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.8260869565217391
+Dataset treinamento nas posições:5
+Decision tree classifier - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.9130434782608695
+Dataset treinamento nas posições:5
+Support Vector Classification (SVC) - Word2Vec electronic reviews 768 obteve o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+random forest classifier - Word2Vec electronic reviews 768 obteve o melhor resultado: 1.0
+Dataset treinamento nas posições:0
+Extra-trees classifier - Word2Vec electronic reviews 768 obteve o melhor resultado: 1.0
+Dataset treinamento nas posições:3
+AdaBoost - Word2Vec electronic reviews 768 obteve o melhor resultado: 0.9583333333333334
+Dataset treinamento nas posições:0
+Gradient Boosting Machine - Word2Vec electronic reviews 768 obteve o melhor resultado: 1.0
+Dataset treinamento nas posições:3
+
+Media resultados + desvio padrão
+Multinomial Naive Bayes- Word2Vec electronic reviews 768 0.813768115942029 (0.29189252214891087)
+Bernoulli Naive Bayes- Word2Vec electronic reviews 768 0.813768115942029 (0.29189252214891087)
+Complement Naive Bayes (CNB)- Word2Vec electronic reviews 768 0.7427536231884058 (0.08567902176149249)
+Decision tree classifier- Word2Vec electronic reviews 768 0.7463768115942029 (0.12974606821796728)
+Support Vector Classification (SVC)- Word2Vec electronic reviews 768 0.822463768115942 (0.280913954180696)
+random forest classifier- Word2Vec electronic reviews 768 0.8096014492753623 (0.2576497781098412)
+Extra-trees classifier- Word2Vec electronic reviews 768 0.8269927536231885 (0.27865622625030534)
+AdaBoost- Word2Vec electronic reviews 768 0.8009057971014493 (0.24106519952967206)
+Gradient Boosting Machine- Word2Vec electronic reviews 768 0.8230072463768116 (0.20108214186689424)
+
+
+Multinomial Naive Bayes - Word2Vec electronic reviews 768 obteve o melhor resultado: 1.0
+Dataset treinamento nas posições:0
