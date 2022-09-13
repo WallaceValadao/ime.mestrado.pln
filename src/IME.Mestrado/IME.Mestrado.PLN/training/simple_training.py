@@ -1,8 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, accuracy_score
 
-import configs as ref_config
-
 class SimpleTraining():
     previsores = []
     classe = []
@@ -17,8 +15,8 @@ class SimpleTraining():
     taxa_acerto = 0
     algoritm = []
 
-    def __init__(self, previsores, classe, test_size, random_state, algoritm, nameAlgoritm, typeRv):
-        self.configs = ref_config.Configs()
+    def __init__(self, configuracoes, previsores, classe, test_size, random_state, algoritm, nameAlgoritm, typeRv):
+        self.configs = configuracoes
 
         self.previsores = previsores
         self.classe = classe

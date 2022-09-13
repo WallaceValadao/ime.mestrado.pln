@@ -1,3 +1,4 @@
+import os
 
 class PrintBase():
     
@@ -11,12 +12,12 @@ class PrintBase():
 
 class PrintFile():
 
-    def __init__(self):
+    def __init__(self, dataset):
         from time import gmtime, strftime
         data = strftime("%Y-%m-%d-%H-%M-%S", gmtime())
 
         self.textSave = ''
-        self.pathFile = 'asserts\\resultados\\resultados-' + data + '.txt'
+        self.pathFile = f'asserts\\resultados\\{dataset}-{data}.txt'
 
     
     def print(self, text):
@@ -31,8 +32,6 @@ class PrintFile():
         with open(self.pathFile, 'w') as f:
             f.write(self.textSave)
 
-printBase = PrintBase()
-printFile = PrintFile()
 
 class W2VModel():
     def __init__(self, path, pathModel, size_vector, min_count, window, epochs, progress):
@@ -51,11 +50,15 @@ class BertModel():
 
 
 class Configs():
+    
+    def __init__(self, datasetName):
+        self.pathLiwc = 'asserts\\modelos\\LIWC2007_Portugues_win.dic.json'
 
-    def __init__(self):
         #caminho para arquivo com o dataset
-        self.pathDb = 'D:\\Projetos\\ime.mestrado\\dataset\\dataset_yt_3_judges_BraSNAM_2019.csv'
-        #self.pathDb = 'asserts\\datasets\\Subjectivity-annotated_corpus_on_electronic_product_domain-anotacao-BELISARIO-preproc.CSV'
+        dataset = datasetName.split('.')[0]
+
+        self.pathDb = f'asserts\\datasets\\{datasetName}'
+        self.pathDbTratado = f'asserts\\datasets_tratados\\{datasetName}'
         self.separador = ';'
         #self.dfColumns = {
         #    'text': 'FRASE',
@@ -66,10 +69,8 @@ class Configs():
             'classes': 'classes'
         }
         self.tratarDb = False
-        self.pathDbTratado = self.pathDb.replace('.csv', '_tratado.csv')
-        self.pathRepresentacao = 'asserts\\rv_dataset\\'
-        self.pathRepresentacao += self.pathDb.split('\\')[-1].replace('.csv', '_')
-        self.log = printFile
+        self.pathRepresentacao = f'asserts\\rv_dataset\\{dataset}_'
+        self.log = PrintFile(dataset)
         self.numero_classes = 2
         self.w2VEmbeddings = [
             W2VModel('asserts\\modelos\\buscape_preprocessed.txt', 
@@ -96,6 +97,9 @@ class Configs():
         #self.epochs = [ 2 ]
 
 
-dados = Configs()
+array_configuracoes = []
+
+for namePathDb in os.listdir('asserts\\datasets'):
+    array_configuracoes.append(Configs(namePathDb))
 
 

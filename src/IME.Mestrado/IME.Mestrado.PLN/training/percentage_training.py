@@ -2,8 +2,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, accuracy_score
 import numpy as np
 
-import configs as ref_config
-
 class PercentageTraining():
     previsores = []
     classe = []
@@ -17,8 +15,8 @@ class PercentageTraining():
     taxa_acerto = 0
     algoritm = []
 
-    def __init__(self, previsores, classe, positions, algoritm, nameAlgoritm, typeRv):
-        self.configs = ref_config.dados
+    def __init__(self, configuracoes, previsores, classe, positions, algoritm, nameAlgoritm, typeRv):
+        self.configs = configuracoes
 
         self.previsores = previsores
         self.classe = classe

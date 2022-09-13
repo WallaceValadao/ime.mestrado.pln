@@ -3,7 +3,6 @@ import training.simple_training as training;
 import training.percentage_training as percentageTraining;
 
 import statistics
-import configs as ref_config
 
 class Object(object):
     pass
@@ -17,8 +16,8 @@ class SimulationAlgorithm():
     algoritmos = []
     algoritmosLabel = []
 
-    def __init__(self, algoritmos, previsores, classe):
-        self.configs = ref_config.Configs()
+    def __init__(self, configuracoes, algoritmos, previsores, classe):
+        self.configs = configuracoes
 
         self.previsores = previsores;
         self.classe = classe;
@@ -127,13 +126,13 @@ class SimulationAlgorithm():
 
     def executeSimple(self, percente, previsores):
         for i in range(0, len(self.algoritmos)):
-            execution = training.SimpleTraining(previsores.getPrevisores(), self.classe, percente, 0, self.algoritmos[i].getInstance(), self.algoritmos[i].getName(), previsores.getName())
+            execution = training.SimpleTraining(self.configs, previsores.getPrevisores(), self.classe, percente, 0, self.algoritmos[i].getInstance(), self.algoritmos[i].getName(), previsores.getName())
             execution.execute(previsores.getMaxReviewLength())
             self.validate(execution, previsores)
 
     def executePart(self, positions, previsores):
         for i in range(0, len(self.algoritmos)):
-            nbGaussian = percentageTraining.PercentageTraining(previsores.getPrevisores(), self.classe, positions, self.algoritmos[i].getInstance(), self.algoritmos[i].getName(), previsores.getName())
+            nbGaussian = percentageTraining.PercentageTraining(self.configs, previsores.getPrevisores(), self.classe, positions, self.algoritmos[i].getInstance(), self.algoritmos[i].getName(), previsores.getName())
             nbGaussian.execute(previsores.getMaxReviewLength())
             self.validate(nbGaussian, previsores)
         

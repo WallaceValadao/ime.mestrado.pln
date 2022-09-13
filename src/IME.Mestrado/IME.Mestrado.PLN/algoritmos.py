@@ -17,8 +17,6 @@ from sklearn.tree import DecisionTreeClassifier
 import redes_neurais.lstm as lstm
 import redes_neurais.bilstm as bilstm
 
-import configs as ref_config
-
 class Algoritmo():
 
     def __init__(self, name, instance):
@@ -55,8 +53,8 @@ class MachineLearningClassification():
 
 class AlgoritmosList():
 
-    def __init__(self):
-        self.configs = ref_config.dados
+    def __init__(self, configs):
+        self.configs = configs
 
 
     def getClassic(self):
