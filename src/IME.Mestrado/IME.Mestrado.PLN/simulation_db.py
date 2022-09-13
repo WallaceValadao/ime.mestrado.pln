@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 import training.simple_training as training;
 import training.percentage_training as percentageTraining;
@@ -18,7 +19,7 @@ class SimulationAlgorithm():
     algoritmosLabel = []
 
     def __init__(self, algoritmos, previsores, classe):
-        self.configs = ref_config.Configs()
+        self.configs = ref_config.dados
 
         self.previsores = previsores;
         self.classe = classe;
@@ -40,6 +41,8 @@ class SimulationAlgorithm():
                 mediaAcerto = Object()
                 mediaAcerto.valores = []
                 mediaAcerto.nome = nameAg
+                mediaAcerto.modelo = self.previsores[j].getName()
+                mediaAcerto.algoritmo = self.algoritmos[i].getName()
                 self.mediaResults.append(mediaAcerto)
 
     def execute(self, quantidadeRodadas = 0, usarParticaoSimples = True, usarParticaoFracionado = True):
@@ -67,15 +70,34 @@ class SimulationAlgorithm():
         self.configs.log.print('')
 
         self.configs.log.print('Media resultados + desvio padrão')
+        jsonMedias = dict()
         for i in range(0, len(self.mediaResults)):
             if len(self.mediaResults[i].valores) == 0:
                 continue
+            media = statistics.mean(self.mediaResults[i].valores)
+            sMedia = str(media)
+            desvio = statistics.pstdev(self.mediaResults[i].valores)
+            sDesvio = str(desvio)
+            self.configs.log.print(self.mediaResults[i].algoritmo + '- ' + self.mediaResults[i].modelo + ' ' + sMedia + ' (' + sDesvio + ')')
+            # inserir a média no dicionário de json do modelo/ algoritmo
+            with open('medias.json', 'r') as arq:
+                jsonMedias = json.load(arq)
+            ### Se ainda não existe o json do dataset, cria o json para aquele dataset
+            if ref_config.dados.dataset not in jsonMedias.keys():
+                jsonMedias[ref_config.dados.dataset] = dict()
+            ### Se existe o json do dataset, mas não existe, nele, o modelo específico, cria o json do modelo para aquele dataset
+            if self.mediaResults[i].modelo not in jsonMedias[ref_config.dados.dataset].keys():
+                jsonMedias[ref_config.dados.dataset][self.mediaResults[i].modelo] = dict()
+            ### inclui a média do algoritmo atual no json daquele dataset/modelo no json carregado
+            jsonMedias[ref_config.dados.dataset][self.mediaResults[i].modelo][self.mediaResults[i].algoritmo] = media
+            ### salva o json com o novo conjunto de json
+        with open('medias.json', 'w') as arq:
+            json.dump(jsonMedias, arq)
 
-            media = str(statistics.mean(self.mediaResults[i].valores))
-            desvio = str(statistics.pstdev(self.mediaResults[i].valores))
-            self.configs.log.print(self.mediaResults[i].nome + ' ' + media + ' (' + desvio + ')')
+            #resultsREST = json.dump(RESTdic)
+            #####CARREGAR O JSON AQUI, INCLUIR O RESULTADO DO MODELO NOVO E ATUALIZAR O QUE FOR O MODELO REPETIDO.
         self.configs.log.print('')
-        
+
         self.configs.log.print('')
         print('Melhor resultado')
         self.bestAlgorithm.printResult();
@@ -110,7 +132,7 @@ class SimulationAlgorithm():
 
             if quantidadeRodadas > 0 and quantidadeRodadas < self.quantidadeRodadas:
                 break
-                    
+
 
     def executeSimple(self, percente, previsores):
         for i in range(0, len(self.algoritmos)):
@@ -123,8 +145,8 @@ class SimulationAlgorithm():
             nbGaussian = percentageTraining.PercentageTraining(previsores.getPrevisores(), self.classe, positions, self.algoritmos[i].getInstance(), self.algoritmos[i].getName(), previsores.getName())
             nbGaussian.execute(previsores.getMaxReviewLength())
             self.validate(nbGaussian, previsores)
-        
-    def validate(self, algorithm, previsor): 
+
+    def validate(self, algorithm, previsor):
         nome = algorithm.nameAlgoritm + ' - ' + previsor.getName()
         self.configs.log.print(nome + ': ' + str(algorithm.taxa_acerto))
 
@@ -146,4 +168,3 @@ class SimulationAlgorithm():
 
         if (self.besteResults[posicao] == None or algorithm.taxa_acerto > self.besteResults[i].taxa_acerto):
             self.besteResults[posicao] = algorithm
-

@@ -18,7 +18,7 @@ class PercentageTraining():
     algoritm = []
 
     def __init__(self, previsores, classe, positions, algoritm, nameAlgoritm, typeRv):
-        self.configs = ref_config.Configs()
+        self.configs = ref_config.dados
 
         self.previsores = previsores
         self.classe = classe

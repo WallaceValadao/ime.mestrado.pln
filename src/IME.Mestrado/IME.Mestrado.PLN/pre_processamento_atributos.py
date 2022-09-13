@@ -51,8 +51,8 @@ class ExtratorDeAtributos():
         return bert.getAttributesBase(self.previsores)
         #return bert.preprocessing_for_bert(self.previsores)
 
-    def _getWord2Vec(self, modelCorpus):####################################
-        return w2vimport.w2vEmbeddings(self.previsores, modelCorpus)
+    def _getWord2Vec(self):####################################
+        return w2vimport.w2vEmbeddings(self.previsores)
 
     def getLiwc(self):
         list = []
@@ -82,8 +82,8 @@ class ExtratorDeAtributos():
 
         return list
     # o modelCorpus deverá ser o nome do arquivo do corpus da RV, não o da rede neural.
-    def getWord2Vec(self, modelCorpus='buscape_preprocessed.txt'):  # #####################################
+    def getWord2Vec(self):  # #####################################
         list = []
-        list.append(Rv(f'Word2Vec {modelCorpus[:-4]} {config.dados.W2VEmbeddings["size_vector"]}', self._getWord2Vec(modelCorpus), 768))  # max review length??
+        list.append(Rv(f'Word2Vec {config.dados.dataset} {config.dados.W2VEmbeddings["size_vector"]}', self._getWord2Vec(), 768))  # max review length??
 
         return list

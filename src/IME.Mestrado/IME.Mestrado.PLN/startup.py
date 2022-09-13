@@ -17,9 +17,9 @@ dataset = pd.read_csv(pathDb, separador)
 print(dataset.shape)
 textCol = config.dados.dfColumns['text']
 classCol = config.dados.dfColumns['classes']
-previsores = dataset.iloc[:,[textCol, classCol]].values
+previsores = dataset.loc[:,[textCol, classCol]].values
 print(previsores[0:5])
-classeBase = dataset.iloc[:,classCol].values
+classeBase = dataset.loc[:,classCol].values
 print(classeBase[0:5])
 
 from sklearn.preprocessing import LabelEncoder

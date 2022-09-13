@@ -5,13 +5,13 @@ from os.path import exists
 import configs as config
 
 
-def w2vEmbeddings(textos, modelCorpus):
-    # # caso seja usado um novo dataset para construir os embeddigns
-    if not exists(f'models/w2v-{modelCorpus[:-4]} {config.dados.W2VEmbeddings["size_vector"]}.model'):
-        print(f'Building RV model from corpus {modelCorpus}')
-        build(modelCorpus)
+def w2vEmbeddings(textos):
+    # # caso seja usado um novo conjunto dataset-dimensão para construir os embeddigns
+    if not exists(f'w2v-{config.dados.w2vCorpus[9:-4]} {config.dados.W2VEmbeddings["size_vector"]}.model'):
+        print(f'Building RV model from corpus {config.dados.w2vCorpus[9:]}')
+        build(config.dados.w2vCorpus)
     print('Creating vector representations')
-    word_vectors = Word2Vec.load(f'models/w2v-{modelCorpus[:-4]} {config.dados.W2VEmbeddings["size_vector"]}.model').wv
+    word_vectors = Word2Vec.load(f'w2v-{config.dados.w2vCorpus[9:-4]} {config.dados.W2VEmbeddings["size_vector"]}.model').wv
     word_vectors.init_sims(replace=True)
     textos = [sentence.split(' ') for sentence in textos]
     textos_sum = [[0]*word_vectors.vector_size for sentence in textos] # sentences não é usada, mas parece que funciona como equivalente a len(textos)
@@ -29,7 +29,7 @@ def w2vEmbeddings(textos, modelCorpus):
 
 ## baseado no código de LuizGFerreira em https://github.com/Luizgferreira/subjectivity-classifier
 def build(corpus):
-    file_path = f'datasets/{corpus}'
+    file_path = corpus
     sentences = np.loadtxt(file_path, dtype='str', delimiter='\t')
     sentences = [sentence.split(' ') for sentence in sentences]
     model = Word2Vec(vector_size = config.dados.W2VEmbeddings['size_vector'],
@@ -39,7 +39,7 @@ def build(corpus):
     model.train(sentences, total_examples=len(sentences),
                 epochs=config.dados.W2VEmbeddings['epochs'])
     # o nome do arquivo de modelo será o corpus_name sem a extensão
-    model.save(f'models/w2v-{corpus[:-4]} {config.dados.W2VEmbeddings["size_vector"]}.model')
+    model.save(f'w2v-{corpus[9:-4]} {config.dados.W2VEmbeddings["size_vector"]}.model')
 
 def parsePositive(list):
     minUser = 0
