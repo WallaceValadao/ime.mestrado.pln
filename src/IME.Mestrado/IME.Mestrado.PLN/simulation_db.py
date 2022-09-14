@@ -39,6 +39,8 @@ class SimulationAlgorithm():
                 mediaAcerto = Object()
                 mediaAcerto.valores = []
                 mediaAcerto.nome = nameAg
+                mediaAcerto.modelo = self.previsores[j].getName()
+                mediaAcerto.algoritmo = self.algoritmos[i].getName()
                 self.mediaResults.append(mediaAcerto)
 
     def execute(self, quantidadeRodadas = 0, usarParticaoSimples = True, usarParticaoFracionado = True):
@@ -67,22 +69,46 @@ class SimulationAlgorithm():
 
         melhorMedia = 0
         printMelhorMedia = ''
-
+        
         self.configs.log.print('Media resultados + desvio padrão')
+
+        import os
+        existeJson = os.path.isfile(self.configs.mediaPath)
+            
+        jsonMedias = []
+        # inserir a média no dicionário de json do modelo/ algoritmo
+        if existeJson:
+            with open(self.configs.mediaPath, 'r') as arq:
+                jsonMedias = json.load(arq)
+
         for i in range(0, len(self.mediaResults)):
             if len(self.mediaResults[i].valores) == 0:
                 continue
 
-            mediaNumber = statistics.mean(self.mediaResults[i].valores)
-            media = str(mediaNumber)
-            desvio = str(statistics.pstdev(self.mediaResults[i].valores))
+            media = statistics.mean(self.mediaResults[i].valores)
+            desvio  = statistics.pstdev(self.mediaResults[i].valores)
+            sMedia  = str(mediaNumber)
+            sDesvio  = str(desvio)
 
-            printMedia = self.mediaResults[i].nome + ' ' + media + ' (' + desvio + ')'
+            printMedia = self.mediaResults[i].nome + ' ' + sMedia + ' (' + sDesvio  + ')'
             self.configs.log.print(printMedia)
 
-            if mediaNumber > melhorMedia:
-                melhorMedia = mediaNumber
+            if media > melhorMedia:
+                melhorMedia = media
                 printMelhorMedia = printMedia
+
+            ### Se ainda não existe o json do dataset, cria o json para aquele dataset
+            if self.configs.dataset not in jsonMedias.keys():
+                jsonMedias[self.configs.dataset] = dict()
+            ### Se existe o json do dataset, mas não existe, nele, o modelo específico, cria o json do modelo para aquele dataset
+            if self.mediaResults[i].modelo not in jsonMedias[self.configs.dataset].keys():
+                jsonMedias[self.configs.dataset][self.mediaResults[i].modelo] = dict()
+            ### inclui a média do algoritmo atual no json daquele dataset/modelo no json carregado
+            jsonMedias[self.configs.dataset][self.mediaResults[i].modelo][self.mediaResults[i].algoritmo] = media
+            ### salva o json com o novo conjunto de json
+
+        with open(self.configs.mediaPath, 'w') as arq:
+            json.dump(jsonMedias, arq)
 
         self.configs.log.print('')
         print('Melhor média')

@@ -59,6 +59,7 @@ class Configs():
 
         self.pathDb = f'asserts\\datasets\\{datasetName}'
         self.pathDbTratado = f'asserts\\datasets_tratados\\{datasetName}'
+        self.mediaPath = 'asserts\\resultados\\medias.json'
         self.separador = ';'
         #self.dfColumns = {
         #    'text': 'FRASE',
