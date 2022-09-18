@@ -92,9 +92,9 @@ class AlgoritmosList():
 
         for epoch in self.configs.epochs:
             labelEpoch =  ' (epoch = ' + str(epoch) + ')'
-            algoritmosRna.append(Algoritmo('LSTM (softmax)' + labelEpoch, lstm.LstmClassification('softmax', epoch)))
-            algoritmosRna.append(Algoritmo('LSTM (sigmoid)' + labelEpoch, lstm.LstmClassification('sigmoid', epoch)))
-            algoritmosRna.append(Algoritmo('BiLSTM (softmax)' + labelEpoch, bilstm.BiLstmClassification('softmax', epoch)))
-            algoritmosRna.append(Algoritmo('BiLSTM (sigmoid)' + labelEpoch, bilstm.BiLstmClassification('sigmoid', epoch)))
+
+            for funcao_ativacao in self.configs.funcao_ativacao:
+                algoritmosRna.append(Algoritmo(f'LSTM ({funcao_ativacao}){labelEpoch}', lstm.LstmClassification(self.configs, funcao_ativacao, epoch)))
+                algoritmosRna.append(Algoritmo('BiLSTM ({funcao_ativacao}){labelEpoch}', bilstm.BiLstmClassification(self.configs, funcao_ativacao, epoch)))
 
         return algoritmosRna

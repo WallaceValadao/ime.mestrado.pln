@@ -55,7 +55,7 @@ class Configs():
         self.pathLiwc = 'asserts\\modelos\\LIWC2007_Portugues_win.dic.json'
 
         #caminho para arquivo com o dataset
-        dataset = datasetName.split('.')[0]
+        self.dataset = datasetName.split('.')[0]
 
         self.pathDb = f'asserts\\datasets\\{datasetName}'
         self.pathDbTratado = f'asserts\\datasets_tratados\\{datasetName}'
@@ -70,13 +70,13 @@ class Configs():
             'classes': 'classes'
         }
         self.tratarDb = False
-        self.pathRepresentacao = f'asserts\\rv_dataset\\{dataset}_'
-        self.log = PrintFile(dataset)
+        self.pathRepresentacao = f'asserts\\rv_dataset\\{self.dataset}_'
+        self.log = PrintFile(self.dataset)
         self.numero_classes = 2
         self.w2VEmbeddings = [
             W2VModel('asserts\\modelos\\buscape_preprocessed.txt', 
                      'asserts\\rv_models\\w2v-buscape_preprocessed_768.model', 
-                     768, 4, 4, 100, 10000)
+                     512, 4, 4, 100, 10000)
         ]
         self.bert_array = [
             BertModel('Bertimbau_base', 'neuralmind/bert-base-portuguese-cased'),
@@ -96,6 +96,9 @@ class Configs():
         #Aqui pode definir a quantidade de epochs para as rnas
         self.epochs = [2, 10, 20, 50]
         #self.epochs = [ 2 ]
+
+        self.funcao_ativacao = [ 'softmax', 'sigmoid', 'relu' ]
+
 
 
 array_configuracoes = []

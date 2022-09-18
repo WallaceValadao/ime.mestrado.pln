@@ -122,6 +122,6 @@ class ExtratorDeAtributos():
 
         for w2v in self.configuracoes.w2VEmbeddings:
             list.append(Rv(self.configuracoes, f'Word2Vec_{w2v.size_vector}', 
-                           self.previsores, 768, GetWord2Vec(w2v)))
+                           self.previsores, w2v.size_vector, GetWord2Vec(w2v)))
 
         return list
