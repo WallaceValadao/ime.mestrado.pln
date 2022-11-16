@@ -3,6 +3,7 @@ import training.simple_training as training;
 import training.percentage_training as percentageTraining;
 
 import statistics
+import json
 
 class Object(object):
     pass
@@ -87,7 +88,7 @@ class SimulationAlgorithm():
 
             media = statistics.mean(self.mediaResults[i].valores)
             desvio  = statistics.pstdev(self.mediaResults[i].valores)
-            sMedia  = str(mediaNumber)
+            sMedia  = str(media)
             sDesvio  = str(desvio)
 
             printMedia = self.mediaResults[i].nome + ' ' + sMedia + ' (' + sDesvio  + ')'

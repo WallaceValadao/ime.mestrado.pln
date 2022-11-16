@@ -17,11 +17,12 @@ for configuracoes in config.array_configuracoes:
         tratarDb = False
         pathDb = configuracoes.pathDbTratado
     print(f'Starting training for the dataset in {pathDb}')
-    dataset = pd.read_csv(pathDb, separador)
-    print(dataset.shape)
+    #dataset = pd.read_csv(pathDb, separador)
+    #print(dataset.shape)
     textCol = configuracoes.dfColumns['text']
     classCol = configuracoes.dfColumns['classes']
-    
+    dataset = pd.read_csv(pathDb, separador, usecols=[textCol, classCol], skipinitialspace=True)
+    print(dataset.shape)
     posicaoText = 0
     posicaoClasses = 0
     
@@ -32,9 +33,9 @@ for configuracoes in config.array_configuracoes:
             posicaoClasses = posicao
     
     previsores = dataset.iloc[:,[posicaoText, posicaoClasses]].values
-    print(previsores[0:5])
+    print(previsores[0:10])
     classeBase = dataset.iloc[:,posicaoClasses].values
-    print(classeBase[0:5])
+    print(classeBase[0:10])
     
     labelencoder = LabelEncoder()
     classe = labelencoder.fit_transform(classeBase)
@@ -48,9 +49,9 @@ for configuracoes in config.array_configuracoes:
     #extra��o de atributos
     extrator = pre_atributos.ExtratorDeAtributos(configuracoes, previsores)
     
-    representacoes = extrator.getLiwc()
-    representacoes += extrator.getWord2Vec()
-    representacoes += extrator.getBert()
+    representacoes = extrator.getWord2Vec()
+    #representacoes += extrator.getLiwc()
+    #representacoes += extrator.getBert()
     
     #criando lista de algortimos
     algortimos = []

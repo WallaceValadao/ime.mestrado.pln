@@ -60,15 +60,16 @@ class Configs():
         self.pathDb = f'asserts\\datasets\\{datasetName}'
         self.pathDbTratado = f'asserts\\datasets_tratados\\{datasetName}'
         self.mediaPath = 'asserts\\resultados\\medias.json'
-        self.separador = ';'
-        #self.dfColumns = {
-        #    'text': 'FRASE',
-        #    'classes': 'OBJ/SUBJ'
-        #}
+        # self.separador = ';'
+        self.separador = ','
         self.dfColumns = {
-            'text': 'frases',
-            'classes': 'classes'
+            'text': 'FRASE',
+            'classes': 'OBJ/SUBJ'
         }
+        #self.dfColumns = {
+        #    'text': 'frases',
+        #    'classes': 'classes'
+        #}
         self.tratarDb = False
         self.pathRepresentacao = f'asserts\\rv_dataset\\{self.dataset}_'
         self.log = PrintFile(self.dataset)
@@ -76,7 +77,7 @@ class Configs():
         self.w2VEmbeddings = [
             W2VModel('asserts\\modelos\\buscape_preprocessed.txt', 
                      'asserts\\rv_models\\w2v-buscape_preprocessed_768.model', 
-                     512, 4, 4, 100, 10000)
+                     768, 4, 4, 100, 10000)
         ]
         self.bert_array = [
             BertModel('Bertimbau_base', 'neuralmind/bert-base-portuguese-cased'),

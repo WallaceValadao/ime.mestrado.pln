@@ -21,6 +21,6 @@ class CorretorDb():
         novaPrevi = []
         for previ in previsores:
             novaPrevi.append(previ[0])
-        
+        # print(novaPrevi) para debug
         return novaPrevi
         

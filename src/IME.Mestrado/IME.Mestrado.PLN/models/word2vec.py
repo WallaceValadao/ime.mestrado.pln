@@ -17,6 +17,10 @@ class PreProcessamentoW2v():
 
 
     def w2vEmbeddings(self, textos):
+        # para debug de dataset
+        for i, sentence in enumerate(textos):
+            if type(sentence) is float:
+                print(f'Sentença anterior: {textos[i - 1]}')
         textos = [sentence.split(' ') for sentence in textos]
         textos_sum = [[0]*self.word_vectors.vector_size for sentence in textos] # sentences não é usada, mas parece que funciona como equivalente a len(textos)
         for i, sentence in enumerate(textos):
