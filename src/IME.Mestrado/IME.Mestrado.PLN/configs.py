@@ -97,7 +97,16 @@ class Configs():
         self.epochs = [2, 10, 20, 50]
         #self.epochs = [ 2 ]
 
+        #configurações para as simulações
+        self.random_state = 0;
+        self.quantidadeRodadas = 0;
+        self.usarParticaoSimples = False
+        self.usarParticaoFracionado = True
+
         self.funcao_ativacao = [ 'softmax', 'sigmoid', 'relu' ]
+
+        self.valorParteClassificador = 1 #Caso exista esse resultado no classificador de uma das frases truncadas sera selecionado esse valor
+        self.regraParteClassificacao = 1 #0 = cortar frase ; 1 = Sera escolhido o valorParteClassficador
 
 
 

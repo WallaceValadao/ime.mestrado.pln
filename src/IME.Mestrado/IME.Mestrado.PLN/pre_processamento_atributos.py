@@ -50,12 +50,13 @@ class GetLiwc():
         return previsoresLiwc
 
 class GetBert():
-    def __init__(self, bpath, max_len):
+    def __init__(self, configuracoes, bpath, max_len):
+        self.configuracoes = configuracoes
         self.bpath = bpath
         self.max_len = max_len
 
     def processar(self, dataset):
-        bert = bertImport.PreProcessamentoBert(self.bpath, self.max_len, True)
+        bert = bertImport.PreProcessamentoBert(self.configuracoes, self.bpath, self.max_len, True)
 
         return bert.getAttributesBase(dataset)
         #return bert.preprocessing_for_bert(dataset)
@@ -109,7 +110,7 @@ class ExtratorDeAtributos():
         list = []
 
         for bpath in self.configuracoes.bert_array:
-            list.append(Rv(self.configuracoes, f'{bpath.nome}_768', self.previsores, 768, GetBert(bpath.path, 768)))
+            list.append(Rv(self.configuracoes, f'{bpath.nome}_768', self.previsores, 768, GetBert(self.configuracoes, bpath.path, 768)))
             #list.append(Rv('Bert_512', self.previsores, 512, GetBert(512)))
             #list.append(Rv('Bert_256', self.previsores, 256, GetBert(256)))
             #list.append(Rv('Bert_64', self.previsores, 64, GetBert(64)))

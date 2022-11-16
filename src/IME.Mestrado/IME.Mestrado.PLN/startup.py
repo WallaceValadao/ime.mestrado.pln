@@ -49,24 +49,23 @@ for configuracoes in config.array_configuracoes:
     extrator = pre_atributos.ExtratorDeAtributos(configuracoes, previsores)
     
     representacoes = extrator.getLiwc()
-    representacoes += extrator.getWord2Vec()
-    representacoes += extrator.getBert()
+    #representacoes += extrator.getWord2Vec()
+    representacoes = extrator.getBert()
+    #representacoes = extrator.getWord2Vec()
     
     #criando lista de algortimos
     algortimos = []
     listAlgoritmos = algoritmos.AlgoritmosList(configuracoes)
     
     #uso algoritmos classicos
-    classics = listAlgoritmos.getClassic()
-    algortimos = classics
+    algortimos = listAlgoritmos.getClassic()
     
     #algortimos de redes neurais
-    #rna = listAlgoritmos.getRna()
+    rna = listAlgoritmos.getRna()
     
     #algortimos += rna
     #algortimos = rna
     
     #simula��es
     simulacoes = simulation_db.SimulationAlgorithm(configuracoes, algortimos, representacoes, classe)
-    #simulacoes.execute(220, False, True)
-    simulacoes.execute(0, False, True)
+    simulacoes.execute()

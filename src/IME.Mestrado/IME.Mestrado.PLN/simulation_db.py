@@ -43,10 +43,10 @@ class SimulationAlgorithm():
                 mediaAcerto.algoritmo = self.algoritmos[i].getName()
                 self.mediaResults.append(mediaAcerto)
 
-    def execute(self, quantidadeRodadas = 0, usarParticaoSimples = True, usarParticaoFracionado = True):
+    def execute(self):
         for prev in self.previsores:
             self.quantidadeRodadas = 0
-            self.executePrevisores(prev, quantidadeRodadas, usarParticaoSimples, usarParticaoFracionado)
+            self.executePrevisores(prev)
 
         self.configs.log.print('Quantidade rodadas: ' + str(self.quantidadeRodadas))
         self.configs.log.print('')
@@ -77,9 +77,9 @@ class SimulationAlgorithm():
             
         jsonMedias = []
         # inserir a média no dicionário de json do modelo/ algoritmo
-        if existeJson:
-            with open(self.configs.mediaPath, 'r') as arq:
-                jsonMedias = json.load(arq)
+        #if existeJson:
+        #    with open(self.configs.mediaPath, 'r') as arq:
+        #        jsonMedias = json.load(arq)
 
         for i in range(0, len(self.mediaResults)):
             if len(self.mediaResults[i].valores) == 0:
@@ -87,7 +87,7 @@ class SimulationAlgorithm():
 
             media = statistics.mean(self.mediaResults[i].valores)
             desvio  = statistics.pstdev(self.mediaResults[i].valores)
-            sMedia  = str(mediaNumber)
+            sMedia  = str(media)
             sDesvio  = str(desvio)
 
             printMedia = self.mediaResults[i].nome + ' ' + sMedia + ' (' + sDesvio  + ')'
@@ -97,18 +97,18 @@ class SimulationAlgorithm():
                 melhorMedia = media
                 printMelhorMedia = printMedia
 
-            ### Se ainda não existe o json do dataset, cria o json para aquele dataset
-            if self.configs.dataset not in jsonMedias.keys():
-                jsonMedias[self.configs.dataset] = dict()
-            ### Se existe o json do dataset, mas não existe, nele, o modelo específico, cria o json do modelo para aquele dataset
-            if self.mediaResults[i].modelo not in jsonMedias[self.configs.dataset].keys():
-                jsonMedias[self.configs.dataset][self.mediaResults[i].modelo] = dict()
-            ### inclui a média do algoritmo atual no json daquele dataset/modelo no json carregado
-            jsonMedias[self.configs.dataset][self.mediaResults[i].modelo][self.mediaResults[i].algoritmo] = media
-            ### salva o json com o novo conjunto de json
+            #### Se ainda não existe o json do dataset, cria o json para aquele dataset
+            #if self.configs.dataset not in jsonMedias.keys():
+            #    jsonMedias[self.configs.dataset] = dict()
+            #### Se existe o json do dataset, mas não existe, nele, o modelo específico, cria o json do modelo para aquele dataset
+            #if self.mediaResults[i].modelo not in jsonMedias[self.configs.dataset].keys():
+            #    jsonMedias[self.configs.dataset][self.mediaResults[i].modelo] = dict()
+            #### inclui a média do algoritmo atual no json daquele dataset/modelo no json carregado
+            #jsonMedias[self.configs.dataset][self.mediaResults[i].modelo][self.mediaResults[i].algoritmo] = media
+            #### salva o json com o novo conjunto de json
 
-        with open(self.configs.mediaPath, 'w') as arq:
-            json.dump(jsonMedias, arq)
+        #with open(self.configs.mediaPath, 'w') as arq:
+        #    json.dump(jsonMedias, arq)
 
         self.configs.log.print('')
         print('Melhor média')
@@ -121,8 +121,8 @@ class SimulationAlgorithm():
         self.configs.log.save()
         
 
-    def executePrevisores(self, previsor, quantidadeRodadas, usarParticaoSimples, usarParticaoFracionado):
-        if usarParticaoSimples:
+    def executePrevisores(self, previsor):
+        if self.configs.usarParticaoSimples:
             self.configs.log.print('Particionamento simples')
             self.configs.log.print('30% teste')
             self.executeSimple(0.3, previsor);
@@ -134,31 +134,31 @@ class SimulationAlgorithm():
 
             self.quantidadeRodadas = 2
 
-        if usarParticaoFracionado == False:
+        if self.configs.usarParticaoFracionado == False:
             return
 
         self.configs.log.print('Particionamento fracionado')
 
         for i in range(0, 10):
-            self.configs.log.print('10% teste - posicões: i=' + str(i))
+            self.configs.log.print('10% teste - posicao: i=' + str(i))
             self.executePart([i], previsor)
             self.configs.log.print('')
 
             self.quantidadeRodadas += 1
 
-            if quantidadeRodadas > 0 and quantidadeRodadas < self.quantidadeRodadas:
+            if self.configs.quantidadeRodadas > 0 and self.configs.quantidadeRodadas < self.quantidadeRodadas:
                 break
                     
 
     def executeSimple(self, percente, previsores):
         for i in range(0, len(self.algoritmos)):
-            execution = training.SimpleTraining(self.configs, previsores.getPrevisores(), self.classe, percente, 0, self.algoritmos[i].getInstance(), self.algoritmos[i].getName(), previsores.getName())
+            execution = training.SimpleTraining(self.configs, previsores, self.classe, self.algoritmos[i], percente)
             execution.execute(previsores.getMaxReviewLength())
             self.validate(execution, previsores)
 
     def executePart(self, positions, previsores):
         for i in range(0, len(self.algoritmos)):
-            nbGaussian = percentageTraining.PercentageTraining(self.configs, previsores.getPrevisores(), self.classe, positions, self.algoritmos[i].getInstance(), self.algoritmos[i].getName(), previsores.getName())
+            nbGaussian = percentageTraining.PercentageTraining(self.configs, previsores, self.classe, self.algoritmos[i], positions)
             nbGaussian.execute(previsores.getMaxReviewLength())
             self.validate(nbGaussian, previsores)
         

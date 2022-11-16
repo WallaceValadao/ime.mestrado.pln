@@ -2,37 +2,22 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, accuracy_score
 import numpy as np
 
-class PercentageTraining():
-    previsores = []
-    classe = []
-    random_state = 0
-    nameAlgoritm = ''
+import training.base_training as base_training
 
-    X_treinamento = []
-    X_teste = []
-    y_treinamento = []
-    y_teste = []
-    taxa_acerto = 0
-    algoritm = []
+class PercentageTraining(base_training.BaseTraining):
 
-    def __init__(self, configuracoes, previsores, classe, positions, algoritm, nameAlgoritm, typeRv):
-        self.configs = configuracoes
-
-        self.previsores = previsores
-        self.classe = classe
+    def __init__(self, configuracoes, previsores, classe, algoritm, positions):
         self.positions = positions
-        self.algoritm = algoritm
-        self.nameAlgoritm = nameAlgoritm
-        self.typeRv = typeRv
+        super().__init__(configuracoes, previsores, classe, algoritm)
 
     def execute(self, maxReviewLength):
         self.part()
 
+        self.convertArrayTest()
+
         self.algoritm.fit(self.X_treinamento, self.y_treinamento, maxReviewLength)
 
-        resultados = self.algoritm.predict(self.X_teste)
-
-        self.taxa_acerto = accuracy_score(self.y_teste, resultados)
+        self.calcularAcerto()
 
     def part(self):
         arrayPrev = np.array_split(self.previsores, 10)

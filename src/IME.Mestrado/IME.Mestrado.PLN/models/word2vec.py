@@ -28,7 +28,7 @@ class PreProcessamentoW2v():
             textos_sum[i] = np.array(textos_sum[i])/len(sentence)
     
         textos_sum = valorPositivo.converterArray(textos_sum)
-        return np.array(textos_sum).tolist()
+        return [ np.array(textos_sum).tolist() ]
     
     
     ## baseado no código de LuizGFerreira em https://github.com/Luizgferreira/subjectivity-classifier

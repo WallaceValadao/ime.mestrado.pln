@@ -10,10 +10,12 @@ import torch
 import numpy as np
 
 import models.util.valorPositivo as valorPositivo
+import models.util.tratarCorteFrases as tratarFrases
 
 class PreProcessamentoBert():
 
-    def __init__(self, path_model, max_len=512, parsePostiveValues=False):
+    def __init__(self, config, path_model, max_len=512, parsePostiveValues=False):
+        self.config = config
         self.path_model = path_model
         self.tokenizer = AutoTokenizer.from_pretrained(self.path_model, do_lower_case=True)
         self.model = AutoModel.from_pretrained(self.path_model)
@@ -77,21 +79,22 @@ class PreProcessamentoBert():
         all_masks = []
         all_segments = []
         
-        for text in texts:
-            text = self._tokenBert(text)
-            tokenized_text = self.tokenizer.tokenize(text)
-            
-            tokenized_text = tokenized_text[:self.max_len-2]
-            pad_len = self.max_len - len(tokenized_text)
-            
-            tokens = self.tokenizer.convert_tokens_to_ids(tokenized_text)
-            tokens += [0] * pad_len
-            pad_masks = [1] * len(tokenized_text) + [0] * pad_len
-            segment_ids = [0] * self.max_len
-            
-            all_tokens.append(tokens[0:self.max_len])
-            all_masks.append(pad_masks[0:self.max_len])
-            all_segments.append(segment_ids[0:self.max_len])
+        for textBase in texts:
+            for text in tratarFrases.obterCorteFrases(textBase):
+                text = self._tokenBert(text)
+                tokenized_text = self.tokenizer.tokenize(text)
+                
+                tokenized_text = tokenized_text[:self.max_len-2]
+                pad_len = self.max_len - len(tokenized_text)
+                
+                tokens = self.tokenizer.convert_tokens_to_ids(tokenized_text)
+                tokens += [0] * pad_len
+                pad_masks = [1] * len(tokenized_text) + [0] * pad_len
+                segment_ids = [0] * self.max_len
+                
+                all_tokens.append(tokens[0:self.max_len])
+                all_masks.append(pad_masks[0:self.max_len])
+                all_segments.append(segment_ids[0:self.max_len])
         
         return np.array(all_tokens), np.array(all_masks), np.array(all_segments)
 
@@ -162,29 +165,32 @@ class PreProcessamentoBert():
     def encoderBal(self, texts):
         all_tokens = []
 
-        for text in texts:
-            text = self._tokenBert(text)
+        for textBase in texts:
+            resultText = []
+            for text in tratarFrases.obterCorteFrases(self.config, textBase, self.max_len):
+                text = self._tokenBert(text)
 
-            text = text[:512]
+                #text = text[:512]
           
-            input_ids = self.tokenizer.encode(text, return_tensors='pt')
-            
-            with torch.no_grad():
-                #outs = model(input_ids)
-                encoded_layers = self.model(input_ids)
-                encoded = encoded_layers[0][0, 1:-1]
-
-                # shape [22 x 768]
-                #token_vecs = encoded_layers[11][0]
+                input_ids = self.tokenizer.encode(text, return_tensors='pt')
                 
-                # 22 token vectors.
-                sentence_embedding = torch.mean(encoded, dim=0)
+                with torch.no_grad():
+                    #outs = model(input_ids)
+                    encoded_layers = self.model(input_ids)
+                    encoded = encoded_layers[0][0, 1:-1]
 
-                array_embeddings = sentence_embedding.detach().cpu().numpy()
+                    # shape [22 x 768]
+                    #token_vecs = encoded_layers[11][0]
+                    
+                    # 22 token vectors.
+                    sentence_embedding = torch.mean(encoded, dim=0)
 
-                array_embeddings = array_embeddings[:self.max_len]
+                    array_embeddings = sentence_embedding.detach().cpu().numpy()
 
-                all_tokens.append(list(array_embeddings))
+                    array_embeddings = array_embeddings[:self.max_len]
+
+                    resultText.append(list(array_embeddings))
+            all_tokens.append(resultText)
 
         bertArray = valorPositivo.converterArray(all_tokens)
 

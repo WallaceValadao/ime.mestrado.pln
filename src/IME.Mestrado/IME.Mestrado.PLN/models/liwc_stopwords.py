@@ -55,9 +55,9 @@ class LiwcStopWords(object):
         
 
         if len(self.filtro) > 0:
-            return self.getFilter(result)
+            return [ self.getFilter(result) ]
     
-        return result
+        return [ result ]
 
 
     def getCleanArray(self):

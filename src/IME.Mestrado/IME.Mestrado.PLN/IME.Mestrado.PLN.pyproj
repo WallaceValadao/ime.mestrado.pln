@@ -29,6 +29,7 @@
     <Compile Include="models\bert_train.py" />
     <Compile Include="models\liwc_all.py" />
     <Compile Include="models\liwc_stopwords.py" />
+    <Compile Include="models\util\tratarCorteFrases.py" />
     <Compile Include="models\word2vec.py" />
     <Compile Include="pre_processamento_base.py" />
     <Compile Include="pre_processamento_atributos.py" />
@@ -37,6 +38,7 @@
     <Compile Include="simulation_db.py" />
     <Compile Include="startup.py" />
     <Compile Include="training\percentage_training.py" />
+    <Compile Include="training\base_training.py" />
     <Compile Include="training\simple_training.py" />
     <Compile Include="models\util\valorPositivo.py" />
     <Compile Include="tratamento\corretor_ortografico.py" />
