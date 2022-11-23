@@ -17,7 +17,7 @@ for configuracoes in config.array_configuracoes:
         tratarDb = False
         pathDb = configuracoes.pathDbTratado
     print(f'Starting training for the dataset in {pathDb}')
-    dataset = pd.read_csv(pathDb, separador)
+    dataset = pd.read_csv(pathDb, separador, skipinitialspace=configuracoes.skipinitialspace)
     print(dataset.shape)
     textCol = configuracoes.dfColumns['text']
     classCol = configuracoes.dfColumns['classes']
@@ -49,8 +49,8 @@ for configuracoes in config.array_configuracoes:
     extrator = pre_atributos.ExtratorDeAtributos(configuracoes, previsores)
     
     representacoes = extrator.getLiwc()
-    #representacoes += extrator.getWord2Vec()
-    representacoes = extrator.getBert()
+    representacoes += extrator.getWord2Vec()
+    representacoes += extrator.getBert()
     #representacoes = extrator.getWord2Vec()
     
     #criando lista de algortimos

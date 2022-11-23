@@ -60,15 +60,16 @@ class Configs():
         self.pathDb = f'asserts\\datasets\\{datasetName}'
         self.pathDbTratado = f'asserts\\datasets_tratados\\{datasetName}'
         self.mediaPath = 'asserts\\resultados\\medias.json'
-        self.separador = ';'
-        #self.dfColumns = {
-        #    'text': 'FRASE',
-        #    'classes': 'OBJ/SUBJ'
-        #}
+        self.separador = ','
+        self.skipinitialspace = True
         self.dfColumns = {
-            'text': 'frases',
-            'classes': 'classes'
+            'text': 'FRASE',
+            'classes': 'OBJ/SUBJ'
         }
+        #self.dfColumns = {
+        #    'text': 'frases',
+        #    'classes': 'classes'
+        #}
         self.tratarDb = False
         self.pathRepresentacao = f'asserts\\rv_dataset\\{self.dataset}_'
         self.log = PrintFile(self.dataset)
@@ -86,12 +87,12 @@ class Configs():
             BertModel('Bert_pierreguillou', 'pierreguillou/bert-base-cased-squad-v1.1-portuguese'),
             BertModel('Bert_multilingual', 'bert-base-multilingual-cased'),
             BertModel('Roberta_xlm_base', 'xlm-roberta-base'),
-            BertModel('Roberta_xlm_large', 'xlm-roberta-large'),
-            BertModel('Roberta_josu', 'josu/roberta-pt-br'),
+            #BertModel('Roberta_xlm_large', 'xlm-roberta-large'),
+            #BertModel('Roberta_josu', 'josu/roberta-pt-br'),
 
             #https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment
-            BertModel('Roberta_cardiffnlp', 'cardiffnlp/twitter-xlm-roberta-base'),
-            BertModel('Roberta_cardiffnlp_sentiment', 'cardiffnlp/twitter-xlm-roberta-base-sentiment'),
+            #BertModel('Roberta_cardiffnlp', 'cardiffnlp/twitter-xlm-roberta-base'),
+            #BertModel('Roberta_cardiffnlp_sentiment', 'cardiffnlp/twitter-xlm-roberta-base-sentiment'),
         ]
         #Aqui pode definir a quantidade de epochs para as rnas
         self.epochs = [2, 10, 20, 50]
