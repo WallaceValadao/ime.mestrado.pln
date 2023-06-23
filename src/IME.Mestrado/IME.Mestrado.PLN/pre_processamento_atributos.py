@@ -1,4 +1,3 @@
-from pandas.core.base import DataError
 import models.liwc_all as liwcHelper
 import models.liwc_stopwords as liwcHelperStopwords
 import models.bert as bertImport
@@ -21,10 +20,10 @@ class Rv(object):
         else:
             self.previsores = execucao.processar(dataset)
 
-            listJson = self.previsores
+            #listJson = self.previsores
 
-            json.dump(listJson, codecs.open(self.pathRv, 'w', encoding='utf-8'), 
-                            separators=(',', ':'), sort_keys=True, indent=4)
+            #json.dump(listJson, codecs.open(self.pathRv, 'w', encoding='utf-8'), 
+            #                separators=(',', ':'), sort_keys=True, indent=4)
 
 
     def getName(self):
@@ -62,11 +61,12 @@ class GetBert():
         #return bert.preprocessing_for_bert(dataset)
 
 class GetWord2Vec():
-    def __init__(self, model):
+    def __init__(self, configuracoes, model):
+        self.configuracoes = configuracoes
         self.model = model
 
     def processar(self, dataset):
-        w2v = w2vimport.PreProcessamentoW2v(self.model)
+        w2v = w2vimport.PreProcessamentoW2v(self.configuracoes, self.model)
 
         return w2v.w2vEmbeddings(dataset)
 
@@ -123,6 +123,6 @@ class ExtratorDeAtributos():
 
         for w2v in self.configuracoes.w2VEmbeddings:
             list.append(Rv(self.configuracoes, f'Word2Vec_{w2v.size_vector}', 
-                           self.previsores, w2v.size_vector, GetWord2Vec(w2v)))
+                           self.previsores, w2v.size_vector, GetWord2Vec(self.configuracoes, w2v)))
 
         return list

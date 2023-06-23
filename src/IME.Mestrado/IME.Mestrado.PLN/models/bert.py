@@ -1,9 +1,9 @@
 import codecs
 codecs.register_error('strict', codecs.lookup_error('surrogateescape'))
 
-from transformers import AutoModel, AutoTokenizer
-from keras.preprocessing import sequence
-from keras.preprocessing import sequence
+from transformers import AutoTokenizer
+from transformers import AutoModel
+from tensorflow.keras.preprocessing import sequence
 from pytorch_pretrained_bert import BertTokenizer, BertModel, BertForMaskedLM
 
 import torch

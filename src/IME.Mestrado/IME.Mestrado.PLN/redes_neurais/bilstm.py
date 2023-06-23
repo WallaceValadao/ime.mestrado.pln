@@ -3,8 +3,8 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
 from keras.layers import Bidirectional
-from keras.layers.embeddings import Embedding
-from keras.preprocessing import sequence
+from keras.layers import Embedding
+from tensorflow.keras.preprocessing import sequence
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.layers import SpatialDropout1D
 
@@ -30,16 +30,17 @@ class BiLstmClassification():
         self.model.add(SpatialDropout1D(0.5))
         self.model.add(Bidirectional(LSTM(100, dropout=0.5, recurrent_dropout=0.5)))
         self.model.add(Dense(self.configs.numero_classes, activation=self.activation))
+        #run_opts = tf.compat.v1.RunOptions(report_tensor_allocations_upon_oom = True)
         self.model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 
     def fit(self, X_train, Y_train, maxReviewLength):
         self._createInstance(maxReviewLength)
 
-        X_train = sequence.pad_sequences(X_train, maxlen=self.max_review_length)
+        #X_train = sequence.pad_sequences(X_train, maxlen=self.max_review_length)
         Y_train = tf.keras.utils.to_categorical(Y_train, 2)
 
-        self.model.fit(X_train, Y_train, verbose=self.verbose, epochs=self.epochs, batch_size=16,validation_split=0.1,callbacks=[EarlyStopping(monitor='val_loss', patience=3, min_delta=0.0001)])
+        self.model.fit(np.array(X_train), np.array(Y_train), verbose=self.verbose, epochs=self.epochs, batch_size=16,validation_split=0.1,callbacks=[EarlyStopping(monitor='val_loss', patience=3, min_delta=0.0001)])
 
 
     def predict(self, x_teste): 

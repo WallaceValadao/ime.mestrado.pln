@@ -11,7 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>IME.Mestrado.PLN</Name>
     <RootNamespace>IME.Mestrado.PLN</RootNamespace>
-    <InterpreterId>Global|ContinuumAnalytics|Anaconda39-64</InterpreterId>
+    <InterpreterId>Global|PythonCore|3.10</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,6 +66,7 @@
     <Content Include="redes_neurais\__pycache__\bert.cpython-39.pyc" />
     <Content Include="redes_neurais\__pycache__\bilstm.cpython-39.pyc" />
     <Content Include="redes_neurais\__pycache__\lstm.cpython-39.pyc" />
+    <Content Include="requirements.txt" />
     <Content Include="training\__pycache__\percentage_training.cpython-39.pyc" />
     <Content Include="training\__pycache__\simple_training.cpython-39.pyc" />
     <Content Include="tratamento\__pycache__\corretor_ortografico.cpython-39.pyc" />
@@ -75,7 +76,9 @@
     <Content Include="tratamento\__pycache__\tratamento_ortografico_extra.cpython-39.pyc" />
   </ItemGroup>
   <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|env" />
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda39-64" />
+    <InterpreterReference Include="Global|PythonCore|3.10" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

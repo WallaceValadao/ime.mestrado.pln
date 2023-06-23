@@ -95,6 +95,6 @@ class AlgoritmosList():
 
             for funcao_ativacao in self.configs.funcao_ativacao:
                 algoritmosRna.append(Algoritmo(f'LSTM ({funcao_ativacao}){labelEpoch}', lstm.LstmClassification(self.configs, funcao_ativacao, epoch)))
-                algoritmosRna.append(Algoritmo('BiLSTM ({funcao_ativacao}){labelEpoch}', bilstm.BiLstmClassification(self.configs, funcao_ativacao, epoch)))
+                #algoritmosRna.append(Algoritmo(f'BiLSTM ({funcao_ativacao}){labelEpoch}', bilstm.BiLstmClassification(self.configs, funcao_ativacao, epoch)))
 
         return algoritmosRna
